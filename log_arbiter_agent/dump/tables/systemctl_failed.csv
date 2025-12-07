@@ -1,0 +1,33 @@
+hostname,viewname,rackname,deployment_type,hardware,service,load,active,sub,description
+scaqar06adm05,dongyzhu_daily21,scaqar06adm0506,Upg-KVM-Exc-Cloud-ELU-Full-X9,X9M-2 Quarter Rack HC 18TB,u01.mount,not-found,failed,failed,u01.mount                                  
+scaqar06adm05,dongyzhu_daily21,scaqar06adm0506,Upg-KVM-Exc-Cloud-ELU-Full-X9,X9M-2 Quarter Rack HC 18TB,chrony-wait.service,loaded,failed,failed,Wait for chrony to synchronize system clock
+scaqar06adm06,dongyzhu_daily21,scaqar06adm0506,Upg-KVM-Exc-Cloud-ELU-Full-X9,X9M-2 Quarter Rack HC 18TB,u01.mount,not-found,failed,failed,u01.mount                                  
+scaqar06adm06,dongyzhu_daily21,scaqar06adm0506,Upg-KVM-Exc-Cloud-ELU-Full-X9,X9M-2 Quarter Rack HC 18TB,chrony-wait.service,loaded,failed,failed,Wait for chrony to synchronize system clock
+scaqar06dv0503,dongyzhu_daily21,scaqar06adm0506,Upg-KVM-Exc-Cloud-ELU-Full-X9,X9M-2 Quarter Rack HC 18TB,iscsi.service,loaded,failed,failed,Login and scanning of iSCSI devices
+scaqar06dv0603,dongyzhu_daily21,scaqar06adm0506,Upg-KVM-Exc-Cloud-ELU-Full-X9,X9M-2 Quarter Rack HC 18TB,iscsi.service,loaded,failed,failed,Login and scanning of iSCSI devices
+scaqar06dv0604,dongyzhu_daily21,scaqar06adm0506,Upg-KVM-Exc-Cloud-ELU-Full-X9,X9M-2 Quarter Rack HC 18TB,iscsi.service,loaded,failed,failed,Login and scanning of iSCSI devices
+scaqah07celadm10,dongyzhu_daily5,scaqah07adm0708,Upg-BM-IB-ELU-Allcvss-X7,X7-2 Quarter Rack EF 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqah07celadm11,dongyzhu_daily5,scaqah07adm0708,Upg-BM-IB-ELU-Allcvss-X7,X7-2 Quarter Rack EF 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqah07celadm12,dongyzhu_daily5,scaqah07adm0708,Upg-BM-IB-ELU-Allcvss-X7,X7-2 Quarter Rack EF 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scacad02adm14,dongyzhu_daily72,,,,NetworkManager-wait-online.service,loaded,failed,failed,Network Manager Wait Online
+scacad03adm14,dongyzhu_daily72,,,,NetworkManager-wait-online.service,loaded,failed,failed,Network Manager Wait Online
+scacac04celadm07,dongyzhu_daily77,,,,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scacac04celadm08,dongyzhu_daily77,,,,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scacac04celadm09,dongyzhu_daily77,,,,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scacad02adm14,dongyzhu_daily77,,,,systemd-modules-load.service,loaded,failed,failed,Load Kernel Modules
+scacad02dv1401,dongyzhu_daily77,,,,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scacad02dv1402,dongyzhu_daily77,,,,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scacad03adm14,dongyzhu_daily77,,,,systemd-modules-load.service,loaded,failed,failed,Load Kernel Modules
+scacad03dv1401,dongyzhu_daily77,,,,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scacad03dv1402,dongyzhu_daily77,,,,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqax01adm05,lknguyen_daily11,scaqax01adm0456,Upgrade-KVM-Exascale-X11,X11 Half-Rack HC 22TB,session-1.scope,loaded,failed,failed,Session 1 of user root
+scaqax01dv0404m,lknguyen_daily11,scaqax01adm0456,Upgrade-KVM-Exascale-X11,X11 Half-Rack HC 22TB,sendmail.service,loaded,failed,failed,Sendmail Mail Transport Agent
+scaqah07adm03vm01,mwhwa_daily5,scaqah07adm0304,Upg-ELU-Full-OVM-IB-X7,X7-2 Quarter Rack HC 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqah07adm04vm01,mwhwa_daily5,scaqah07adm0304,Upg-ELU-Full-OVM-IB-X7,X7-2 Quarter Rack HC 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqah07celadm04,mwhwa_daily5,scaqah07adm0304,Upg-ELU-Full-OVM-IB-X7,X7-2 Quarter Rack HC 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqah07celadm05,mwhwa_daily5,scaqah07adm0304,Upg-ELU-Full-OVM-IB-X7,X7-2 Quarter Rack HC 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqah07celadm06,mwhwa_daily5,scaqah07adm0304,Upg-ELU-Full-OVM-IB-X7,X7-2 Quarter Rack HC 10TB,uptrack-prefetch.service,loaded,failed,failed,Prefetch new Ksplice updates
+scaqaj01adm01,mwhwa_daily73,scaqaj01adm0102,Image-BareMetal-X8,X8-8 Elastic Rack EF,lvm2-pvscan@259:15.service,loaded,failed,failed,LVM event activation on device 259:15
+scaqaj01adm01,mwhwa_daily73,scaqaj01adm0102,Image-BareMetal-X8,X8-8 Elastic Rack EF,NetworkManager-wait-online.service,loaded,failed,failed,Network Manager Wait Online          
+scaqaj01adm02,mwhwa_daily73,scaqaj01adm0102,Image-BareMetal-X8,X8-8 Elastic Rack EF,lvm2-pvscan@259:14.service,loaded,failed,failed,LVM event activation on device 259:14
+scaqat10adm02,suragraw_daily111,scaqat10adm0102,Upgrade-BareMetal-X10,X10M-2 22TB HC,session-1.scope,loaded,failed,failed,Session 1 of user root

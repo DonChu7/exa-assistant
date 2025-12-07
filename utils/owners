@@ -1,0 +1,12 @@
+#!/ade_autofs/gd221_3rdparty/PYTHON_3.9.5_LINUX.X64.rdd/LATEST/python/bin/python
+import sys
+import re
+
+sys.path.insert(1, "/usr/local/packages/dbtest/GenericTools/")
+
+import ora_user
+import ora_ade
+
+lrg_info = ora_user.get_lrg_driver(sys.argv[1], 'OSS_MAIN')
+print(f"LRG Owner: {lrg_info['OWNER']}")
+print(f"LRG Backup Owner: {lrg_info['BACKUP']}")

@@ -1,0 +1,48 @@
+tsagblockstore.tsc -> Test case to  catch any data corruption in the block device. And also ACL restriction - user1 and user2 are not able to access each other's volumes.
+tsagblockstorevip.tsc -> test for blockstore VIPs
+tsagbsmbswfail.tsc -> Failure tests for BSM & BSW on a single cell by creating multiple BSM & BSW instances.
+tsagbsmediatype.tsc -> Blockstore media type tests
+tsagbug31470720.tsc -> Bug 31470720 - SCALING SNAPSHOT AND BACKUPS LIST: NEED PAGING SUPPORT FOR LIST BACKUP AND SNAPSHOT
+tsagbug31604359.tsc -> Volume rate limiting. Bug 31604359 - EXASCALE: RATE LIMITING SHOULD BE ON A VOLUME, NOT ATTACHMENT
+tsagbug32207003.tsc -> Test checks whether the following hang is fixed : if we attach snapshot first then attach its volume with the same initiator id, and then restart BSW, the vip will never move to BSW because of a hang.
+tsagbug32228446.tsc -> Bug 32228446 - /EXASCALEAPI/V1/VOLUMEMETRICS ENDPOINT DOES NOT RETURN DATA WITH USER HAVING "VLT_READ|CL_MONITOR" PRIVILEGE. The user having cl_monitor privilege can monitor devices created by other users.
+tsagbug32291469.tsc -> Test for bug 32291469 - WRONG BROADCAST ADDRESS ASSIGNMENT FOR THE VIP INTERFACE BY THE BSW
+tsagbug33753695.tsc -> RAFT LOG SIZE INCREASED TO 1.6G LEAD TO FULL FS AND RAFT CORRUPTION- SNAPSHOT PROCESS WAS NOT ABLE TO DELETE OLD FILES 
+tsagbug33878584.tsc -> Tests if BSM crashes when it is restarted after creating 512 snapshots of a volume. Simulate BsmRestoreCfg hang by setting event    BSM_RETRY_RECFG_IOCTL and restarting BSM then BSW. Once this event is unset, BSM should be able to continue processing the ioctl without a hang.
+tsagbug34127760.tsc -> Test for Bug 34127760 - Tries to induce EGS crash using simulation event in all 3 EGS - RAFT_SLOW_NM_CALLBACK
+tsagbug34267177.tsc -> Test to add new cells with different sized disks in existing EGS cluster in an EGS Sandbox env.
+tsagcrashbkp1.tsc -> Blockstore Crash & Recovery test for empty backup, including incremental backups.
+tsagebsstartuptimer_test.tsc -> Test to verify the order of various initializations using EbsStartupTimer
+tsagesclichvolume.tsc -> Tests for escli chvolume command
+tsagesclivolbackup.tsc -> Test cases for escli commands mkvolumebackup and lsvolumebackup
+tsagesclivolsnapattachment.tsc -> escli test for mkvolumesnapshotattachment and lsvolumesnapshotattachment
+tsagesclivolsnapshot.tsc -> Test cases for mkvolumesnapshot and lsvolumesnapshot
+tsagesclivolume.tsc -> Tests for escli commands mkvolume and lsvolume
+tsagevictfm.tsc -> Test the functionality to evict a fenced node metadata entry in an Exascale environment.
+tsagexcedssnap.tsc -> Tests for EDS snapshot related functions using batch files in edstool
+tsagexcegs_diskdscv.tsc -> Test for Disk Discovery in EGS when cell crashes using a simulation event on a cell - DDSCVR_CELLSRV_DEATH
+tsagexcegsdynamicevtprocess.tsc -> EGS Sandbox test to check the dynamic processing of of events added to cells
+tsagexcegsfail2.tsc -> Miscellaneous EGS Failure tests
+tsagexciov_cellrestart.tsc -> Resync test when source or target cell restarts during Resync operation in an 4 cell env.
+tsagexclsvltwterr.tsc -> Test to quarantine System DataStore Shards in EGS
+tsagexcnumspanbkp.tsc -> test to check/verify 2 new attribute numSnapshots and numBackups for escli lsvolume.
+tsagexcparallelreconfig.tsc -> Test for Parallel Storagepool Reconfig
+tsagexcpartdisk.tsc -> EGS Rejecting disk offline request as partner disks are offline themselves.
+tsagexcsandbox_diskstate1.tsc -> Disk state transition tests in EGS Sandbox env
+tsagexcsandbox_diskstate2b.tsc -> Disk state transition tests in EGS Sandbox env
+tsagexctwoownersvolume.tsc -> More than 1 owners of a volume.
+tsagexcunlimvault.tsc -> Tests on vaults with unlimited resources
+tsagexcvaultattr_ef.tsc -> ESCLI Test for pmemCache attributes for media_type EF only
+tsagexcvaultmetrics.tsc -> test for Vault metrics
+tsagexcvipmigclearconf.tsc -> Test the migration of vip from bsw1 to bsw2 , from bsw2 to bsw3.
+tsagiormplan_vol.tsc -> IORM plan tests for blockstore volumes
+tsaglarge_reconf_buffer.tsc -> Test cases for handling large reconfig buffer
+tsagmultinodefencing.tsc -> Fencing tests in an env having multi nodes
+tsagsandboxaltersp5.tsc - > Different Storagepool reconfig tests in EGS Sandbox env.
+tsaguncommittedfile2.tsc -> various uncommitted file unit test cases using edstool
+tsagvipdelete.tsc -> Tests for blockstore VIP deletion
+tsagvolumebackupbug3.tsc -> blockstore tests for volume backups - contains mostly bug tests
+tsagvolumemetrics.tsc -> tests for volume metrics
+tsagbug37921740.tsc -> test for Bug 37921740 - EXASCALE: ASM ON EDV: "IPCDAT WORK REQ COMPLETION ERROR: 10 (IPCDAT_WC_REM_ACCESS_ERR)" IN EDV TRACES
+tsagbug38113879.tsc -> Test for Bug 38113879 - FLASH CACHE IS NOT ENABLED IN IORM PLAN WHEN ONLY XT IS PROVISIONED IN VAULT 
+tsagexcsandbox_lastmirror.tsc -> Triple failure test in EGS Sandbox env

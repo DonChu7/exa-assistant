@@ -1,0 +1,39 @@
+python arbiter_probe.py \                                                                                   ─╯
+  --incident-id da3c5419 \
+  --incidents data/incidents.csv \
+  --known-index data/.known_miniLM.pkl \
+  --ignore-index data/.ignore_miniLM.pkl \
+  --model sentence-transformers/all-MiniLM-L6-v2 \
+  --llm --llm-model gpt-4o-mini-search-preview
+
+=== Incident Text (raw) ===
+"Jul 28 00:43:48 localhost dbus-daemon[72064]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Unit dbus-org.freedesktop.nm-dispatcher.service not found."
+"Jul 28 00:43:48 localhost dbus-daemon[72064]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Unit dbus-org.freedesktop.nm-dispatcher.service not found."
+
+=== Incident Text (normalized) ===
+dbus-daemon[72064]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Unit dbus-org.freedesktop.nm-dispatcher.service not found.
+dbus-daemon[72064]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Unit dbus-org.freedesktop.nm-dispatcher.service not found.
+
+=== Retrieval Scores ===
+Best known similarity : 0.5608
+Best ignore similarity: 0.5576
+Baseline label        : -2 (needs-arbitration)
+
+=== Top Known Matches ===
+[sim=0.561] bug_id=37737292 ::
+Mar 20 06:04:03 scaqai04adm02 systemd[1]: Failed to process message [type=method_call sender=n/a path=/org/freedesktop/systemd1 interface=org.freedesktop.systemd1.Manager member=GetUnit signature=s]: Unit initialize_vf.service not loaded.
+
+=== Top Ignore Matches ===
+[sim=0.558] pattern_id=IGN-38134246 ::
+Apr 30 16:59:17 scas08adm03.us.oracle.com systemd[1]: dbserverd.service: Main process exited, code=exited, status=1/FAILURE
+Apr 30 16:59:17 scas08adm03.us.oracle.com systemd[1]: dbserverd.service: Failed with result 'exit-code'.
+Apr 30 16:59:17 scas08adm03.us.oracle.com systemd[1]: Failed to start dbserverd.
+
+=== LLM Arbiter Result ===
+LLM label : 0
+Reason    : Severity Assessment: Non-Critical – The logs indicate that the dbus-daemon is attempting to activate the 'dbus-org.freedesktop.nm-dispatcher.service' via systemd but is unable to find the unit, resulting in repeated failure messages. This suggests that the NetworkManager dispatcher service is not installed or enabled on the system. The NetworkManager dispatcher is responsible for executing scripts in response to network state changes, and its absence may lead to certain network-related scripts not being executed. However, this does not necessarily impact the overall functionality of NetworkManager or the system's network connectivity. To resolve this issue, ensure that the NetworkManager-dispatcher package is installed and the service is enabled and started. This can typically be achieved by running 'systemctl enable --now NetworkManager-dispatcher.service' on systems using systemd. This incident does not involve an Exadata/Exascale-specific component and does not require review by development for confirmation or deeper triage.
+
+[Note: reason had fewer than required lines.]
+Confidence: 0.900
+Sources   : https://bbs.archlinux.org/viewtopic.php?id=173068, https://bbs.archlinux.org/viewtopic.php?id=282376, https://bbs.archlinux.org/viewtopic.php?id=202743
+Additional: (none)

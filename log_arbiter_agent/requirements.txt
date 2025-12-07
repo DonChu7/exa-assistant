@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy>=1.23
+scikit-learn>=1.2
+regex
+rich
+pydantic>=2.6
+faiss-cpu>=1.8.0
+sentence-transformers>=2.6
+openai>=1.30.0
+PyYAML>=6.0
+beautifulsoup4>=4.12.2
+requests>=2.31.0

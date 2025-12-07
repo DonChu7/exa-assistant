@@ -1,0 +1,505 @@
+ <!DOCTYPE html>
+ <html>
+ <style>
+ table, td {
+  border:1px solid gray;
+  border-collapse: collapse;
+ }
+ th {
+  cursor: pointer;
+  border:1px solid gray;
+  color : blue ;
+  text-decoration: underline;
+ }
+ </style>
+ <style>
+ body {
+  color: #3A3B3C;
+  font-family: Calibri,serif;
+  font-size: 11px;
+ }
+ </style>
+ <head>
+   <title>OSS_MAIN_LINUX.X64_251022 Upgrade and Image+OEDA Test Status Results</title>
+ </head>
+ <body>
+  <p><h3> OSS_MAIN_LINUX.X64_251022 Upgrade and Image+OEDA Test Status Results</h3></p>
+  <p><b> Runtable Area : </b> OSS_MAIN<p>
+  <p><b> Config files location : </b> /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/</p>
+  <p><b> Log files location : </b><a href="http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/" target="_blank"> /net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022</a></p>
+  <p><b> <a href="https://confluence.oraclecorp.com/confluence/x/vgEmeAE" target="_blank"> System Configuration Details </b></a></p>
+  <table style="width:100%" id="results_status">
+    <tr>
+      <th onclick="sortTable(0)">View Name</th>
+      <th onclick="sortTable(1)">Rack Name</th>
+      <th onclick="sortTable(2)">Deployment Type</th> 
+      <th onclick="sortTable(3)">Status</th>
+      <th onclick="sortTable(4)">Hardware</th>
+      <th onclick="sortTable(5)">Owners</th>
+      <th onclick="sortTable(6)">Notes</th>
+      <th onclick="sortTable(7)">Commands/Logs</th>
+    </tr>
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily92 target=_blank>lknguyen_daily92</a></td>
+      <td>scaqai10adm0506</td> 
+      <td>Image-BareMetal-ROCE-X8</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X8M-2 Elastic Rack EF 6.4TB 
+      </td>
+      <td> Murali/Gautam</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqai10/scaqai10adm0506-bm-1clu-asmscoped-rolesep-GI19.17.0.0-DB19.17.0.0.xml -remote -http_proxy no -oeda_default default_ignore_step_1 -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqai10adm0506.post_deploy.test.log -selinux intg -enable_fips intg -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily92 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily92</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily target=_blank>suragraw_daily</a></td>
+      <td>scaqai03adm0506</td> 
+      <td>Image-OVM-IB-X8</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X8-2 Quarter Rack HC 14TB 
+      </td>
+      <td> Chandra/Murali</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqai03-scaqai03adm0506-ovm-2clu-asmscoped-sparse-acfs-rolesep-GI19.15.0.0-DB19.15.0.0.xml -http_proxy no -oeda_default default_ignore_step_1 -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqai03adm0506.post_deploy.test.log -remote -selinux intg -enable_fips intg -input_file /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqai03adm0506.oedacli.tests -giversion 19.27.0.0.250415,23.8.0.25.04 -dbversion 19.27.0.0.250415,23.8.0.25.04<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily70 target=_blank>dongyzhu_daily70</a></td>
+      <td>scaqap01adm0708</td> 
+      <td>UpgAtScale-KVM-Eighth-NAT-X9</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X9M-2 1/8th Rack HC 14TB 
+      </td>
+      <td> Kevin/Min/Jipsa</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqap01adm0708-2clu-kvm-nat-exs-qinq-21.8.xml -dbpatch_loc view -conf_switch -rootsshkeytar /net/10.32.19.91/export/exadata_images/ImageTests/keys/scaqap01/scaqap01_ssh_ecdsa_keys.tar -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqap01adm0708_upg.properties -swupdate -dom0first -upg_seq -nfs_preconf -selinux permissive -enable_fips intg -giversion 23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07 -reset OSS_24.1.12.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily70 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily70</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily71 target=_blank>dongyzhu_daily71</a></td>
+      <td>scaqap01adm0708</td> 
+      <td>Image-KVM-Eighth-NAT-X9</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X9M-2 1/8th Rack HC 14TB 
+      </td>
+      <td> Kevin/Min/Jipsa</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqap01adm0708-2clu-kvm-nat-exs-qinq-21.8.xml -rootsshkeytar /net/10.32.19.91/export/exadata_images/ImageTests/keys/scaqap01/scaqap01_ssh_ecdsa_keys.tar -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqap01adm0708.se.properties -http_proxy no -oeda_default oeda_intg -guest_img rtg,uefi_sb -selinux permissive -enable_fips intg -giversion 23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily71 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily71</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily73 target=_blank>mwhwa_daily73</a></td>
+      <td>scaqaj01adm0102</td> 
+      <td>Image-BareMetal-X8</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X8-8 Elastic Rack EF 
+      </td>
+      <td> Leo/Jipsa/Varma</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqaj01/scaqaj01adm0102-bm-1clu-asmscoped-sparse-acfs-rolesep-GIDB-23ai.xml -remote -http_proxy yes -oeda_default default_ignore_step_1 -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqaj01adm0102.post_deploy.test.log -preconf 10.32.19.91:/export/exadata_images/dpant/Oracle-scaqaj01-preconf_May20_2025.csv -enable_fips intg -selinux intg -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily73 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily73</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily9 target=_blank>lknguyen_daily9</a></td>
+      <td>scaqax01adm0456</td> 
+      <td>Image-KVM-Exascale-X11</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X11 Half-Rack HC 22TB 
+      </td>
+      <td> Krish/Murali</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqax01/scaqax01adm040506-kvm-4clu-exascale-edv-rolesep-vlan-qinq-23ai-cloud.xml -http_proxy no -oeda_default default_ignore_step_1 -skip_ahf -exadata_qa_cloud all -remote -input_file /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqax01adm0456.oedacli.tests -selinux permissive -enable_fips intg -guest_img rtg,rtg,uefi_sb,uefi_sb -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqax01adm040506.properties -rootsshkeytar /net/10.32.19.91/export/exadata_images/ImageTests/keys/scaqax01/scaqax01adm0456_ssh_ecdsa_keys.tar -giversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily9 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily9</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily11 target=_blank>lknguyen_daily11</a></td>
+      <td>scaqax01adm0456</td> 
+      <td>Upgrade-KVM-Exascale-X11</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X11 Half-Rack HC 22TB 
+      </td>
+      <td> Krish/Murali</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqax01/scaqax01adm040506-kvm-4clu-exascale-rolesep-vlan-qinq-ers-gidb-23ai.xml -http_proxy no -oeda_default default_ignore_step_1 -skip_ahf -dbpatch_loc view -swupdate -dom0first -upg_seq -selinux permissive -enable_fips intg -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqax01adm0456.post_deploy.test.log -input_file /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqax01adm0456.oedacli.tests -giversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -reset OSS_25.1.4.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily11 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily11</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily4 target=_blank>dongyzhu_daily4</a></td>
+      <td>scaqan16-01adm056</td> 
+      <td>Image-KVM-Multi-Racks-X8</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X8M-2 Elastic HC 
+      </td>
+      <td> Leo/Jipsa</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqan16/scaqan16-scaqap01-multirack-kvm-4clu-2db-asmscoped-vlan-GI19_11-DB19_11.xml -http_proxy no -oeda_default default_ignore_step_1 -remote -input_file /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqan16-scaqap01-kvm-4clu.oedacli.tests -guest_img rtg,legacy,uefi_sb,uefi_sboff -enable_fips intg -selinux intg -giversion 19.28.0.0.250715,19.28.0.0.250715,19.28.0.0.250715,19.28.0.0.250715 -dbversion 19.28.0.0.250715,19.28.0.0.250715,19.28.0.0.250715,19.28.0.0.250715<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily4 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily4</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily81 target=_blank>lknguyen_daily81</a></td>
+      <td>scaqap10adm01-04</td> 
+      <td>Image-KVM-Exascale-X9</td> 
+      <td><p style=color:red>FAILED</p></td>
+      <td>X9M-2 Elastic Rack HC 
+      </td>
+      <td> Gautam/Eugene</td>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily81/error_summary.html target=_blank>Errors</a><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqap10adm01234-generated-pdb.xml -http_proxy no -oeda_default default_ignore_step_1 -conf_switch -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqap10adm01-04.properties -rootsshkeytar /net/10.32.19.91/export/exadata_images/ImageTests/keys/scaqap10_ssh_ecdsa_keys.tar -disable_aide -selinux permissive -enable_fips intg -input_file /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqap10adm01020304-kvm-4clu.exc.oedacli.tests -giversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily81 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily81</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily100 target=_blank>sadwe_daily100</a></td>
+      <td>scaqan01adm0304</td> 
+      <td>Upgrade-KVM-QinQ-VLAN-X8</td> 
+      <td><p style=color:red>FAILED</p></td>
+      <td>X8M-2 Elastic Rack HC 14TB 
+      </td>
+      <td> Gautam/Kevin/Varma</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqan01/scaqan01adm0304-kvm-2clu-rolesep-vlan-qinq-GI19.18.0.0-DB19.18.0.0.xml -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqan01adm0304.post_deploy.log -selinux intg -enable_fips intg -giversion 19.28.0.0.250715,19.28.0.0.250715 -dbversion 19.28.0.0.250715,19.28.0.0.250715 -reset OSS_23.1.18.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily100 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily100</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily101 target=_blank>dongyzhu_daily101</a></td>
+      <td>scaqah07adm0102</td> 
+      <td>Upgrade-BareMetal-IB-X7</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X7-2 Quarter Rack EF 10TB 
+      </td>
+      <td> Chandra/Anna</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqah07/scaqah07adm0102-bm-1clu-asmscoped-sparse-acfs-rolesep-GI23-DB23.xml -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqah07adm0102.post_deploy.test.log -pre_upg_cell /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqah07adm0102.pre_upg.cell.test.log -pre_upg_db /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqah07adm0102.pre_upg.db.test.log -selinux intg -enable_fips intg -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07 -reset OSS_23.1.15.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily101 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily101</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily5 target=_blank>dongyzhu_daily5</a></td>
+      <td>scaqah07adm0708</td> 
+      <td>Upg-BM-IB-ELU-Allcvss-X7</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X7-2 Quarter Rack EF 10TB 
+      </td>
+      <td> Rene/Don</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqah07/scaqah07adm0708-bm-1clu-asmscoped-sparse-acfs-rolesep-GIDB-19c.xml -computes -live_update_target allcvss -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqah07adm0708.post_deploy.elutest.log -selinux intg -enable_fips intg -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07 -reset OSS_23.1.24.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily5 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily5</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily33 target=_blank>mwhwa_daily33</a></td>
+      <td>scaqaj07adm0102</td> 
+      <td>Upgrade-BM-ROCE-X8</td> 
+      <td><p style=color:red>FAILED</p></td>
+      <td>X8M-8 Full Rack EF 6.4TB 
+      </td>
+      <td> Gautam/Kevin</td>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily33/error_summary.html target=_blank>Errors</a><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqaj07/scaqaj07adm0102-bm-1clu-asmscoped-sparse-acfs-rolesep-19c.xml -selinux intg -enable_fips intg -giversion 19.28.0.0.250715 -dbversion 19.28.0.0.250715 -reset OSS_22.1.24.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily33 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily33</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily21 target=_blank>dongyzhu_daily21</a></td>
+      <td>scaqar06adm0506</td> 
+      <td>Upg-KVM-Exc-Cloud-ELU-Full-X9</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X9M-2 Quarter Rack HC 18TB 
+      </td>
+      <td> Rene/Lan</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqar06/scaqar06adm0506-hybrid-4clu-vlan-qinq-GI233001-DB233001.xml -computes -live_update_target full -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqar06adm0506.post_deploy.test.log -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqar06adm0506_upg.properties -giversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -reset OSS_24.1.13.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily21 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily21</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily19 target=_blank>dongyzhu_daily19</a></td>
+      <td>scaqar06adm0506</td> 
+      <td>Upgrade-KVM-ELU-Full-X9</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X9M-2 Quarter Rack HC 18TB 
+      </td>
+      <td> Rene/Lan</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqar06/scaqar06adm0506-kvm-4clu-asmscoped-sparse-acfs-rolesep-vlan-qinq-GI23.3.0.1-DB23.3.0.1.xml -computes -live_update_target full -enable_fips all -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqar06adm0506.exadata.test.log -giversion 23.9.0.25.07,23.9.0.25.07,19.28.0.0.250715,19.28.0.0.250715 -dbversion 23.9.0.25.07,23.9.0.25.07,19.28.0.0.250715,19.28.0.0.250715 -reset OSS_24.1.13.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily19 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily19</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily8 target=_blank>sadwe_daily8</a></td>
+      <td>scaqae03adm0506</td> 
+      <td>Upgrade-OVM-IB-PKEY-X7</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X7-2 Quarter Rack HC 10TB 
+      </td>
+      <td> Gautam/Kevin</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqae03/scaqae03adm0506-ovm-1clu-asmscoped-sparse-acfs-rolesep-vlan-pkey-gidb-19c.xml -force_ilom -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqae03adm0506.post_deploy.test.log -enable_fips intg -selinux intg -giversion 19.28.0.0.250715 -dbversion 19.28.0.0.250715 -reset OSS_23.1.25.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily8 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily8</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily5 target=_blank>mwhwa_daily5</a></td>
+      <td>scaqah07adm0304</td> 
+      <td>Upg-ELU-Full-OVM-IB-X7</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X7-2 Quarter Rack HC 10TB 
+      </td>
+      <td> Rene/Krish</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqah07/scaqah07adm0304-ovm-1clu-asmscoped-sparse-acfs-rolesep-GIDB-19c.xml -force_ilom -selinux intg -enable_fips intg -computes -live_update_target full -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqah07adm0304_elu.post_deploy.test.log -giversion 19.28.0.0.250715 -dbversion 19.28.0.0.250715 -reset OSS_23.1.24.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily5 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily5</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily99 target=_blank>dongyzhu_daily99</a></td>
+      <td>scaqah07adm0506</td> 
+      <td>Image-BareMetal-IB-X7</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X7-2 Quarter Rack HC 10TB 
+      </td>
+      <td> Kevin/Krish</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqah07/scaqah07adm0506-bm-1clu-asmscoped-sparse-acfs-rolesep-GIDB-23ai.xml -oeda_default oeda_intg -remote -selinux intg -enable_fips intg -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily99 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dongyzhu_daily99</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dpant_daily21 target=_blank>dpant_daily21</a></td>
+      <td>scaqat11adm0102</td> 
+      <td>Upgrade-KVM-X10</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X10M-2 22TB HC 
+      </td>
+      <td> Anna/Jipsa/Gautam</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqat11/scaqat11adm0102-kvm-2clu-asmscoped-sparse-acfs-rolesep-vlan-GI19.20.0.0-DB19.20.0.0.xml -dbpatch_loc view -exadata_qa_cloud -selinux permissive -enable_fips intg -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqat11adm0102.upgrade.post_deploy.test.log -pre_upg_cell /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqat11adm0102.pre_upg.cell.test.log -pre_upg_db /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqat11adm0102.pre_upg.db.test.log -giversion 19.28.0.0.250715,19.28.0.0.250715 -dbversion 19.28.0.0.250715,19.28.0.0.250715 -reset OSS_23.1.18.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/dpant_daily21 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/dpant_daily21</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily52 target=_blank>suragraw_daily52</a></td>
+      <td>scaqat10adm0102</td> 
+      <td>Image-BareMetal-X10</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X10M-2 22TB HC 
+      </td>
+      <td> Eugene/Jipsa/Gautam</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqat10/scaqat10adm0102-bm-1clu-asmscoped-sparse-acfs-rolesep-GI19.20.0.0-DB19.20.0.0.xml -input_file /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqat10adm0102.oedacli.tests -remote -oeda_default oeda_intg -http_proxy yes -selinux intg -enable_fips intg -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqat10adm0102.image_post_deploy.test.log -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily52 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily52</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily111 target=_blank>suragraw_daily111</a></td>
+      <td>scaqat10adm0102</td> 
+      <td>Upgrade-BareMetal-X10</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X10M-2 22TB HC 
+      </td>
+      <td> Eugene/Jipsa/Gautam</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqat10/scaqat10adm0102-bm-1clu-asmscoped-sparse-acfs-rolesep-GI19.20.0.0-DB19.20.0.0.xml -input_file /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqat10adm0102.oedacli.tests -force_ilom -selinux intg -enable_fips intg -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07 -reset OSS_23.1.23.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily111 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily111</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily10 target=_blank>suragraw_daily10</a></td>
+      <td>scaqar02adm0708</td> 
+      <td>Upgrade-KVM-X9</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X9M-2 Elastic Rack HC 
+      </td>
+      <td> Eugene/Dib</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqar02/scaqar02adm0708-kvm-1clu-asmscoped-sparse-acfs-rolesep-vlan-GI19.18.0.0-DB19.18.0.0.xml -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqar02adm0708.post_deploy.test.log -pre_upg_cell /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqar02adm0708.pre_upg.cell.test.log -pre_upg_db /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqar02adm0708.pre_upg.db.test.log -selinux permissive -enable_fips intg -giversion 19.28.0.0.250715 -dbversion 19.28.0.0.250715 -reset OSS_22.1.24.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily10 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily10</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily70 target=_blank>mwhwa_daily70</a></td>
+      <td>scaqaw03adm0304</td> 
+      <td>Upgrade-Exc-Hybrid-X11</td> 
+      <td><p style=color:red>FAILED</p></td>
+      <td>X11M EF 15TB 
+      </td>
+      <td> Krish/Gautam</td>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily70/error_summary.html target=_blank>Errors</a><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqaw03/scaqaw03adm0304-kvm-8clu-exc-hybrid-qinq-gi-db23ai.xml -conf_switch -dom0first -dbpatch_loc view -enable_fips intg -selinux intg -conf_switch -pre_upg_db /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqaw03adm0304.pre_upg.db.test.log -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqaw03adm0304.post_upg.db.test.log -giversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -reset OSS_25.1.2.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily70 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily70</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily195 target=_blank>sadwe_daily195</a></td>
+      <td>scaqaw03adm0304</td> 
+      <td>Image-BM-Exascale-X11</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X11M EF 15TB 
+      </td>
+      <td> Krish/Gautam</td>
+      <td><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqaw03/scaqaw03adm0304-bm-exascale-1clu-asmscoped-sparse-acfs-rolesep-23ai.xml -conf_switch -error_report -http_proxy no -oeda_default oeda_intg -remote -enable_fips intg -selinux intg -conf_switch -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqaw03adm0304.post_deploy_oss_main.test.log -giversion 23.9.0.25.07 -dbversion 23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily195 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/sadwe_daily195</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily200 target=_blank>lknguyen_daily200</a></td>
+      <td>scaqaw03adm0102</td> 
+      <td>Img-KVM-Exc-DualStack-X11</td> 
+      <td><p style=color:red>FAILED</p></td>
+      <td>X11M EF 15TB 
+      </td>
+      <td> Krish/Leo</td>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily200/error_summary.html target=_blank>Errors</a><br></td>
+      <td> doimageoeda.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqaw03/scaqaw03_8cluster_hybrid_dualstack.xml -http_proxy no -oeda_default oeda_intg -remote -enable_fips intg -selinux intg -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqaw03adm0102.properties -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqaw03adm0102.post_deploy_ds.test.log -input_file /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqaw03adm0102.dualstack.oedacli.tests -giversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily200 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/lknguyen_daily200</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily17 target=_blank>mwhwa_daily17</a></td>
+      <td>scaqaw03adm0102</td> 
+      <td>Upg-Exc-EDV-DS-X11</td> 
+      <td><p style=color:red>FAILED</p></td>
+      <td>X11M Elastic Half-Rack EF 15TB DualStack 
+      </td>
+      <td> Krish/Gautam</td>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily17/error_summary.html target=_blank>Errors</a><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqaw03/scaqaw03_8cluster_hybrid_dualstack.xml -http_proxy no -oeda_default oeda_intg -dbpatch_loc view -swupdate -dom0first -upg_seq -enable_fips intg -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqaw03adm0102.properties -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqaw03adm0102.post_deploy.test.log -giversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -dbversion 23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07,23.9.0.25.07 -reset OSS_25.1.5.1.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily17 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/mwhwa_daily17</a><br>
+      </td>
+      </tr>
+   
+ 
+     <tr>
+      <td><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily20 target=_blank>suragraw_daily20</a></td>
+      <td>scaqae12adm0304</td> 
+      <td>Upgrade-OVM-X7</td> 
+      <td><p style=color:green>PASSED</p></td>
+      <td>X7-2 Elastic Rack EF 6.4TB 
+      </td>
+      <td> Leo/Eugene</td>
+      <td><br></td>
+      <td> tsagupgrade.sh -xml /net/10.32.19.91/export/exadata_images/OEDAConfigFiles/configFiles/scaqae12/scaqae12adm0304-ovs-2clu-asmscoped-sparse-acfs-rolesep-GI19.26-DB19.26.xml -post_deploy /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqae12adm0304.post_deploy.test.log -pre_upg_cell /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqae12adm0304.pre_upg.cell.test.log -pre_upg_db /net/10.32.19.91/export/exadata_images/ImageTests/plugin/scaqae12adm0304.pre_upg.db.test.log -properties /net/10.32.19.91/export/exadata_images/ImageTests/tests/scaqae12adm0304.properties -enable_fips intg -selinux intg -giversion 19.28.0.0.250715,19.28.0.0.250715 -dbversion 19.28.0.0.250715,19.28.0.0.250715 -reset OSS_22.1.24.0.0_LINUX.X64_RELEASE<br>
+           <br><a href=http://phoenix90405.dev3sub2phx.databasede3phx.oraclevcn.com/integration_logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily20 target=_blank>/net/dbdevfssmnt-shared01.dev3fss1phx.databasede3phx.oraclevcn.com/exadata_dev_image_oeda/integration/logs/OSS_MAIN_LINUX.X64_251022/suragraw_daily20</a><br>
+      </td>
+      </tr>
+   
+   </table>
+   <script>
+   function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("results_status");
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc";
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /*check if the two rows should switch place,
+      based on the direction, asc or desc:*/
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount ++;
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+  </script>
+ </body>
+</html>

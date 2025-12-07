@@ -1,0 +1,637 @@
+[
+    {
+        "id": "tsagexastackup",
+        "kind": "setup_script",
+        "title": "tsagexastackup.tsc",
+        "summary": "Brings up the Exascale storage stack in a view (no blockstore, no database). Quick way to stand up Exascale storage only.",
+        "details": "tsagexastackup.tsc sets up the Exascale storage stack in a view. Running tsagexastackup alone does not start blockstore services or a database. It is used when you want only the Exascale storage stack without blockstore or DB.",
+        "applies_to": [],
+        "keywords": [
+            "tsagexastackup",
+            "exascale storage stack",
+            "storage-only setup",
+            "view setup"
+        ],
+        "parameters": [
+            "num_cells",
+            "sage_mirror_mode",
+            "egs_deplmode",
+            "privkey_pubkey",
+            "media_type",
+            "flash_size",
+            "max_rpm",
+            "max_cmd_rpm",
+            "delta_sync",
+            "setup5egs",
+            "SAVE_CELLSRVSTAT",
+            "diskSizeInMB",
+            "EGS_MODE"
+        ],
+        "examples": [
+            {
+                "command": "oratst -d tsagexastackup",
+                "description": "Bring up Exascale storage stack in a view with default 1 cell and default deployment options."
+            },
+            {
+                "command": "oratst -d tsagexastackup sage_mirror_mode=high",
+                "description": "Bring up storage stack with 3 cells using high mirror mode."
+            },
+            {
+                "command": "oratst -d tsagexastackup sage_mirror_mode=high egs_deplmode=cloudService",
+                "description": "Same stack as above but with EGS deployed in cloudService mode."
+            },
+            {
+                "command": "oratst -d tsagexastackup media_type=ALL media_type_vault=EF",
+                "description": "Create 3 storage pools for EF, HC, XT and configure the default vault on EF."
+            },
+            {
+                "command": "oratst -d tsagexastackup media_type=EF,HC sage_mirror_mode=high egs_deplmode=cloudService",
+                "description": "3-cell Exascale service deployment with EF and HC storage pools in cloudService mode."
+            }
+        ]
+    },
+    {
+        "id": "xblockini",
+        "kind": "setup_script",
+        "title": "xblockini.tsc",
+        "summary": "Sets up Exascale stack plus blockstore services (BSM/BSW) and creates a block device.",
+        "details": "xblockini.tsc brings up the Exascale service stack, starts blockstore manager (BSM) and workers (BSW), creates a blockstore volume, attaches it and mounts it. It can also enable tracing and configure EDV / iSCSI / non-EDV modes.",
+        "applies_to": [],
+        "keywords": [
+            "xblockini",
+            "blockstore setup",
+            "block store",
+            "BSM",
+            "BSW",
+            "Exascale blockstore"
+        ],
+        "parameters": [
+            "bsm_trace",
+            "bsw_trace",
+            "eds_trace",
+            "multiple_bst",
+            "ledvsetup",
+            "ledvniscsi",
+            "edvsetup",
+            "iscsi",
+            "noniscsi"
+        ],
+        "examples": [
+            {
+                "command": "oratst xblockini",
+                "description": "Default Exascale stack plus blockstore services with local EDV attached."
+            },
+            {
+                "command": "oratst xblockini multiple_bst=true",
+                "description": "Start multiple blockstore services (e.g. 2 BSM + 3 BSW instances)."
+            },
+            {
+                "command": "oratst xblockini bsw_trace=h,h bsm_trace=l,h eds_trace=m,m",
+                "description": "Start blockstore with high BSW tracing, low/high BSM tracing and medium EDS tracing."
+            }
+        ]
+    },
+    {
+        "id": "xrdbmsini",
+        "kind": "setup_script",
+        "title": "xrdbmsini.tsc",
+        "summary": "Sets up a database on Exascale storage. Accepts tsagexastackup parameters plus DB-specific flags.",
+        "details": "xrdbmsini.tsc sets up a database on Exascale storage. It accepts all configuration parameters from tsagexastackup for the underlying Exascale stack, and adds DB-specific options like standalone mode, archive log behaviour, and optional blockstore startup.",
+        "applies_to": [],
+        "keywords": [
+            "xrdbmsini",
+            "database on exascale",
+            "db setup",
+            "GI",
+            "vault pwfiles"
+        ],
+        "parameters": [
+            "num_cells",
+            "sage_mirror_mode",
+            "egs_deplmode",
+            "privkey_pubkey",
+            "media_type",
+            "flash_size",
+            "max_rpm",
+            "max_cmd_rpm",
+            "delta_sync",
+            "setup5egs",
+            "SAVE_CELLSRVSTAT",
+            "diskSizeInMB",
+            "EGS_MODE",
+            "standalone",
+            "setup_blockstore",
+            "media_type_vault",
+            "egsdepl_mode",
+            "multisp"
+        ],
+        "examples": [
+            {
+                "command": "oratst -d xrdbmsini",
+                "description": "Set up a DB on Exascale storage with one cell, GI, and password files on Exascale vault (archivelog enabled)."
+            },
+            {
+                "command": "oratst -d xrdbmsini sage_mirror_mode=high",
+                "description": "DB on Exascale storage with 3 cells and password files on vault."
+            },
+            {
+                "command": "oratst -d xrdbmsini media_type=HC,EF",
+                "description": "DB on Exascale with one cell and two storage pools (EF and HC). Voting, OCR and password files on vault across both media types."
+            },
+            {
+                "command": "oratst -d xrdbmsini egsdepl_mode=cloudService",
+                "description": "DB on Exascale storage deployed in ExaCS (cloud service) mode."
+            },
+            {
+                "command": "oratst -d xrdbmsini standalone",
+                "description": "DB without GI; password files are kept on the regular filesystem instead of the vault."
+            },
+            {
+                "command": "oratst -d xrdbmsini media_type=ALL media_type_vault=EF egsdepl_mode=cloudService",
+                "description": "DB on Exascale with EF, HC, XT media types, vault provisioned only on EF in cloud service mode."
+            },
+            {
+                "command": "oratst -d xrdbmsini multisp=true",
+                "description": "Similar to HC+EF case: DB with multiple storage pools, vault spread across both EF and HC."
+            }
+        ]
+    },
+    {
+        "id": "num_cells",
+        "kind": "parameter",
+        "title": "num_cells",
+        "summary": "Number of cells to set up in the Exascale storage stack.",
+        "details": "num_cells=<n> specifies how many cells the Exascale stack should use. Default is 1. You can set 3 or 4 cells as long as the Linux VM has enough free memory. When num_cells is 3 or 4, sage_mirror_mode is automatically treated as high.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "integer",
+        "default": 1,
+        "keywords": [
+            "num_cells",
+            "number of cells",
+            "cells count"
+        ]
+    },
+    {
+        "id": "sage_mirror_mode",
+        "kind": "parameter",
+        "title": "sage_mirror_mode",
+        "summary": "Mirror mode flag; high mirror mode typically corresponds to 3 cells.",
+        "details": "sage_mirror_mode is mainly kept for backward compatibility with Exadata tests. A value of high sets up 3 cells. If num_cells=3 or 4 is passed, sage_mirror_mode is implicitly treated as high.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "string",
+        "values": [
+            "high"
+        ],
+        "keywords": [
+            "sage_mirror_mode",
+            "mirror mode",
+            "high mirror"
+        ]
+    },
+    {
+        "id": "egs_deplmode",
+        "kind": "parameter",
+        "title": "egs_deplmode",
+        "summary": "EGS cluster deployment mode (sharedCloud, privateCloud, onpremises, custom).",
+        "details": "egs_deplmode=<mode> controls how the EGS cluster is deployed. Valid values are sharedCloud, privateCloud, onpremises, and custom. The default is onpremises unless overridden.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "string",
+        "values": [
+            "sharedCloud",
+            "privateCloud",
+            "onpremises",
+            "custom"
+        ],
+        "default": "onpremises",
+        "keywords": [
+            "egs_deplmode",
+            "EGS deployment mode",
+            "sharedCloud",
+            "privateCloud",
+            "onpremises",
+            "custom"
+        ]
+    },
+    {
+        "id": "privkey_pubkey",
+        "kind": "parameter",
+        "title": "privkey / pubkey",
+        "summary": "Provide key pair to configure the admin user in ERS (mainly for Exascale cloud tests).",
+        "details": "privkey=<private key path> and pubkey=<public key path> must be passed together. These keys are used to configure the admin user in ERS. This is primarily used for Exascale cloud testing scenarios.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "pair",
+        "keywords": [
+            "privkey",
+            "pubkey",
+            "ERS admin keys",
+            "ERS admin user"
+        ]
+    },
+    {
+        "id": "media_type",
+        "kind": "parameter",
+        "title": "media_type",
+        "summary": "Controls which media types (EF, HC, XT, CF, ALL) are created in the storage pool.",
+        "details": "media_type can be EF, HC, XT, CF or ALL, optionally comma-separated. EF is Extreme Flash, HC is High Capacity, XT is Extended Storage, CF is Capacity Flash. HC cannot be combined with XT. You can request EF+HC, EF+XT, or ALL (EF, HC, XT). media_type=CF creates Capacity Flash disks in the storage pool.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "string_or_list",
+        "values": [
+            "EF",
+            "HC",
+            "XT",
+            "CF",
+            "ALL"
+        ],
+        "keywords": [
+            "media_type",
+            "EF",
+            "HC",
+            "XT",
+            "CF",
+            "Extreme Flash",
+            "High Capacity",
+            "Extended Storage",
+            "Capacity Flash"
+        ]
+    },
+    {
+        "id": "flash_size",
+        "kind": "parameter",
+        "title": "flash_size",
+        "summary": "Size of FLASH disks created in the setup.",
+        "details": "flash_size=<n> specifies the FLASH disk size created in the Exascale storage setup.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "integer",
+        "keywords": [
+            "flash_size",
+            "flash disk size"
+        ]
+    },
+    {
+        "id": "max_rpm",
+        "kind": "parameter",
+        "title": "max_rpm",
+        "summary": "Number of ring partition mirrors configured in the storagepool.",
+        "details": "max_rpm controls how many ring partition mirrors are configured in the Exascale storage pool.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "integer",
+        "keywords": [
+            "max_rpm",
+            "ring partition mirrors",
+            "storagepool mirrors"
+        ]
+    },
+    {
+        "id": "max_cmd_rpm",
+        "kind": "parameter",
+        "title": "max_cmd_rpm",
+        "summary": "Number of ring partition mirrors in the container metadata ring.",
+        "details": "max_cmd_rpm defines how many ring partition mirrors are used in the container metadata ring.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "integer",
+        "keywords": [
+            "max_cmd_rpm",
+            "container metadata ring mirrors"
+        ]
+    },
+    {
+        "id": "delta_sync",
+        "kind": "flag",
+        "title": "delta_sync",
+        "summary": "Controls whether the Delta Sync feature is enabled (true by default).",
+        "details": "delta_sync is a boolean flag that controls the Delta Sync feature. It is true by default (feature enabled). To disable Delta Sync for a test, set delta_sync=false.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "delta_sync",
+            "delta sync",
+            "incremental sync feature"
+        ],
+        "default": "true"
+    },
+    {
+        "id": "setup5egs",
+        "kind": "flag",
+        "title": "setup5egs",
+        "summary": "Set up 5 EGS servers in the cluster instead of the default count.",
+        "details": "setup5egs is a flag that configures the Exascale cluster to use 5 EGS servers.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "setup5egs",
+            "5 egs servers",
+            "egs count"
+        ]
+    },
+    {
+        "id": "SAVE_CELLSRVSTAT",
+        "kind": "flag",
+        "title": "SAVE_CELLSRVSTAT",
+        "summary": "Periodically save cellsrvstat output for the test.",
+        "details": "SAVE_CELLSRVSTAT can be set if a test needs to periodically capture cellsrvstat output during execution.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "SAVE_CELLSRVSTAT",
+            "cellsrvstat",
+            "cell statistics"
+        ]
+    },
+    {
+        "id": "diskSizeInMB",
+        "kind": "parameter",
+        "title": "diskSizeInMB",
+        "summary": "Disk size in megabytes used for the setup.",
+        "details": "diskSizeInMB specifies the size of disks in megabytes for the Exascale storage configuration.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "integer",
+        "keywords": [
+            "diskSizeInMB",
+            "disk size",
+            "MB"
+        ]
+    },
+    {
+        "id": "EGS_MODE",
+        "kind": "parameter",
+        "title": "EGS_MODE",
+        "summary": "Config parameter for FARM jobs to choose between EXACS and EXACC.",
+        "details": "EGS_MODE is a config parameter for FARM jobs. Set EGS_MODE=EXACS or EXACC, pass it via the -config option when submitting an LRG. The LRG runs with the extra parameter you supplied.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "type": "string",
+        "values": [
+            "EXACS",
+            "EXACC"
+        ],
+        "keywords": [
+            "EGS_MODE",
+            "FARM config",
+            "EXACS",
+            "EXACC"
+        ],
+        "examples": [
+            {
+                "command": "farm submit lrgXYZ -config \"EGS_MODE=EXACS\"",
+                "description": "Run LRG lrgXYZ with ExaCS-style EGS mode."
+            }
+        ]
+    },
+    {
+        "id": "bsm_trace",
+        "kind": "parameter",
+        "title": "bsm_trace",
+        "summary": "Controls tracing level for BSM (blockstore manager).",
+        "details": "bsm_trace sets tracing options for the blockstore manager. It can take two comma-separated values for disk-level and memory-level tracing, each typically l (low), m (medium, default), or h (high).",
+        "applies_to": [
+            "xblockini"
+        ],
+        "type": "string",
+        "keywords": [
+            "bsm_trace",
+            "BSM trace",
+            "blockstore manager trace"
+        ]
+    },
+    {
+        "id": "bsw_trace",
+        "kind": "parameter",
+        "title": "bsw_trace",
+        "summary": "Controls tracing level for BSW (blockstore worker).",
+        "details": "bsw_trace sets tracing options for the blockstore worker. It uses the same pattern as bsm_trace (disk-level and memory-level, with values like l, m, h).",
+        "applies_to": [
+            "xblockini"
+        ],
+        "type": "string",
+        "keywords": [
+            "bsw_trace",
+            "BSW trace",
+            "blockstore worker trace"
+        ]
+    },
+    {
+        "id": "eds_trace",
+        "kind": "parameter",
+        "title": "eds_trace",
+        "summary": "Controls tracing level for Exascale data services (EDS).",
+        "details": "eds_trace sets the tracing level for Exascale data services, using the same l/m/h scheme for disk and memory components.",
+        "applies_to": [
+            "xblockini"
+        ],
+        "type": "string",
+        "keywords": [
+            "eds_trace",
+            "EDS trace"
+        ]
+    },
+    {
+        "id": "multiple_bst",
+        "kind": "flag",
+        "title": "multiple_bst",
+        "summary": "Start multiple blockstore services in the view (e.g. 2 BSM + 3 BSW).",
+        "details": "When multiple_bst=true, xblockini starts multiple blockstore services such as multiple BSM and BSW instances, allowing multi-instance testing.",
+        "applies_to": [
+            "xblockini"
+        ],
+        "keywords": [
+            "multiple_bst",
+            "multiple blockstore",
+            "multiple BSM",
+            "multiple BSW"
+        ],
+        "examples": [
+            {
+                "command": "oratst xblockini multiple_bst=true",
+                "description": "Start multiple BSM/BSW blockstore services."
+            }
+        ]
+    },
+    {
+        "id": "ledvsetup",
+        "kind": "flag",
+        "title": "ledvsetup",
+        "summary": "Default xblockini mode: sets up a local attached EDV volume.",
+        "details": "ledvsetup is effectively the default mode for xblockini when run locally. It configures a local attached EDV volume.",
+        "applies_to": [
+            "xblockini"
+        ],
+        "keywords": [
+            "ledvsetup",
+            "local EDV",
+            "local attached EDV volume"
+        ]
+    },
+    {
+        "id": "ledvniscsi",
+        "kind": "flag",
+        "title": "ledvniscsi",
+        "summary": "Set up both local EDV and an iSCSI volume.",
+        "details": "ledvniscsi configures xblockini to set up both a local EDV volume and an iSCSI volume in the same environment.",
+        "applies_to": [
+            "xblockini"
+        ],
+        "keywords": [
+            "ledvniscsi",
+            "local EDV and iscsi",
+            "EDV + iscsi"
+        ]
+    },
+    {
+        "id": "edvsetup",
+        "kind": "flag",
+        "title": "edvsetup",
+        "summary": "Set up cluster and node EDV, using a non-oracle user to run edvsrv.",
+        "details": "edvsetup configures a cluster and node-level EDV and uses a non-oracle user to run the edvsrv process.",
+        "applies_to": [
+            "xblockini"
+        ],
+        "keywords": [
+            "edvsetup",
+            "cluster EDV",
+            "node EDV",
+            "edvsrv non-oracle"
+        ]
+    },
+    {
+        "id": "iscsi",
+        "kind": "flag",
+        "title": "iscsi",
+        "summary": "Enable iSCSI mode with no EDV configured.",
+        "details": "iscsi tells xblockini to set up iSCSI mode only. No EDV is configured when this flag is used. Exascale stack plus blockstore run on iSCSI-based volumes.",
+        "applies_to": [
+            "xblockini"
+        ],
+        "keywords": [
+            "iscsi",
+            "iscsi=true",
+            "iscsi mode",
+            "no EDV iscsi"
+        ]
+    },
+    {
+        "id": "noniscsi",
+        "kind": "flag",
+        "title": "noniscsi",
+        "summary": "Non-iSCSI mode with no EDV; BSW runs with cellcli.",
+        "details": "noniscsi selects non-iSCSI mode with no EDV. In this mode only, BSW runs with cellcli.",
+        "applies_to": [
+            "xblockini"
+        ],
+        "keywords": [
+            "noniscsi",
+            "non-iscsi",
+            "bsw cellcli"
+        ]
+    },
+    {
+        "id": "standalone",
+        "kind": "flag",
+        "title": "standalone",
+        "summary": "Skip GI setup; password files live on the regular filesystem.",
+        "details": "standalone is an xrdbmsini flag that skips GI setup. Voting and password files are stored on the regular filesystem instead of Exascale vault.",
+        "applies_to": [
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "standalone",
+            "no GI",
+            "password files on filesystem"
+        ]
+    },
+    {
+        "id": "setup_blockstore",
+        "kind": "flag",
+        "title": "setup_blockstore",
+        "summary": "Start BSW and BSM along with the database setup.",
+        "details": "setup_blockstore=true in xrdbmsini will start blockstore worker (BSW) and manager (BSM) along with the DB setup. By default, blockstore services are not started in a DB-only Exascale setup.",
+        "applies_to": [
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "setup_blockstore",
+            "start bsw and bsm",
+            "db with blockstore"
+        ]
+    },
+    {
+        "id": "media_type_vault",
+        "kind": "parameter",
+        "title": "media_type_vault",
+        "summary": "Controls which media type the Exascale vault uses (e.g. EF).",
+        "details": "media_type_vault defines which media type the vault is provisioned on. For example, media_type_vault=EF means the vault uses EF even if EF, HC and XT pools are present.",
+        "applies_to": [
+            "tsagexastackup",
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "media_type_vault",
+            "vault media",
+            "vault on EF"
+        ]
+    },
+    {
+        "id": "egsdepl_mode",
+        "kind": "parameter",
+        "title": "egsdepl_mode",
+        "summary": "Database-side spelling of EGS deployment mode (e.g. cloudService).",
+        "details": "egsdepl_mode on xrdbmsini is the DB-side spelling used to deploy EGS, for example egsdepl_mode=cloudService for ExaCS-style deployments.",
+        "applies_to": [
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "egsdepl_mode",
+            "EGS deployment mode",
+            "cloudService"
+        ]
+    },
+    {
+        "id": "multisp",
+        "kind": "flag",
+        "title": "multisp",
+        "summary": "Enable multiple storage pools for the DB (e.g. EF and HC).",
+        "details": "multisp=true configures the DB on Exascale storage using multiple underlying storage pools (for example EF and HC), similar to the HC+EF case described in the examples.",
+        "applies_to": [
+            "xrdbmsini"
+        ],
+        "keywords": [
+            "multisp",
+            "multiple storage pools",
+            "EF and HC pools"
+        ]
+    }
+]

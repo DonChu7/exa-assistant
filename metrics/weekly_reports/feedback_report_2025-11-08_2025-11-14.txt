@@ -1,0 +1,57 @@
+Feedback window: 2025-11-08 → 2025-11-14 (UTC)
+
+Totals
+  - MCP calls: 149
+  - Unique feedback threads: 120
+  - Thumbs up: 15
+  - Thumbs down: 3
+
+Calls per user
+  - Dongyang Zhu (@dongyzhu): 55
+  - Karan Baboota (@kbaboota): 32
+  - Vishwas Awasthi (@vishawas): 12
+  - Shreyash Chavhan (@schavhan): 8
+  - Animesh Anand (@animanan): 8
+  - Shrayansh Tyagi (@shratyag): 3
+  - Budhdeo Kumar (@budkumar): 1
+  - Yan Sun (@ysusun): 1
+
+Calls per tool
+  - run_func_test: 23
+  - view_status_of_sched: 20
+  - reserve_hardware: 10
+  - run_bug_test: 10
+  - unreserve_hardware: 9
+  - langgraph_agent: 9
+  - flag_large_waitlist: 6
+  - get_lrgs_from_regress: 5
+  - add_label_for_se_analysis: 5
+  - runintegration_pending_tests: 4
+  - lrg_test_fts_query: 4
+  - runintegration_idle_envs: 3
+  - runintegration_disabled_txn_status: 3
+  - get_functional_hardware_mapping: 2
+  - get_suites_for_lrg: 2
+  - lrg_test_smart_search: 2
+  - runintegration_status: 2
+  - list_tests_for_lrg: 1
+  - search_tests: 1
+  - get_quarantined_hardware: 1
+  - simulate_sched_end_time: 1
+  - get_farm_job_status: 1
+  - flag_usage_issues: 1
+
+Feedback comments
+  - 2025-11-14T05:08:01.991212+00:00 – Animesh Anand (@animanan): GUID is provided, still looking for guid
+  - 2025-11-14T07:14:02.884586+00:00 – Vishwas Awasthi (@vishawas): Issue in processing the large waitlist data
+
+Top repeated questions
+  - write a test with the following steps: Restart all cell services List all the physical disks Restart the ms service only List the alert history and find any ORA asserts (x15)
+  - write a test with the following steps Restart all cell services List all the physical disks Restart the ms service only List the alert history and find any ORA asserts (x8)
+  - give bug test for 38453180 (x7)
+  - can you please give the pending tests for transaction schavhan_monthly_se_24_1_18_251105_rc2 (x3)
+  - what are the scheds having unusually large waitlists? (x3)
+  - what runintegration envs are able to submit jobs now? (x2)
+  - whats the status of x9_ef1_sched (x2)
+  - generate bug test for 38453180 (x2)
+  - what are disabled env for this transaction tests schavhan_monthly_se_24_1_18_251105_rc2 (x2)

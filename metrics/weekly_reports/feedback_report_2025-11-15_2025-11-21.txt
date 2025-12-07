@@ -1,0 +1,114 @@
+Feedback window: 2025-11-15 → 2025-11-21 (UTC)
+
+Totals
+  - MCP calls: 199
+  - Unique feedback threads: 228
+  - Thumbs up: 22
+  - Thumbs down: 14
+
+Calls per user
+  - Dongyang Zhu (@dongyzhu): 85
+  - Shreyash Chavhan (@schavhan): 27
+  - Karan Baboota (@kbaboota): 27
+  - Budhdeo Kumar (@budkumar): 21
+  - Suraj Agrawal (@suragraw): 13
+  - Arashpreet Singh (@arassing): 10
+  - Animesh Anand (@animanan): 8
+  - Lan Nguyen (@lknguyen): 8
+  - Hardik Banthia (@habanthi): 7
+  - Sandeep Heranjal (@saheranj): 6
+  - Adharsh Asokan (@adasokan): 5
+  - Vengatesan Thiyagarajan (@venthiya): 3
+  - Rajeev Jain (@rkjain): 2
+  - Dheeraj Khatri (@dekhatri): 2
+  - Michael Hwa (@mwhwa): 1
+  - Jun Wang (@juwawang): 1
+  - Pankaj Bahl (@pbahl): 1
+  - Kuang Shen (@kuashen): 1
+
+Feedback calls per tool
+  - langgraph_agent: 34
+  - view_status_of_sched: 32
+  - unreserve_hardware: 32
+  - reserve_hardware: 31
+  - run_bug_test: 12
+  - map_lrg_to_scheduler: 12
+  - get_farm_job_status: 11
+  - add_label_for_se_analysis: 10
+  - runintegration_pending_tests: 9
+  - runintegration_idle_envs: 8
+  - run_func_test: 7
+  - get_label_info: 5
+  - add_series_to_auto_populate: 4
+  - rag_query: 4
+  - move_job_to_top: 4
+  - runintegration_disabled_txn_status: 3
+  - flag_large_waitlist: 3
+  - lrg_point_of_contact: 3
+  - find_dif_details: 3
+  - generate_oedaxml: 2
+  - runintegration_status: 1
+  - lrg_test_smart_search: 1
+  - generate_ai_label_summary: 1
+  - find_widespread_issues: 1
+  - get_regress_summary: 1
+  - get_quarantined_hardware: 1
+  - get_lrg_history: 1
+  - runintegration_disabled_envs: 1
+  - get_functional_hardware_mapping: 1
+
+
+MCP calls per tool (successful)
+  - map_lrg_to_scheduler: 35
+  - unreserve_hardware: 33
+  - view_status_of_sched: 26
+  - reserve_hardware: 20
+  - run_bug_test: 12
+  - get_farm_job_status: 10
+  - pending_tests: 9
+  - idle_envs: 8
+  - run_func_test: 7
+  - add_series_to_auto_populate: 5
+  - get_label_info: 5
+  - add_label_for_se_analysis: 4
+  - disabled_txn_status: 3
+  - flag_large_waitlist: 3
+  - find_dif_details: 3
+  - move_job_to_top: 3
+  - rag_query: 2
+  - generate_oedaxml: 2
+  - status: 1
+  - smart_search: 1
+  - generate_ai_label_summary: 1
+  - find_widespread_issues: 1
+  - get_regress_summary: 1
+  - get_quarantined_hardware: 1
+  - get_lrg_history: 1
+  - disabled_envs: 1
+  - get_functional_hardware_mapping: 1
+
+Feedback comments
+  - 2025-11-16T16:59:21.445874+00:00 – Animesh Anand (@animanan): This problem with guid to email conversion isn’t resolved, neither by the app nor despite clearly indicating what to use for it in the request itself
+  - 2025-11-16T18:09:33.027885+00:00 – Rajeev Jain (@rkjain): You didn't analyze the full job. Why did you only review 8 lrgs?
+  - 2025-11-17T02:53:17.374046+00:00 – Dheeraj Khatri (@dekhatri): The test was not generated properly. I see most of the stuff is not useful. This is an EXASCALE bug but i see the test is written for ASM/exadata.
+
+bug description was correct but the tsc could be  a lot better.
+  - 2025-11-17T12:46:34.858803+00:00 – Dheeraj Khatri (@dekhatri): Test summary and description is good but the generated test/sh script is not helpful.
+  - 2025-11-17T15:14:03.287581+00:00 – Pankaj Bahl (@pbahl): The summary is not generated
+  - 2025-11-20T12:51:58.077357+00:00 – Sandeep Heranjal (@saheranj): Comments are not related to the difs in the LRG, looks to be incorrect. Please help to review. 
+Thanks,
+Sandeep
+  - 2025-11-21T08:44:33.570967+00:00 – Hardik Banthia (@habanthi): The agent provided me with list of scheds
+  - 2025-11-21T09:49:36.440178+00:00 – Shreyash Chavhan (@schavhan): When i checked first label to search on orareview, I am not able to see this transaction, can you please check if this is giving right result ?
+
+Top repeated questions
+  - write a test script to add networks using oedacli (x7)
+  - can you reserve lrgrhx9upgrade for me? (x5)
+  - can you unreserve lrgrhx9upgrade for me? (x5)
+  - How to resolve this escli failure? ```ESCLI cannot connect to Exascale control services (ExaCTRL). This ESCLI session is limited to commands that do not require ExaCC TRL. Restart ESCLI to retry the connection to ExaCTRL.``` (x4)
+  - please write a test for Bug 38634848 (x4)
+  - Please add OSS_25.2.3.0.0_LINUX.X64_251115 label for SE analysis for guid kbaboota (x3)
+  - unreserve nshqap01adm03 (x3)
+  - get disabled env for schavhan_monthly_se_25_2_4_251116_rc4 for runintegration ? (x3)
+  - unreserve nshqat02adm01 and nshqat02celadm01 in x10_secure_sched (x3)
+  - Write a test to Delete Guest with BaseDB using oedacli (x3)

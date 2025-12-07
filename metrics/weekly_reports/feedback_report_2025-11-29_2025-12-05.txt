@@ -1,0 +1,80 @@
+Feedback window: 2025-11-29 → 2025-12-05 (UTC)
+
+Totals
+  - MCP calls: 218
+  - Unique feedback threads: 222
+  - Thumbs up: 23
+  - Thumbs down: 7
+
+Calls per user
+  - Dongyang Zhu (@dongyzhu): 91
+  - Shreyash Chavhan (@schavhan): 24
+  - Vishwas Awasthi (@vishawas): 18
+  - Karan Baboota (@kbaboota): 13
+  - Suraj Agrawal (@suragraw): 12
+  - Lan Nguyen (@lknguyen): 10
+  - Deepak Suthar (@desuthar): 10
+  - Sushil Adwe (@sadwe): 9
+  - Hardik Banthia (@habanthi): 8
+  - Shrayansh Tyagi (@shratyag): 7
+  - Deeptangan Pant (@dpant): 5
+  - Sarvesh Gangu (@sgangu): 3
+  - Sandeep Heranjal (@saheranj): 3
+  - Arashpreet Singh (@arassing): 3
+  - Kuang Shen (@kuashen): 2
+  - Budhdeo Kumar (@budkumar): 1
+  - Animesh Anand (@animanan): 1
+  - Dheeraj Khatri (@dekhatri): 1
+  - Incia Anand (@inanand): 1
+
+Calls per tool
+  - langgraph_agent: 45
+  - view_status_of_sched: 29
+  - get_my_lrgs_status: 19
+  - add_lrg_to_my_lrgs: 17
+  - get_farm_job_status: 14
+  - reserve_hardware: 13
+  - find_lrg_with_difs: 11
+  - unreserve_hardware: 10
+  - runintegration_pending_tests: 9
+  - map_lrg_to_scheduler: 9
+  - get_lrg_runtime_stats: 8
+  - get_my_rtis: 6
+  - runintegration_status: 5
+  - lrg_test_fts_query: 5
+  - rag_query: 5
+  - runintegration_idle_envs: 4
+  - get_labels_from_series: 4
+  - run_bug_test: 2
+  - find_dif_details: 2
+  - add_series_to_auto_populate: 2
+  - find_widespread_issues: 2
+  - run_func_test: 2
+  - move_job_to_top: 1
+  - get_lrg_history: 1
+  - find_dif_occurrence: 1
+  - lrg_test_smart_search: 1
+  - get_test_details: 1
+  - get_label_info: 1
+  - list_tests_for_lrg: 1
+  - simulate_sched_end_time: 1
+  - get_lrgs_from_regress: 1
+
+Feedback comments
+  - 2025-12-02T05:45:27.073519+00:00 – Sushil Adwe (@sadwe): Not able to list the rack details for runIntegration env based on the rack/env name provided.
+Rack details should contain the list of Cells and Computes.
+  - 2025-12-02T18:46:40.267953+00:00 – Lan Nguyen (@lknguyen): not right
+  - 2025-12-04T10:52:37.688337+00:00 – Hardik Banthia (@habanthi): forgot the lrgname
+  - 2025-12-05T19:16:41.030292+00:00 – Lan Nguyen (@lknguyen): What is 404? I need 200
+
+Top repeated questions
+  - can you add lrgrhexascale_dbnodeupdate to my lrg list? (x7)
+  - dongyzhu (x6)
+  - status of x11_scaqaw1_sched (x6)
+  - can you add the lrgrhexaprovcluster_livemig_2 to my lrg list? (x5)
+  - how are my LRGs doing? (x4)
+  - how are my lrgs doing in OSS_MAIN_LINUX.X64_251203? (x4)
+  - please add lrgrhexascale_elu to my lrg list. (x3)
+  - which sched has node <http://scaqat16celadm03.us.oracle.com|scaqat16celadm03.us.oracle.com> (x2)
+  - can you add lrgrhexaprovcluster_livemig to my lrg list? (x2)
+  - kbaboota (x2)

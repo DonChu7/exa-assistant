@@ -1,0 +1,11 @@
+pattern_id,reason,occurrences,incident_ids,hosts,components,max_confidence,min_confidence
+RDS/IB: (connection|re-connect).*,ignore-rule:IGN-37748526,22,18b0a55b;907bcdc0;44d1a4b7;e40b2353;6d3140a8;1c0459bd;b30a8c47;fbdc1b45;21b17d40;f57c9dd3;543f9e4c;9e799804;29b07a02;c5379896;4586236b;4d162a5b;384b9717;03373d6f;efcf75b8;e6f194d1;4f6896f1;aca49c36,localhost;scaqae12celadm04;scaqae12dv0301m;scaqat02celadm01;scaqat02celadm02,kernel,0.95,0.95
+(kdumpctl|kdump\.service).*Failed|Crash recovery kernel arming,ignore-rule:IGN-38318214,16,99de46a6;f120f944;23d81ff0;ecb1cf76;8f1d7531;ce84f65c;53bfb859;76be6715;b4e52c13;a2d02730;6d55a043;359a41b6;5fe38cb2;4376fc1c;a30dfd80;fb867ed2,localhost;scaqae12adm03;scaqae12dv0301m;scaqat02client01vm01;scaqat02client01vm04,kdumpctl;systemd,0.95,0.95
+iscsid.*connect.*failed.*(Connection refused),ignore-rule:IGN-37741438,19,34e9389c;9587dd98;ca5f746b;5e9cc485;e98edc3a;4acd7b1f;e8dbf31c;dbc01b4b;0288fcfe;8e54acc1;ebc1cbd9;5e723b64;6f8061b1;37697dda;73301827;eb0eb806;ce37c374;ae816ea0;d24fb34a,scaqae12dv0301m;scaqat02client02vm02,iscsid,0.95,0.95
+IGN-38134246,ignore-emb-match,2,7e81f1c7;76f8bece,scaqae12adm03,systemd,0.8589,0.7235
+systemd.*Failed to load configuration for .*mount.*No such file or directory,ignore-rule:IGN-37743901,12,56e07a7f;75592c8a;715c81f4;30817324;6e0bfab4;b24c87b1;cb010103;7439d647;f94f72b0;f0188730;7bf470d0;df6fc0ed,scaqae12adm03,systemd,0.95,0.95
+mcelog: failed to prefill DIMM database,ignore-rule:IGN-38021690,6,0d9dbbcb;2654c829;08497088;186852f4;d867dee9;b8ce75c3,scaqae12dv0301m,mcelog,0.95,0.95
+(ohasd|init\.ohasd).*CRS-4000.*,ignore-rule:IGN-37780612,3,edd0eacf;7e13a79f;212e4fab,scaqae12dv0301m,init.ohasd;ohasd,0.95,0.95
+IGN-38021990,ignore-emb-match,1,8a6ba32b,scaqae12dv0301m,systemd,0.7049,0.7049
+iscsid.*connect.*failed.*(No route to host),ignore-rule:IGN-37741019,17,8f7dff55;20ea3d96;012cf9c2;7031b504;3350527a;1a5b1a82;34d2ff01;7558bb8a;3de772d6;7371983f;f1b0aea1;42bc4402;97d4907b;9b3cdad4;c9b7a7db;4b6483e4;0d211feb,scaqae12dv0301m,iscsid,0.95,0.95
+Failed to stat\(\) device node file /dev/asm/.*: Permission denied,ignore-rule:IGN-37960374,11,39d5b6ce;41011c44;77ab267b;53ea4364;5a9dd636;3d396516;b3d91226;fb5463f8;f5f758e3;dfe17b6a;533f5c61,scaqae12dv0301m,systemd,0.95,0.95

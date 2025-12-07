@@ -1,0 +1,52 @@
+bug_id,context_window,component,templates,description
+37960267,"May 15 19:45:59 scaqat11adm01 systemd-modules-load[1657]: Failed to find module 'rds_rdma'
+May 15 19:45:59 scaqat11adm01 systemd-modules-load[1657]: Failed to find module 'resilient_rdmaip'
+May 15 19:45:59 scaqat11adm01 systemd[1]: rdma-load-modules@rdma.service: Failed with result 'exit-code'.
+May 15 19:45:59 scaqat11adm01 systemd[1]: Failed to start Load RDMA modules from /etc/rdma/modules/rdma.conf.",systemd-modules-load,,
+37828661,"Apr  8 07:04:59 scaqan01adm03 systemd-modules-load[10091]: Failed to find module 'resilient_rdmaip'
+Apr  8 07:04:59 scaqan01adm03 systemd[1]: rdma-load-modules@rdma.service: Failed with result 'exit-code'.
+Apr  8 07:04:59 scaqan01adm03 systemd[1]: Failed to start Load RDMA modules from /etc/rdma/modules/rdma.conf.
+Apr  8 07:05:19 scaqan01adm03 systemd-modules-load[23909]: Failed to find module 'resilient_rdmaip'
+Apr  8 07:05:19 scaqan01adm03 systemd[1]: rdma-load-modules@rdma.service: Failed with result 'exit-code'.
+Apr  8 07:05:19 scaqan01adm03 systemd[1]: Failed to start Load RDMA modules from /etc/rdma/modules/rdma.conf.",systemd-modules-load,,
+37830310,"Apr  8 04:03:28 scaqan01adm03 systemd[1]: initialize-qinq.service: Failed with result 'exit-code'.
+Apr  8 04:03:28 scaqan01adm03 systemd[1]: Failed to start Initialize Cell QinQ.",systemd,,
+37985939,"May 21 07:31:29 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:29 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78",rdmaip-link-monitor,,
+37687596,localhost systemd[6710]: selinux: avc:  netlink recvfrom: error 9,systemd/selinux,,
+37858334,"Apr 21 13:10:03 scaqaj01adm01 lvm[130883]:  pvscan[130883] PV /dev/md34p1 failed to create online file.
+Apr 21 13:10:03 scaqaj01adm01 systemd[1]: lvm2-pvscan@259:14.service: Failed with result 'exit-code'.
+Apr 21 13:10:03 scaqaj01adm01 systemd[1]: Failed to start LVM event activation on device 259:14.",lvm/systemd,,
+38150039,Jul  2 10:47:37 scaqap19v6adm01 systemd-coredump[2740]: Failed to connect to coredump service: No such file or directory,systemd-coredump,,
+37858360,"Apr 21 06:09:53 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:54 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:55 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:55 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:55 scaqaj01adm01 systemd[1]: Failed to start Monitor libvirt events.",systemd/exadata-virtmon,,
+37949052,"May 13 13:29:08 scacad02dv1401 openipmi-helper[16194]: Startup failed.
+May 13 13:29:09 scacad02dv1401 systemd[1]: ipmi.service: Failed with result 'exit-code'.
+May 13 13:29:09 scacad02dv1401 systemd[1]: Failed to start IPMI Driver.",openipmi/systemd,,
+37960777,"May 15 21:12:39 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:39 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:39 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:39 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:39 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:39 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:40 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:40 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:40 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:40 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:40 scaqah07adm03 systemd: Failed to start Exadata PortMonitor service.
+May 15 21:12:40 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:40 scaqah07adm03 systemd: ExaPortMon.service failed.",systemd/ExaPortMon,,
+37985981,"May 21 07:13:26 scacad03adm14 systemd[1]: u01.mount: Failed with result 'exit-code'.
+May 21 07:13:26 scacad03adm14 systemd[1]: Failed to mount /u01.",systemd/mount,,
+38044289,"Jun  4 12:49:47 scaqaj07adm01 systemd-modules-load[3259]: Failed to find module 'oracleedv'
+Jun  4 12:51:25 scaqaj07adm01 gssproxy[41487]: Failed to read krb5 config for service/nfs-server.
+Jun  4 12:51:25 scaqaj07adm01 systemd[1]: gssproxy.service: Failed with result 'exit-code'.
+Jun  4 12:51:25 scaqaj07adm01 systemd[1]: Failed to start GSSAPI Proxy Daemon.",systemd-modules-load/gssproxy,,

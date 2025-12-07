@@ -1,0 +1,3 @@
+incident_id,host,component,log_window,dev_feedback
+inc_1,dbnode1,systemd,"Jul 27 18:04:39 dbnode1 systemd[1]: Failed to start Exadata cellsrv service\nJul 27 18:04:40 dbnode1 systemd[1]: cellsrv.service: Failed with result 'exit-code'",None
+inc_2,dbnode2,kernel,"Jul 27 18:05:01 dbnode2 kernel: mlx5_core 0000:5e:00.0: firmware status: recoverable PCI error detected",Investigated previously; may be transient

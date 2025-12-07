@@ -1,0 +1,3 @@
+bug_id,reason,occurrences,incident_ids,hosts,components,max_confidence,min_confidence
+38403638,known-emb-match,16,20a6b92b;36981f7a;c7ef283c;68f950c5;6a030bec;0c776af5;e40da950;f73150ff;ece7054c;3f4580e3;25a7bcd9;ed260f27;77d46d6e;c7110aad;ec889353;ba095af0,scaqae12celadm04;scaqat02adm01;scaqat02adm02;scaqat02celadm01;scaqat02celadm02,systemd;systemd-modules-load,0.9776,0.8376
+37723670,known-emb-match,29,9b9dc155;7a6b9d16;252bde15;4084584e;38c8ac60;bab8f2fa;68c656ff;2b37153d;81f61cd4;45e80f9e;dd8729dc;0bd35b9a;656ca703;71e139e1;788a41ec;c97f10f0;48aae65a;aa131df1;c1fb6054;92e8c7fd;5a21d23c;34e08874;90295963;e69eb9ed;739b8057;7b133cdd;ccc9e640;fde7754f;0855523f,scaqae12adm03,kernel,0.841,0.8195

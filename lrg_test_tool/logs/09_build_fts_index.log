@@ -1,0 +1,7 @@
+Loaded 3901 profiles
+[WARN] 1 duplicate id(s) detected in input; duplicates will be SKIPPED.
+  - LRG::lrgsaexacldbsfail20
+Inserting profiles (skipping duplicates by id)...
+Inserted: 3900  Skipped (dups): 1
+Populating FTS index...
+Built FTS DB at /ade/shratyag_v8/tklocal/profiles_fts.db in 0.4s

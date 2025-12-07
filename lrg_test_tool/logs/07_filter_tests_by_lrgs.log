@@ -1,0 +1,9 @@
+Loaded 3240 tests from /ade/shratyag_v8/tklocal/tests_extracted.json
+Loaded 825 mapping entries from /ade/shratyag_v8/tklocal/test_to_lrgs.json
+
+Summary:
+  ✅ Tests retained: 822
+  ❌ Tests removed: 2418 (no LRGs)
+  ⚠️ Tests missing from extracted: 3
+
+Written to directory: /ade/shratyag_v8/tklocal

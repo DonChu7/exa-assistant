@@ -1,0 +1,83 @@
+Feedback window: 2025-11-22 → 2025-11-28 (UTC)
+
+Totals
+  - MCP calls: 262
+  - Unique feedback threads: 230
+  - Thumbs up: 24
+  - Thumbs down: 11
+
+Calls per user
+  - Dongyang Zhu (@dongyzhu): 75
+  - Budhdeo Kumar (@budkumar): 36
+  - Shreyash Chavhan (@schavhan): 32
+  - Karan Baboota (@kbaboota): 14
+  - Vishwas Awasthi (@vishawas): 11
+  - Hardik Banthia (@habanthi): 10
+  - Lan Nguyen (@lknguyen): 9
+  - Sarvesh Gangu (@sgangu): 9
+  - Dheeraj Khatri (@dekhatri): 7
+  - Suraj Agrawal (@suragraw): 5
+  - Sushil Adwe (@sadwe): 4
+  - Sai Sujitha Rednam (@sarednam): 4
+  - Michael Hwa (@mwhwa): 3
+  - Sandeep Heranjal (@saheranj): 3
+  - Krishnadev Telikicherla (@ktelikic): 2
+  - Arashpreet Singh (@arassing): 2
+  - Vengatesan Thiyagarajan (@venthiya): 1
+  - Animesh Anand (@animanan): 1
+  - Kuang Shen (@kuashen): 1
+  - Incia Anand (@inanand): 1
+
+Calls per tool
+  - view_status_of_sched: 36
+  - langgraph_agent: 32
+  - unreserve_hardware: 29
+  - get_farm_job_status: 23
+  - run_bug_test: 13
+  - runintegration_pending_tests: 13
+  - reserve_hardware: 11
+  - get_lrg_runtime_stats: 11
+  - map_lrg_to_scheduler: 8
+  - runintegration_status: 8
+  - find_dif_details: 7
+  - find_lrg_with_difs: 6
+  - lrg_test_smart_search: 5
+  - get_labels_from_series: 4
+  - search_tests: 4
+  - get_label_info: 4
+  - get_lrg_history: 3
+  - rag_query: 3
+  - find_crashes: 3
+  - runintegration_disabled_envs: 2
+  - get_lrgs_from_regress: 2
+  - move_job_to_top: 2
+  - find_dif_occurrence: 1
+  - lrg_test_rag_query: 1
+  - lrg_test_fts_query: 1
+  - add_label_for_se_analysis: 1
+  - genai4test_health: 1
+  - runintegration_idle_envs: 1
+  - get_test_details: 1
+  - get_incomplete_lrgs: 1
+  - run_func_test: 1
+
+Feedback comments
+  - 2025-11-24T09:15:56.898949+00:00 – Shreyash Chavhan (@schavhan): I think it would be good, if we can add the time as well since how long the test is running.
+  - 2025-11-24T09:29:31.850285+00:00 – Shreyash Chavhan (@schavhan): This doesn't look correct for real hw lrgs .
+  - 2025-11-25T06:07:39.464032+00:00 – Lan Nguyen (@lknguyen): we can go by the LRG name as well
+  - 2025-11-26T05:01:04.120361+00:00 – Suraj Agrawal (@suragraw): It gave list of labels instead of checking for new label in progress
+  - 2025-11-27T00:06:12.768450+00:00 – Michael Hwa (@mwhwa): This follow up query did show me the inuse entry
+  - 2025-11-28T11:29:53.396543+00:00 – Karan Baboota (@kbaboota): Wrong tool invocation
+  - 2025-11-28T11:29:58.695902+00:00 – Karan Baboota (@kbaboota): Wrong tool invocation
+
+Top repeated questions
+  - show me the status for scheduler directory scaqat16_sched ? (x5)
+  - give pending test for run integration for this txn - schavhan_monthly_se_25_2_5_251119_rc1 ? (x4)
+  - which lrgs covers oedacli migrations? (x4)
+  - status of x9_ef1_sched (x4)
+  - please write test for Bug 38453180 (x4)
+  - analyze bug 38682069 (x3)
+  - can you give me pending test for this txn run integration - schavhan_monthly_se_25_2_5_251119_rc1? (x3)
+  - Which LRG has tsagbug37140353.tsc? (x3)
+  - - what is the status of farm job : 39960626 (x3)
+  - farm job status of 39966401 (x3)

@@ -1,0 +1,90 @@
+bug_id,context_window,component,templates,description
+37960267,"May 15 19:45:59 scaqat11adm01 systemd-modules-load[1657]: Failed to find module 'rds_rdma'
+May 15 19:45:59 scaqat11adm01 systemd-modules-load[1657]: Failed to find module 'resilient_rdmaip'
+May 15 19:45:59 scaqat11adm01 systemd[1]: rdma-load-modules@rdma.service: Failed with result 'exit-code'.
+May 15 19:45:59 scaqat11adm01 systemd[1]: Failed to start Load RDMA modules from /etc/rdma/modules/rdma.conf.",systemd-modules-load,,
+37828661,"Apr  8 07:04:59 scaqan01adm03 systemd-modules-load[10091]: Failed to find module 'resilient_rdmaip'
+Apr  8 07:04:59 scaqan01adm03 systemd[1]: rdma-load-modules@rdma.service: Failed with result 'exit-code'.
+Apr  8 07:04:59 scaqan01adm03 systemd[1]: Failed to start Load RDMA modules from /etc/rdma/modules/rdma.conf.
+Apr  8 07:05:19 scaqan01adm03 systemd-modules-load[23909]: Failed to find module 'resilient_rdmaip'
+Apr  8 07:05:19 scaqan01adm03 systemd[1]: rdma-load-modules@rdma.service: Failed with result 'exit-code'.
+Apr  8 07:05:19 scaqan01adm03 systemd[1]: Failed to start Load RDMA modules from /etc/rdma/modules/rdma.conf.",systemd-modules-load,,
+37830310,"Apr  8 04:03:28 scaqan01adm03 systemd[1]: initialize-qinq.service: Failed with result 'exit-code'.
+Apr  8 04:03:28 scaqan01adm03 systemd[1]: Failed to start Initialize Cell QinQ.",systemd,,
+37985939,"May 21 07:31:29 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:29 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78
+May 21 07:31:30 scaqar06adm05 rdmaip-link-monitor[234429]: rdmaip-link-monitor: 99-rdmaip failed with code=78",rdmaip-link-monitor,,
+37687596,localhost systemd[6710]: selinux: avc:  netlink recvfrom: error 9,systemd/selinux,,
+37858334,"Apr 21 13:10:03 scaqaj01adm01 lvm[130883]:  pvscan[130883] PV /dev/md34p1 failed to create online file.
+Apr 21 13:10:03 scaqaj01adm01 systemd[1]: lvm2-pvscan@259:14.service: Failed with result 'exit-code'.
+Apr 21 13:10:03 scaqaj01adm01 systemd[1]: Failed to start LVM event activation on device 259:14.",lvm/systemd,,
+38150039,Jul  2 10:47:37 scaqap19v6adm01 systemd-coredump[2740]: Failed to connect to coredump service: No such file or directory,systemd-coredump,,
+37858360,"Apr 21 06:09:53 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:54 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:55 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:55 scaqaj01adm01 systemd[1]: exadata-virtmon.service: Failed with result 'exit-code'.
+Apr 21 06:09:55 scaqaj01adm01 systemd[1]: Failed to start Monitor libvirt events.",systemd/exadata-virtmon,,
+37949052,"May 13 13:29:08 scacad02dv1401 openipmi-helper[16194]: Startup failed.
+May 13 13:29:09 scacad02dv1401 systemd[1]: ipmi.service: Failed with result 'exit-code'.
+May 13 13:29:09 scacad02dv1401 systemd[1]: Failed to start IPMI Driver.",openipmi/systemd,,
+37960777,"May 15 21:12:39 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:39 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:39 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:39 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:39 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:39 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:40 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:40 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:40 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:40 scaqah07adm03 systemd: ExaPortMon.service failed.
+May 15 21:12:40 scaqah07adm03 systemd: Failed to start Exadata PortMonitor service.
+May 15 21:12:40 scaqah07adm03 systemd: Unit ExaPortMon.service entered failed state.
+May 15 21:12:40 scaqah07adm03 systemd: ExaPortMon.service failed.",systemd/ExaPortMon,,
+37985981,"May 21 07:13:26 scacad03adm14 systemd[1]: u01.mount: Failed with result 'exit-code'.
+May 21 07:13:26 scacad03adm14 systemd[1]: Failed to mount /u01.",systemd/mount,,
+38044289,"Jun  4 12:51:25 scaqaj07adm01 gssproxy[41487]: Failed to read krb5 config for service/nfs-server.
+Jun  4 12:51:25 scaqaj07adm01 systemd[1]: gssproxy.service: Failed with result 'exit-code'.
+Jun  4 12:51:25 scaqaj07adm01 systemd[1]: Failed to start GSSAPI Proxy Daemon.",systemd/gssproxy,,
+37737292,"Mar 20 06:04:03 scaqai04adm02 systemd[1]: Failed to process message [type=method_call sender=n/a path=/org/freedesktop/systemd1 interface=org.freedesktop.systemd1.Manager member=GetUnit signature=s]: Unit initialize_vf.service not loaded.
+Mar 20 06:04:03 scaqai04adm02 systemd: Failed to process message [type=method_call sender=n/a path=/org/freedesktop/systemd1 interface=org.freedesktop.systemd1.Manager member=GetUnit signature=s]: Unit initialize_vf.service not loaded.
+Mar 20 06:04:03 scaqai04adm02 systemd[1]: Failed to process message [type=method_call sender=n/a path=/org/freedesktop/systemd1 interface=org.freedesktop.systemd1.Manager member=GetUnit signature=s]: Unit initialize_vf.service not loaded.
+Mar 20 06:04:03 scaqai04adm02 systemd: Failed to process message [type=method_call sender=n/a path=/org/freedesktop/systemd1 interface=org.freedesktop.systemd1.Manager member=GetUnit signature=s]: Unit initialize_vf.service not loaded.
+Mar 20 06:05:04 scaqai04adm02 systemd[1]: Failed to process message [type=method_call sender=n/a path=/org/freedesktop/systemd1 interface=org.freedesktop.systemd1.Manager member=GetUnit signature=s]: Unit initialize_vf.service not loaded.",systemd,,
+37723670,"[Mon Mar 17 11:49:03 2025] mlx4_core 0000:3b:00.0: vhcr command:0x54 slave:8 failed with error:0, status -22
+[Mon Mar 17 11:49:10 2025] mlx4_core 0000:3b:00.0: mlx4_cmd_wait(779): command 0x54 failed: fw status = 0x3
+[Mon Mar 17 18:54:22 2025] mlx4_core 0000:3b:00.0: mlx4_ib: failed matching slave_id by gid (0x10e0006cd2377a)
+[Mon Mar 17 20:00:35 2025] mlx4_core 0000:3b:00.0: Received reset from slave:8",mlx4_core,,
+36497060,Apr 16 09:07:00 scaqat01adm01.us.oracle.com dnf[45696]: Failed determining last makecache time.,dnf,,
+38069236,"Jun 11 19:45:16 scaz33adm01 systemd-modules-load[8310]: Failed to insert 'opbmc': No such device
+Jun 11 19:45:16 scaz33adm01 systemd[1]: systemd-modules-load.service: Failed with result 'exit-code'.
+Jun 11 19:45:16 scaz33adm01 systemd[1]: Failed to start Load Kernel Modules.",systemd-modules-load,,
+38218909,Jul 20 07:22:57 scaqai10adm05 systemd-udevd[32533]: Process '/bin/sh -c 'chmod 775 /dev/asm'' failed with exit code 1.,systemd-udevd,,
+38218995,"Jul 20 05:10:08 scaqai10celadm09 systemd[1]: sys-devices-pci0000:ae-0000:ae:00.0-0000:af:00.0-infiniband-mlx5_0.device: Failed to enqueue SYSTEMD_WANTS= job, ignoring: Unit initialize_vf.service not found.
+Jul 20 05:22:10 scaqai10celadm09 systemd[1]: sys-devices-pci0000:ae-0000:ae:00.0-0000:af:00.0-infiniband-mlx5_0.device: Failed to enqueue SYSTEMD_WANTS= job, ignoring: Unit initialize_vf.service not found.",systemd/infiniband,,
+37983941,"May 21 06:49:25 scaqah07celadm01 systemd[1]: sendmail.service: Failed with result 'timeout'.
+May 21 06:49:25 scaqah07celadm01 systemd[1]: Failed to start Sendmail Mail Transport Agent.
+May 21 06:49:25 scaqah07celadm01 systemd[1]: Dependency failed for Sendmail Mail Transport Client.
+May 21 06:49:25 scaqah07celadm01 systemd[1]: sm-client.service: Job sm-client.service/start failed with result 'dependency'.",systemd/sendmail,,
+37780105,"Mar 28 23:32:03 localhost systemd[1]: Failed to start RDMA Node Description Daemon.
+Mar 28 23:32:03 localhost systemd[2280]: rdma-ndd.service: Failed to execute command: No such file or directory
+Mar 28 23:32:03 localhost systemd[2280]: rdma-ndd.service: Failed at step EXEC spawning /usr/sbin/rdma-ndd: No such file or directory
+Mar 28 23:32:03 localhost systemd[1]: rdma-ndd.service: Failed with result 'exit-code'.",systemd/rdma-ndd,,
+38044501,"Jun  4 12:13:17 scaqat02adm01vm05 systemd[1]: mcelog.service: Failed with result 'start-limit-hit'.
+Jun  4 12:13:17 scaqat02adm01vm05 systemd[1]: Failed to start Machine Check Exception Logging Daemon.
+Jun  4 13:49:37 scaqat02adm02vm03 systemd: Unit mcelog.service entered failed state.
+Jun  4 13:49:37 scaqat02adm02vm03 systemd: mcelog.service failed.",systemd/mcelog,,
+38403638,"Sep  7 05:41:40 scaqat02adm01 systemd-modules-load[5568]: Failed to find module 'rds_rdma'
+Sep  7 05:41:40 scaqat02adm01 systemd[1]: rdma-load-modules@rdma.service: Failed with result 'exit-code'.
+Sep  7 05:41:40 scaqat02adm01 systemd[1]: Failed to start Load RDMA modules from /etc/rdma/modules/rdma.conf.",systemd-modules-load,,
+38416616,"Sep  4 04:04:07 scaqat02celadm01 nm-dispatcher[96067]: - Setting congestion control algo/mask failed
+Sep  4 04:04:14 scaqat02celadm01 nm-dispatcher[102163]: - Setting congestion control algo/mask failed
+Sep  4 04:04:24 scaqat02celadm01 nm-dispatcher[112469]: - Setting congestion control algo/mask failed
+Sep  4 04:04:33 scaqat02celadm01 nm-dispatcher[123526]: - Setting congestion control algo/mask failed",nm-dispatcher,,
+38466828,"Sep 15 07:01:46 scaqae12dv0401m leapp3[50685]: 2025-09-15 07:01:46.616 ERROR    PID: 50685 leapp.repository.system_upgrade_common: Process inspecting actor in actors/persistentnetnames failed with 1
+Sep 15 07:01:46 scaqae12dv0401m leapp3[50685]: Error: Inspection of actor in actors/persistentnetnames failed
+Sep 15 07:01:46 scaqae12dv0401m systemd[1]: leapp_resume.service: Failed with result 'exit-code'.
+Sep 15 07:01:46 scaqae12dv0401m systemd[1]: Failed to start Temporary Leapp service which resumes execution after reboot.",leapp3/systemd,,

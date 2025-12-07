@@ -1,0 +1,58 @@
+pattern_id,context_window,rule_regex,component,notes
+IGN-38069697,"Jun 11 11:22:47 scaqat11adm02 vhostmd[91364]: Failed to collect vm metrics during update
+Jun 11 11:22:47 scaqat11adm02 vhostmd[91364]: Failed to collect vm metrics during update
+Jun 11 11:22:47 scaqat11adm02 vhostmd[91364]: Failed to collect vm metrics during update
+Jun 11 11:22:47 scaqat11adm02 vhostmd[91364]: Failed to collect vm metrics during update
+Jun 11 11:22:47 scaqat11adm02 vhostmd[91364]: Failed to collect vm metrics during update
+Jun 11 11:22:47 scaqat11adm02 vhostmd[91364]: Failed to collect vm metrics during update
+Jun 11 11:22:48 scaqat11adm02 vhostmd[91364]: Failed to collect vm metrics during update",vhostmd.*Failed to collect vm metrics during update,vhostmd,"Transient vhostmd VM metrics collection failure (non-fatal, often recovers)."
+IGN-38124339,"Jun 25 07:40:39 scaqaw14adm01 kernel: Failed to find VA for GUID: 7626C6AE-F973-429C-A91C-107D7BE298B0, PA: 0x0
+Jun 25 07:40:39 scaqaw14adm01 kernel: Failed to find VA for GUID: 0639BD1C-3E33-4055-BAE7-36CCEBA8376E, PA: 0x0
+Jun 25 07:40:39 scaqaw14adm01 kernel: Failed to find VA for GUID: E7180659-A65D-451D-92CD-2B56F12BEBA6, PA: 0x0
+Jun 25 07:40:39 scaqaw14adm01 kernel: Failed to find VA for GUID: 00C77891-7FCB-4D01-94E1-72F8E4EE1AF7, PA: 0x0
+Jun 25 07:40:39 scaqaw14adm01 kernel: Failed to find VA for GUID: D1C6B8F2-F9AC-4BF0-855E-DBD582CE4B20, PA: 0x0
+Jun 25 07:40:39 scaqaw14adm01 kernel: Failed to find VA for GUID: 69AA0A9C-E3FC-4B0D-929E-AA1BDE5D9A9B, PA: 0x0
+Jun 25 07:40:39 scaqaw14adm01 kernel: Failed to find VA for GUID: EE41B397-25D4-452C-AD54-48C6E3480B94, PA: 0x0",kernel: Failed to find VA for GUID: .* PA: 0x0,kernel,Repeated GUID VA lookup failures (observed benign in this context; mark ignorable).
+IGN-38124362,"Jun 25 08:09:19 scaqaw14celadm01 Keepalived_vrrp[455008]: VRRP_Script(chk_nginx) failed (exited with status 1)
+Jun 25 08:10:29 scaqaw14celadm01 Keepalived_vrrp[494526]: VRRP_Script(chk_nginx) failed (exited with status 1)",Keepalived_vrrp.*VRRP_Script\(chk_nginx\) failed,Keepalived_vrrp,Keepalived script check for nginx returned status 1; noisy check failures.
+IGN-37780612,"Mar 28 23:44:27 scaqan01dv0401 ohasd[277032]: CRS-4000: Command Stop failed, or completed with errors.
+Mar 28 23:44:27 scaqan01dv0401 init.ohasd[277234]: CRS-4000: Command Stop failed, or completed with errors.","(ohasd|init\.ohasd).*CRS-4000.*",ohasd,OHASD stop sequence noise; ignorable.
+IGN-37735911,"Mar 20 03:41:34 nshqah04adm06 systemd[362366]: oracle-ohasd.service: Failed to execute command: No such file or directory
+Mar 20 03:41:34 nshqah04adm06 systemd[362366]: oracle-ohasd.service: Failed at step EXEC spawning /etc/init.d/init.ohasd: No such file or directory
+Mar 20 03:41:34 nshqah04adm06 systemd[1]: oracle-ohasd.service: Failed with result 'exit-code'.",oracle-ohasd\.service.*No such file or directory,systemd/oracle-ohasd,"Missing ohasd init script — harmless during certain states, ignore."
+IGN-37741019,"Mar 21 06:55:17 scas11adm02 iscsid: iscsid: connect to 192.168.13.51:3260 failed (No route to host)
+Mar 21 06:55:17 scas11adm02 iscsid: iscsid: deleting a scheduled/waiting thread!",iscsid.*connect.*failed.*(No route to host),iscsid,iSCSI daemon transient connectivity issues; ignorable.
+IGN-37741438,"Mar 21 10:12:58 scaqal06adm02vm01 iscsid[15838]: iscsid: connect to 192.168.5.41:3260 failed (Connection refused)
+Mar 21 10:12:58 scaqal06adm02vm01 iscsid[15838]: iscsid: deleting a scheduled/waiting thread!",iscsid.*connect.*failed.*(Connection refused),iscsid,iSCSI connect refused; benign retryable event.
+IGN-37743901,"Mar 23 12:00:44 scaqai08adm06 systemd: Failed to load configuration for run.mount: No such file or directory
+Mar 23 12:00:44 scaqai08adm06 systemd: Failed to load configuration for run-user.mount: No such file or directory",systemd.*Failed to load configuration for .*mount.*No such file or directory,systemd/mount,Mount configuration not found; ignorable in transient conditions.
+IGN-37748526,"Mar 24 03:07:46 scaqap07celadm08 kernel: RDS/IB: connection <::ffff:172.16.2.131,::ffff:172.16.2.144,5> dropped due to 'yield to incoming request'(up for 3001 ms)
+Mar 24 03:07:46 scaqap07celadm08 kernel: RDS/IB: connection <::ffff:172.16.2.131,::ffff:172.16.2.143,0> dropped due to 'peer ADDR_CHANGE event'(up for 4594 ms)
+Jul 27 20:54:33 scaqat02celadm01 kernel: RDS/IB: re-connect <::ffff:192.197.252.53,::ffff:192.197.252.83,0> stalling for more than 1 min...(drops=14 err=0)",RDS/IB: (connection|re-connect).*,kernel RDS/IB,RDS/IB transient reconnects and drops; common and ignorable noise.
+IGN-38318214,"Jul 14 15:36:16 scaqan06adm05vm01.us.oracle.com kdumpctl[12718]: kdump: Failed to mount LABEL=KDUMP for kdump preflight check.
+Jul 14 15:36:16 scaqan06adm05vm01.us.oracle.com kdumpctl[12526]: kdump: mkdumprd: failed to make kdump initrd
+Jul 14 15:36:16 scaqan06adm05vm01.us.oracle.com kdumpctl[12526]: kdump: Starting kdump: [FAILED]
+Jul 14 15:36:16 scaqan06adm05vm01.us.oracle.com systemd[1]: kdump.service: Main process exited, code=exited, status=1/FAILURE
+Jul 14 15:36:16 scaqan06adm05vm01.us.oracle.com systemd[1]: kdump.service: Failed with result 'exit-code'.
+Jul 14 15:36:16 scaqan06adm05vm01.us.oracle.com systemd[1]: Failed to start Crash recovery kernel arming.",(kdumpctl|kdump\.service).*Failed|Crash recovery kernel arming,kdump/systemd,kdump preflight/initrd failures; often benign in non-configured environments.
+IGN-38313730,"Aug 10 21:50:47 scaqaw08adm07.us.oracle.com systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Aug 10 21:50:47 scaqaw08adm07.us.oracle.com systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Aug 10 21:50:47 scaqaw08adm07.us.oracle.com systemd[1]: Failed to start dnf makecache.",dnf-makecache\.service: (Main process exited|Failed with result),systemd/dnf,DNF makecache failures are usually harmless; cache refresh will retry.
+IGN-38021990,"May 16 05:12:28 scaqap10adm06.us.oracle.com systemd[1]: u01.mount: Mount process exited, code=exited status=32
+May 16 05:12:28 scaqap10adm06.us.oracle.com systemd[1]: u01.mount: Failed with result 'exit-code'.
+May 16 05:12:28 scaqap10adm06.us.oracle.com systemd[1]: Failed to mount /u01.",u01\.mount: (Mount process exited|Failed with result)|Failed to mount /u01,systemd/mount,Occasional mount failures for /u01; investigate if persistent but mark ignorable for noise.
+IGN-38134246,"Apr 30 16:59:17 scas08adm03.us.oracle.com systemd[1]: dbserverd.service: Main process exited, code=exited, status=1/FAILURE
+Apr 30 16:59:17 scas08adm03.us.oracle.com systemd[1]: dbserverd.service: Failed with result 'exit-code'.
+Apr 30 16:59:17 scas08adm03.us.oracle.com systemd[1]: Failed to start dbserverd.",dbserverd\.service: (Main process exited|Failed with result),systemd/dbserverd,dbserverd service exit; frequently benign during maintenance.
+IGN-37960689,"May 15 18:44:06 scaqat10adm01 fapolicyd[12469]: Failed to enqueue event for PID 205962: queue is full, please consider tuning q_size if issue happens often
+May 15 18:44:06 scaqat10adm01 fapolicyd[12469]: Failed to enqueue event for PID 318227: queue is full, please consider tuning q_size if issue happens often
+May 15 18:44:06 scaqat10adm01 fapolicyd[12469]: Failed to enqueue event for PID 318227: queue is full, please consider tuning q_size if issue happens often
+May 15 18:44:06 scaqat10adm01 fapolicyd[12469]: Failed to enqueue event for PID 206161: queue is full, please consider tuning q_size if issue happens often",fapolicyd.*Failed to enqueue event.*queue is full,fapolicyd,fapolicyd queue backpressure; benign unless sustained.
+IGN-38021690,Jun  1 08:13:36 scaqah07adm03vm01 mcelog[107051]: mcelog: failed to prefill DIMM database from DMI data,mcelog: failed to prefill DIMM database,mcelog,Non-critical mcelog DIMM DB prefill message; ignorable.
+IGN-37960501,"May 15 19:56:10 scaqaw03adm03 kernel: mlx5_core 0000:61:00.0: mlx5_query_mcia:399:(pid 148206): query_mcia_reg failed: status: 0x3
+May 15 19:56:10 scaqaw03adm03 kernel: mlx5_core 0000:61:00.0 eth29: mlx5e_get_module_eeprom_by_page: mlx5_query_module_eeprom_by_page failed:0xfffffffb
+May 15 19:56:21 scaqaw03adm03 kernel: mlx5_core 0000:61:00.1: mlx5_query_mcia:399:(pid 151208): query_mcia_reg failed: status: 0x3
+May 15 19:56:21 scaqaw03adm03 kernel: mlx5_core 0000:61:00.1 eth30: mlx5e_get_module_eeprom_by_page: mlx5_query_module_eeprom_by_page failed:0xfffffffb",mlx5_core .* (query_mcia_reg failed|mlx5_query_module_eeprom_by_page failed),kernel/mlx5_core,mlx5_core optics/MCIA query failures; typically benign.
+IGN-37960374,"May 15 19:52:16 scaqat11adm01vm01 systemd[54973]: Failed to stat() device node file /dev/asm/acfsvol01-76: Permission denied
+May 15 19:55:33 scaqat11adm01vm01 systemd[62523]: Failed to stat() device node file /dev/asm/acfsvol01-76: Permission denied
+May 15 19:57:46 scaqat11adm01vm01 systemd[62523]: Failed to stat() device node file /dev/asm/acfsvol01-76: Permission denied",Failed to stat\(\) device node file /dev/asm/.*: Permission denied,systemd/asm,ASM device stat permission denials; often harmless depending on timing.

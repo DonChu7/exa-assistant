@@ -1,0 +1,34 @@
+Loaded /ade/shratyag_v8/tklocal/tests_extracted.json (3240 rows) in 0.03s
+Loaded /ade/shratyag_v8/tklocal/lrg_map_with_suites.json (593 rows) in 0.00s
+Limits: tests=3240, lrgs=593
+[tests] processed 200/3240 in 0.0s (profiles so far: 200)
+[tests] processed 400/3240 in 0.0s (profiles so far: 407)
+[tests] processed 600/3240 in 0.0s (profiles so far: 611)
+[tests] processed 800/3240 in 0.0s (profiles so far: 816)
+[tests] processed 1000/3240 in 0.0s (profiles so far: 1021)
+[tests] processed 1200/3240 in 0.0s (profiles so far: 1225)
+[tests] processed 1400/3240 in 0.0s (profiles so far: 1425)
+[tests] processed 1600/3240 in 0.0s (profiles so far: 1634)
+[tests] processed 1800/3240 in 0.0s (profiles so far: 1849)
+[tests] processed 2000/3240 in 0.0s (profiles so far: 2052)
+[tests] processed 2200/3240 in 0.1s (profiles so far: 2257)
+[tests] processed 2400/3240 in 0.1s (profiles so far: 2459)
+[tests] processed 2600/3240 in 0.1s (profiles so far: 2659)
+[tests] processed 2800/3240 in 0.1s (profiles so far: 2859)
+[tests] processed 3000/3240 in 0.1s (profiles so far: 3067)
+[tests] processed 3200/3240 in 0.1s (profiles so far: 3268)
+[lrgs]  processed 50/593 in 0.0s (profiles so far: 3358)
+[lrgs]  processed 100/593 in 0.0s (profiles so far: 3408)
+[lrgs]  processed 150/593 in 0.0s (profiles so far: 3458)
+[lrgs]  processed 200/593 in 0.0s (profiles so far: 3508)
+[lrgs]  processed 250/593 in 0.0s (profiles so far: 3558)
+[lrgs]  processed 300/593 in 0.0s (profiles so far: 3608)
+[lrgs]  processed 350/593 in 0.0s (profiles so far: 3658)
+[lrgs]  processed 400/593 in 0.0s (profiles so far: 3708)
+[lrgs]  processed 450/593 in 0.0s (profiles so far: 3758)
+[lrgs]  processed 500/593 in 0.0s (profiles so far: 3808)
+[lrgs]  processed 550/593 in 0.0s (profiles so far: 3858)
+Built 3901 profiles (skipped tests=0, lrgs=0) in 0.1s
+Wrote /ade/shratyag_v8/tklocal/profiles.json in 0.0s (total 0.1s)
+Verification report -> /ade/shratyag_v8/tklocal/profiles_report.json
+Verification: profiles=3901, by_type={'TEST': 3308, 'LRG': 593}, errors=1

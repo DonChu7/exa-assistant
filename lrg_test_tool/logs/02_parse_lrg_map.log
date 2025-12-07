@@ -1,0 +1,58 @@
+
+--- LRG ---
+{
+  "lrgname": "lrgsaexacldsrg",
+  "tests": [],
+  "flags": {},
+  "Platform": "Exascale",
+  "runtime": null
+}
+
+--- LRG ---
+{
+  "lrgname": "lrgsaexacldvesdropadd1",
+  "tests": [
+    "tsagadddropcell.tsc"
+  ],
+  "flags": {},
+  "Platform": "Exascale",
+  "runtime": null
+}
+
+--- LRG ---
+{
+  "lrgname": "lrgsaexacldvesdropadd2",
+  "tests": [
+    "tsagadddropcellactv.tsc"
+  ],
+  "flags": {
+    "egsopidoffset": "-10000"
+  },
+  "Platform": "Exascale",
+  "runtime": null
+}
+
+--- LRG ---
+{
+  "lrgname": "lrgsaexacldperf1",
+  "tests": [
+    "tsagexaperformance.tsc"
+  ],
+  "flags": {},
+  "Platform": "Exascale",
+  "runtime": null
+}
+
+--- LRG ---
+{
+  "lrgname": "lrgdbcsaexcpdbsnap_si",
+  "tests": [
+    "tsagexcpdbsi_snap.tsc"
+  ],
+  "flags": {},
+  "Platform": "Exascale",
+  "runtime": null
+}
+Parsed sections: 593
+Wrote: /ade/shratyag_v8/tklocal/lrg_map.json
+Unmatched 'if' headers (if any) → /ade/shratyag_v8/tklocal/logs/unmatched_if.log

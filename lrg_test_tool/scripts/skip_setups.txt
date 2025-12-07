@@ -1,0 +1,2 @@
+tsagmacro
+T_WORK:^tst_tscname^tsagsrcgenout.tsc

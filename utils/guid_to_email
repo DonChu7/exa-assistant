@@ -1,0 +1,10 @@
+#!/ade_autofs/gd221_3rdparty/PYTHON_3.9.5_LINUX.X64.rdd/LATEST/python/bin/python
+import sys
+import re
+
+sys.path.insert(1, "/usr/local/packages/dbtest/GenericTools/")
+
+import ora_user
+
+
+print(ora_user.user_info(sys.argv[1])["EMAIL_ID"].upper())

@@ -1,0 +1,4094 @@
+{
+    "lrgc16sacc2qm": [
+        "tsagcc2qm.tsc"
+    ],
+    "lrgc16saintshort": [
+        "tsagflfail.tsc",
+        "tsagintshort.tsc",
+        "tsagintsuit.tsc"
+    ],
+    "lrgc16sarslv4": [
+        "tsagflwrkld.tsc",
+        "tsagrslvini.tsc"
+    ],
+    "lrgc26dbcsasparse18": [
+        "tsagdblsparse.tsc"
+    ],
+    "lrgc26saactd02_sgd": [
+        "tsagactdsk11.tsc",
+        "tsagactdsk3.tsc",
+        "tsagactdskchk2.tsc",
+        "tsagactdskchk3.tsc"
+    ],
+    "lrgc26sacefl_sgd": [
+        "tsagceflsuit.tsc",
+        "tsagcelflhr.tsc",
+        "tsagcelflof.tsc",
+        "tsagcelflscel.tsc"
+    ],
+    "lrgc26sascrub_sgd": [
+        "tsagdskscrub.tsc",
+        "tsagdskscrub02.tsc"
+    ],
+    "lrgc26sasdd_sgd": [
+        "tsagsdd.tsc"
+    ],
+    "lrgc26sasnap": [
+        "tsagbug18545180.tsc"
+    ],
+    "lrgc26sauton_sgd": [
+        "tsagautona.tsc",
+        "tsagautonb.tsc",
+        "tsagautonc.tsc",
+        "tsagautond.tsc",
+        "tsagautone.tsc",
+        "tsagautonf.tsc",
+        "tsagautong.tsc",
+        "tsagautonh.tsc"
+    ],
+    "lrgc9sacfc": [
+        "tsagfcstatcommon.tsc"
+    ],
+    "lrgc9sacmainr12201r11204_bscn5": [
+        "tsagfips.tsc",
+        "tsagmdbbufevic.tsc",
+        "tsagmdbcc.tsc",
+        "tsagmdbcln.tsc",
+        "tsagmdbiorm.tsc",
+        "tsagmdbiormqmini.tsc",
+        "tsagmdbqm.tsc",
+        "tsagmdbshort.tsc",
+        "tsagmdbsipersist.tsc",
+        "tsagmdbsuite.tsc",
+        "tsagmemstats.tsc"
+    ],
+    "lrgc9sascbug17": [
+        "tsagbug_13070696.tsc"
+    ],
+    "lrgc9sasec": [
+        "tsagrmansql.tsc",
+        "tsagsec.tsc",
+        "tsagsec1.tsc",
+        "tsagsec2.tsc",
+        "tsagsecasm.tsc",
+        "tsagsecdb.tsc",
+        "tsagsecini.tsc"
+    ],
+    "lrgcmainc1r23000samcdbfail1_excld": [
+        "tsagexcmcrebal.tsc",
+        "tsagexcmcrebal_fail1.tsc"
+    ],
+    "lrgcmainc1r23000samcshort": [
+        "tsagmcshort.tsc"
+    ],
+    "lrgcmaincmainrmainsamcdbfail2_excld": [
+        "tsaginimcell.tsc",
+        "tsagmcellinst.tsc",
+        "tsagmcellswtview.tsc",
+        "tsagmultivexacldsuite.tsc"
+    ],
+    "lrgcmainr12102r11204_upg": [
+        "tsagmdbupgshort.tsc",
+        "tsagniniupg.tsc",
+        "tsagpostdbupg.tsc",
+        "tsagpredbupg.tsc"
+    ],
+    "lrgcmainr12201r11204": [
+        "tsagfetchconfig.tsc",
+        "tsaginit.tsc",
+        "tsagmacro.tsc",
+        "tsagnini.tsc",
+        "tsagnini_startcell.tsc",
+        "tsagport.tsc",
+        "tsagrsport.tsc",
+        "tsagsipersist.tsc",
+        "tsagstatcollection.tsc",
+        "tsagtrcevent.tsc"
+    ],
+    "lrgcmainr12201sacc2rholtp": [
+        "tsagoclrh.tsc",
+        "tsagoclrh_corrupt.tsc"
+    ],
+    "lrgcmainr12201sacfc7": [
+        "tsagcfc7.tsc",
+        "tsagcfc7complv.tsc"
+    ],
+    "lrgcmainr12201saimcfc1kp_23": [
+        "tsagcfc1_23.tsc"
+    ],
+    "lrgcmainr12201saimcfc4": [
+        "tsagcfc4.tsc"
+    ],
+    "lrgcmainr12201saimcfc8": [
+        "tsagcfc8.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse10": [
+        "tsagsparsedg_resize.tsc",
+        "tsagsparseoltp.tsc",
+        "tsagsparserange_scan.tsc",
+        "tsagsparsestat.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse12": [
+        "tsagsparsereplacegd.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse13": [
+        "tsagsparsedropgd.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse14": [
+        "tsagsparsegdcheck.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse15": [
+        "tsagsparsegdreplace.tsc",
+        "tsagsparsemap2.tsc",
+        "tsagsparsemetric3.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse2": [
+        "tsagsparse_chainrow.tsc",
+        "tsagsparse_ehcc.tsc",
+        "tsagsparse_si.tsc",
+        "tsagsparsemetric.tsc",
+        "tsagsparseorion.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse21": [
+        "tsagsparseautoflash.tsc",
+        "tsagsparsecellsrvstat.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse22": [
+        "tsagsparseautoflash2.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse3": [
+        "tsagsparse1_loop.tsc",
+        "tsagsparseplug_loop.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse4": [
+        "tsagpermsparsedg.tsc",
+        "tsagsparsebase.tsc",
+        "tsagsparsemetric2.tsc",
+        "tsagsparseperm.tsc",
+        "tsagsparserename.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse5": [
+        "tsagsnapshot.tsc",
+        "tsagsparse_stats.tsc",
+        "tsagsparsemap.tsc",
+        "tsagsparsespace.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse8": [
+        "tsagrmansparse_file.tsc",
+        "tsagrmansparse_table.tsc",
+        "tsagsparse_m_cdb.tsc",
+        "tsagsparsescan.tsc"
+    ],
+    "lrgcmainr19000dbcsasparse9": [
+        "tsagsparserslvr.tsc"
+    ],
+    "lrgcmainr19000saa1cccfc2sim": [
+        "tsagpqlv.tsc"
+    ],
+    "lrgcmainr19000sacfc2": [
+        "tsagcfc1fork.tsc"
+    ],
+    "lrgcmainr19000saexcvol9o25": [
+        "tsagexc_cosscv.tsc",
+        "tsagexc_cosslv.tsc"
+    ],
+    "lrgdbcexcmixedfail": [
+        "tsagexc4thcellfail.tsc",
+        "tsagexcadd_cell.tsc"
+    ],
+    "lrgdbcexcmixedfail1": [
+        "tsagexc4thcellfail1.tsc"
+    ],
+    "lrgdbconcmainr23000r19000_excld": [
+        "tsagexaioswitchctx.tsc"
+    ],
+    "lrgdbconcmainrmainr23000sacc2enc": [
+        "tsagcc2ini.tsc"
+    ],
+    "lrgdbconsa11p3_excld": [
+        "tsagawrrpt.tsc"
+    ],
+    "lrgdbconsa9autol": [
+        "tsagwrdg.tsc"
+    ],
+    "lrgdbconsa9auton": [
+        "tsagautonj.tsc"
+    ],
+    "lrgdbconsa9cellofcp1": [
+        "tsagcellofcp1.tsc"
+    ],
+    "lrgdbconsa9cellreboot": [
+        "tsagchkdbasm.tsc"
+    ],
+    "lrgdbconsa9heap": [
+        "tsagheap1.tsc",
+        "tsagheap1_wkld.tsc"
+    ],
+    "lrgdbconsa9iofe": [
+        "tsagiof1.tsc",
+        "tsagiof2.tsc",
+        "tsagiof3.tsc",
+        "tsagiof9.tsc",
+        "tsagiofensuit.tsc"
+    ],
+    "lrgdbconsa9iorm": [
+        "tsagiocalib.tsc"
+    ],
+    "lrgdbconsa9objrbr": [
+        "tsagobjrbr.tsc",
+        "tsagobjrbr2.tsc"
+    ],
+    "lrgdbconsa9sdd": [
+        "tsagnsplit.tsc",
+        "tsagsddini.tsc",
+        "tsagsddmct.tsc",
+        "tsagsddmt.tsc",
+        "tsagsddpt.tsc",
+        "tsagsddrac.tsc"
+    ],
+    "lrgdbconsaa1accc2": [
+        "tsagccini.tsc"
+    ],
+    "lrgdbconsaa1ai2cc2": [
+        "tsagchkccstatsfetch.tsc",
+        "tsagchkccstatsfromfcdump.tsc"
+    ],
+    "lrgdbconsaa1cccfc3": [
+        "tsagcccelltest.tsc",
+        "tsagcccelltest2.tsc"
+    ],
+    "lrgdbconsaa1cccfc3enc": [
+        "tsagbug35960426.tsc"
+    ],
+    "lrgdbconsaa1cccfc3uncmpp2": [
+        "tsagifc.tsc",
+        "tsagrelinkcellsrv.tsc",
+        "tsagtktgifcoss.tsc"
+    ],
+    "lrgdbconsaactd01": [
+        "tsagactdsk1.tsc",
+        "tsagactdsk2.tsc"
+    ],
+    "lrgdbconsaactd01_excld": [
+        "tsagexcactdskdb.tsc"
+    ],
+    "lrgdbconsaactd02_excld": [
+        "tsagexcactdsk11.tsc",
+        "tsagexcactdsk3.tsc"
+    ],
+    "lrgdbconsaactd03": [
+        "tsagactdsk4.tsc"
+    ],
+    "lrgdbconsaactd03_excld": [
+        "tsagexcactdsk4.tsc"
+    ],
+    "lrgdbconsaactd04": [
+        "tsagactdsk5.tsc",
+        "tsagactdsk6.tsc"
+    ],
+    "lrgdbconsaactd04_excld": [
+        "tsagexcactdsk5.tsc",
+        "tsagexcactdsk_fd_gd.tsc"
+    ],
+    "lrgdbconsaactd05": [
+        "tsagactdsk7.tsc",
+        "tsagactdsk7a.tsc"
+    ],
+    "lrgdbconsaactd06": [
+        "tsagactdsk8.tsc",
+        "tsagactdsk9.tsc"
+    ],
+    "lrgdbconsaactd07": [
+        "tsagactdsk10.tsc"
+    ],
+    "lrgdbconsaactd07_excld": [
+        "tsagexcactdsk10.tsc"
+    ],
+    "lrgdbconsaactd08": [
+        "tsagactdsk12.tsc"
+    ],
+    "lrgdbconsaactd08_excld": [
+        "tsagexcactdsk12.tsc"
+    ],
+    "lrgdbconsaactd09": [
+        "tsagactdsk14.tsc",
+        "tsagactdsk17.tsc",
+        "tsagactdskchk.tsc",
+        "tsagactdsuit.tsc"
+    ],
+    "lrgdbconsaactd09_excld": [
+        "tsagexcactdsk14.tsc",
+        "tsagexcactdsk17.tsc"
+    ],
+    "lrgdbconsaactd10": [
+        "tsagactdsk15.tsc",
+        "tsagactdsk16.tsc"
+    ],
+    "lrgdbconsaactd11": [
+        "tsagbug14803349_1.tsc",
+        "tsagbug14803349_2.tsc"
+    ],
+    "lrgdbconsaactd12_excld": [
+        "tsagexcactdsk13.tsc"
+    ],
+    "lrgdbconsaactd13_excld": [
+        "tsagexcactdsk_loop.tsc"
+    ],
+    "lrgdbconsaadg": [
+        "tsagbug14097127.tsc"
+    ],
+    "lrgdbconsaadg1": [
+        "tsagsetupadg.tsc"
+    ],
+    "lrgdbconsaadv1": [
+        "tsagarcomps.tsc"
+    ],
+    "lrgdbconsaadv_excld": [
+        "tsagmemleak_dumpmem.tsc"
+    ],
+    "lrgdbconsabdscli": [
+        "tsaghdcellini.tsc",
+        "tsagoffloadcli.tsc"
+    ],
+    "lrgdbconsabsctest": [
+        "tsagbscsitest.tsc"
+    ],
+    "lrgdbconsac2c_2cell": [
+        "tsagc2c_2cell.tsc",
+        "tsagcellofcp2.tsc",
+        "tsagcellofcp6.tsc"
+    ],
+    "lrgdbconsac2c_2cfp": [
+        "tsagcellofcp5.tsc"
+    ],
+    "lrgdbconsac2c_3cell2w": [
+        "tsagc2c_3cell2.tsc"
+    ],
+    "lrgdbconsac2c_3cell_part2": [
+        "tsagcellofcp7.tsc"
+    ],
+    "lrgdbconsac2c_3cfpw": [
+        "tsagc2c_3cell.tsc"
+    ],
+    "lrgdbconsac2cqm": [
+        "tsagc2chtwqm.tsc",
+        "tsagc2cmanualqm.tsc",
+        "tsagc2crebalqm.tsc"
+    ],
+    "lrgdbconsacachscanb": [
+        "tsagobjcachini.tsc",
+        "tsagobjcachsql.tsc"
+    ],
+    "lrgdbconsacachscanw": [
+        "tsagfcunpinonerr.tsc"
+    ],
+    "lrgdbconsacap_excld": [
+        "tsagslowspaction.tsc"
+    ],
+    "lrgdbconsacc2caplite_excld": [
+        "tsagcc2lite.tsc",
+        "tsagcc2liteini.tsc"
+    ],
+    "lrgdbconsacc2chksum": [
+        "tsagcc2chksum.tsc"
+    ],
+    "lrgdbconsacc2coldec": [
+        "tsagcc2coldec.tsc"
+    ],
+    "lrgdbconsacc2dlenc": [
+        "tsagcc2dl.tsc"
+    ],
+    "lrgdbconsacc2qm": [
+        "tsagbug35002515.tsc"
+    ],
+    "lrgdbconsacc2rh": [
+        "tsagbug30924915.tsc"
+    ],
+    "lrgdbconsacc2rh_excld": [
+        "tsagbug31442122.tsc"
+    ],
+    "lrgdbconsacc2uncallenc": [
+        "tsagcc2allencini.tsc",
+        "tsagcc2qenc.tsc"
+    ],
+    "lrgdbconsacc2uncpop": [
+        "tsagccpopulation.tsc",
+        "tsagcctoggle.tsc",
+        "tsagcctoggle_wkld.tsc"
+    ],
+    "lrgdbconsacc2uncrewriteenc_excld": [
+        "tsaginitcc2si.tsc"
+    ],
+    "lrgdbconsacc4k": [
+        "tsag4kcolumn.tsc"
+    ],
+    "lrgdbconsacc4k_excld": [
+        "tsagexcexpimp.tsc"
+    ],
+    "lrgdbconsacdmdata": [
+        "tsagcdmderr.tsc",
+        "tsagchkmeta.tsc"
+    ],
+    "lrgdbconsacdmdata2": [
+        "tsagimageinfowpr.tsc",
+        "tsagmetdata.tsc",
+        "tsagrealhwimageinfo.tsc"
+    ],
+    "lrgdbconsacdmdata2_excld": [
+        "tsagmetdata2.tsc"
+    ],
+    "lrgdbconsacdmdata_excld": [
+        "tsagmddump.tsc"
+    ],
+    "lrgdbconsaceflm": [
+        "tsagcelfl.tsc"
+    ],
+    "lrgdbconsacellman4": [
+        "tsagdbalert.tsc",
+        "tsagdblive.tsc",
+        "tsagdbsuppress.tsc"
+    ],
+    "lrgdbconsacellman5": [
+        "tsagcolumnarcachexrcc.tsc"
+    ],
+    "lrgdbconsacellofcp2": [
+        "tsagcellofcp3.tsc",
+        "tsagcellofcp4.tsc"
+    ],
+    "lrgdbconsacelltst": [
+        "tsagcelltest.tsc"
+    ],
+    "lrgdbconsacfc2": [
+        "tsagcfcchk.tsc",
+        "tsagcfcini.tsc",
+        "tsagcfcsuit.tsc"
+    ],
+    "lrgdbconsacfc3dropcd": [
+        "tsagcfc3drop.tsc",
+        "tsagcfc3dropcd.tsc"
+    ],
+    "lrgdbconsacfc3dropfc": [
+        "tsagcfc3dropfc.tsc"
+    ],
+    "lrgdbconsacfc3dropfc2": [
+        "tsagcfc3dropfc2.tsc"
+    ],
+    "lrgdbconsacfc3dropmedia": [
+        "tsagcfc3dropmedia.tsc"
+    ],
+    "lrgdbconsacfc3dropmedia2": [
+        "tsagcfc3dropmedia2.tsc"
+    ],
+    "lrgdbconsacfc3dropspdg": [
+        "tsagcfc3dropspdg.tsc"
+    ],
+    "lrgdbconsacfc3simevent": [
+        "tsagcfcsim.tsc"
+    ],
+    "lrgdbconsacfc4a": [
+        "tsagcfcwrong.tsc"
+    ],
+    "lrgdbconsacfcbug1": [
+        "tsagcc2version.tsc"
+    ],
+    "lrgdbconsacfcbug2": [
+        "tsagbug30924692.tsc",
+        "tsagbug31468845.tsc",
+        "tsagbug32578019.tsc",
+        "tsagbug35695228.tsc"
+    ],
+    "lrgdbconsacfcbug3": [
+        "tsagbug33734670.tsc",
+        "tsagbug37927974.tsc"
+    ],
+    "lrgdbconsacfcentbs2unc_excld": [
+        "tsagenc1.tsc",
+        "tsagenc13.tsc",
+        "tsagenc15.tsc",
+        "tsagenc17.tsc",
+        "tsagenc9.tsc",
+        "tsagentbsini.tsc"
+    ],
+    "lrgdbconsaciofl": [
+        "tsagciini.tsc",
+        "tsagciofl.tsc"
+    ],
+    "lrgdbconsaciofl2": [
+        "tsagciofl2.tsc",
+        "tsagciofl7.tsc"
+    ],
+    "lrgdbconsacliattr": [
+        "tsagatpsim.tsc",
+        "tsagbug26504172.tsc",
+        "tsagbug31642424.tsc",
+        "tsagbug32885572.tsc"
+    ],
+    "lrgdbconsaclstat": [
+        "tsagecstat_space_usage.tsc"
+    ],
+    "lrgdbconsaclstat_excld": [
+        "tsaglongsql.tsc"
+    ],
+    "lrgdbconsacpurm1_excld": [
+        "tsagcpurm1.tsc",
+        "tsagcpurmwl.tsc"
+    ],
+    "lrgdbconsacrs7": [
+        "tsagocrasm.tsc",
+        "tsagvdcefl.tsc"
+    ],
+    "lrgdbconsadbcrt": [
+        "tsagsuit.tsc"
+    ],
+    "lrgdbconsadebugcli11": [
+        "tsagilominterval.tsc",
+        "tsagpwrcycle.tsc"
+    ],
+    "lrgdbconsadebugcli13": [
+        "tsagiocancel.tsc"
+    ],
+    "lrgdbconsadebugcli14": [
+        "tsagbug16704019.tsc",
+        "tsagbug17279024.tsc",
+        "tsagbug17470654.tsc"
+    ],
+    "lrgdbconsadebugcli15": [
+        "tsagactondskevnt.tsc",
+        "tsagbug22257471.tsc",
+        "tsagbug31369749.tsc",
+        "tsagbug33481475.tsc",
+        "tsagbug36798423.tsc"
+    ],
+    "lrgdbconsadebugcli16": [
+        "tsagbug26822910.tsc"
+    ],
+    "lrgdbconsadebugcli4": [
+        "tsagfbattst.tsc"
+    ],
+    "lrgdbconsadebugcli7": [
+        "tsagdebugcli.tsc"
+    ],
+    "lrgdbconsadebugcli8": [
+        "tsagbug16478172.tsc",
+        "tsagbug17418908.tsc",
+        "tsagbug17484387.tsc"
+    ],
+    "lrgdbconsadebugcli9": [
+        "tsagdebugcliflush.tsc"
+    ],
+    "lrgdbconsadmonbug1": [
+        "tsagdskoraagent.tsc"
+    ],
+    "lrgdbconsadmonbug2": [
+        "tsagdskiorm.tsc"
+    ],
+    "lrgdbconsadrflash": [
+        "tsagflashrsz.tsc",
+        "tsagflushcancel.tsc",
+        "tsagrestartcell.tsc"
+    ],
+    "lrgdbconsadskcl1": [
+        "tsagdskde01a.tsc",
+        "tsagdskde01b.tsc"
+    ],
+    "lrgdbconsadskcl10": [
+        "tsagdskde01g.tsc"
+    ],
+    "lrgdbconsadskcl11": [
+        "tsagdskde01m.tsc"
+    ],
+    "lrgdbconsadskcl2": [
+        "tsagmnset.tsc",
+        "tsagmund_init.tsc",
+        "tsagshutmn.tsc"
+    ],
+    "lrgdbconsadskcl3": [
+        "tsagdskde01f.tsc"
+    ],
+    "lrgdbconsadskcl4": [
+        "tsagdskde01h.tsc"
+    ],
+    "lrgdbconsadskcl5": [
+        "tsagdskde01i.tsc",
+        "tsagdskde01j.tsc",
+        "tsagdskde01k.tsc"
+    ],
+    "lrgdbconsadskcl6": [
+        "tsagdskde01l.tsc"
+    ],
+    "lrgdbconsadskcl7": [
+        "tsagdsklooptest.tsc",
+        "tsagdsknodefence.tsc"
+    ],
+    "lrgdbconsadskcl9": [
+        "tsaginvalidip.tsc"
+    ],
+    "lrgdbconsadynbuff_excld": [
+        "tsagdynbuff1.tsc",
+        "tsagdynbuff4.tsc"
+    ],
+    "lrgdbconsaexacldcov1": [
+        "tsagindexrange.tsc"
+    ],
+    "lrgdbconsaexaclddb": [
+        "tsagexaclddb.tsc"
+    ],
+    "lrgdbconsaexacldfastfile": [
+        "tsagclean.tsc",
+        "tsagexcfastfile.tsc",
+        "tsagexcfilemetrics.tsc"
+    ],
+    "lrgdbconsaexacloud": [
+        "tsagasmcluster.tsc"
+    ],
+    "lrgdbconsafault": [
+        "tsagfault.tsc",
+        "tsagfaultcli.tsc",
+        "tsagqmsql.tsc"
+    ],
+    "lrgdbconsafault1": [
+        "tsagqmcli.tsc",
+        "tsagqmsi.tsc",
+        "tsagrunqm.tsc"
+    ],
+    "lrgdbconsafault3": [
+        "tsagqmall.tsc",
+        "tsagrunqm1.tsc"
+    ],
+    "lrgdbconsafault4": [
+        "tsagbug20598619.tsc"
+    ],
+    "lrgdbconsafault4b_excld": [
+        "tsaginiiormqm.tsc",
+        "tsagruniormqm.tsc"
+    ],
+    "lrgdbconsafault_excld": [
+        "tsagfault1.tsc",
+        "tsagfault2.tsc"
+    ],
+    "lrgdbconsafcache": [
+        "tsagfcmode.tsc",
+        "tsagfcremap.tsc",
+        "tsagflcache3.tsc",
+        "tsagflcell.tsc",
+        "tsagflmcell.tsc"
+    ],
+    "lrgdbconsafcbug1": [
+        "tsagfcreplace.tsc"
+    ],
+    "lrgdbconsafcbug2": [
+        "tsagbug33481452.tsc",
+        "tsagbug34534060.tsc",
+        "tsagbug34979233.tsc",
+        "tsagbug35572071.tsc",
+        "tsagbug35769438.tsc",
+        "tsagbug36015718.tsc",
+        "tsagbug36409525.tsc",
+        "tsagbug37214536.tsc",
+        "tsagbug37383829.tsc"
+    ],
+    "lrgdbconsafcbug3": [
+        "tsagccverify.tsc"
+    ],
+    "lrgdbconsafcbug5": [
+        "tsagbug36519890.tsc",
+        "tsagbug37639257.tsc",
+        "tsagbug38018992.tsc"
+    ],
+    "lrgdbconsafcdbid": [
+        "tsagdbidfccontent.tsc"
+    ],
+    "lrgdbconsafcgroups": [
+        "tsagfcgroupstests.tsc"
+    ],
+    "lrgdbconsafcgroups2": [
+        "tsagfcgrp_common.tsc",
+        "tsagfchrdgrp.tsc",
+        "tsagfchrdtest1.tsc",
+        "tsagfchrdtest2.tsc"
+    ],
+    "lrgdbconsafclarge1": [
+        "tsagfclarge1.tsc",
+        "tsagfclarge2.tsc",
+        "tsagfclarge_bugs.tsc"
+    ],
+    "lrgdbconsafcmdsp": [
+        "tsagfcmdsp.tsc"
+    ],
+    "lrgdbconsafcrszmh": [
+        "tsagfcrsz.tsc",
+        "tsagfcrszcalc.tsc"
+    ],
+    "lrgdbconsaffilp": [
+        "tsagffilp.tsc"
+    ],
+    "lrgdbconsaffiov": [
+        "tsagffiov.tsc"
+    ],
+    "lrgdbconsaffiov2": [
+        "tsagffiov2.tsc"
+    ],
+    "lrgdbconsaffiovf1": [
+        "tsagffini.tsc",
+        "tsagffiovf.tsc"
+    ],
+    "lrgdbconsaflashc": [
+        "tsagfccomp1.tsc"
+    ],
+    "lrgdbconsaflashfaillp": [
+        "tsagflashfaillp.tsc"
+    ],
+    "lrgdbconsaflashgd": [
+        "tsag4kflashgd.tsc"
+    ],
+    "lrgdbconsaflashrmw": [
+        "tsagflashrm.tsc"
+    ],
+    "lrgdbconsaflashw1_nvc": [
+        "tsagflashio.tsc"
+    ],
+    "lrgdbconsaflaura": [
+        "tsagfcspaura2.tsc",
+        "tsagfcspauraimpl.tsc"
+    ],
+    "lrgdbconsaflog": [
+        "tsagflog3.tsc"
+    ],
+    "lrgdbconsaflog2": [
+        "tsagflcli1.tsc",
+        "tsagflcli2.tsc",
+        "tsagflcli3.tsc"
+    ],
+    "lrgdbconsaflog3": [
+        "tsagflogsr1.tsc",
+        "tsagflogsr2.tsc"
+    ],
+    "lrgdbconsaflog4": [
+        "tsagfcset.tsc",
+        "tsagflog4.tsc"
+    ],
+    "lrgdbconsaflog5": [
+        "tsagflog_cc.tsc"
+    ],
+    "lrgdbconsaflog_excld": [
+        "tsagflog2.tsc",
+        "tsagflogcli1.tsc"
+    ],
+    "lrgdbconsaflush1": [
+        "tsagbug16298128.tsc",
+        "tsagbug18649810.tsc"
+    ],
+    "lrgdbconsafpts1": [
+        "tsagfpts1.tsc"
+    ],
+    "lrgdbconsagcc1": [
+        "tsagcov1.tsc",
+        "tsagdscv.tsc"
+    ],
+    "lrgdbconsagcc2_excld": [
+        "tsagcov2.tsc",
+        "tsagcsuit.tsc"
+    ],
+    "lrgdbconsagcc3": [
+        "tsagracksiteid.tsc"
+    ],
+    "lrgdbconsagcc4": [
+        "tsagarbcov.tsc"
+    ],
+    "lrgdbconsage1": [
+        "tsagfilt.tsc"
+    ],
+    "lrgdbconsage10": [
+        "tsaggriddskdrop.tsc",
+        "tsagioreason.tsc",
+        "tsagmscon1.tsc",
+        "tsagmscon1_a.tsc",
+        "tsagmscon1_b.tsc",
+        "tsagmscon2.tsc",
+        "tsagmscon2_a.tsc",
+        "tsagmscon2_b.tsc",
+        "tsagsyslogconf.tsc"
+    ],
+    "lrgdbconsage11": [
+        "tsagmvsmart.tsc",
+        "tsagtopology.tsc"
+    ],
+    "lrgdbconsage13": [
+        "tsaggridre.tsc"
+    ],
+    "lrgdbconsage1fp": [
+        "tsagrman.tsc",
+        "tsagsacpc.tsc",
+        "tsagshort.tsc",
+        "tsagvos.tsc"
+    ],
+    "lrgdbconsage2": [
+        "tsagnrestor.tsc"
+    ],
+    "lrgdbconsage2_excld": [
+        "tsagdumpsqlplan.tsc"
+    ],
+    "lrgdbconsage3w": [
+        "tsagpdpf_subheap.tsc"
+    ],
+    "lrgdbconsage4_excld": [
+        "tsagflsim2.tsc",
+        "tsagflsim4.tsc"
+    ],
+    "lrgdbconsage4_part3": [
+        "tsagflsim1.tsc"
+    ],
+    "lrgdbconsage4_part5": [
+        "tsagiffs.tsc"
+    ],
+    "lrgdbconsage4_part6": [
+        "tsagflsim3.tsc",
+        "tsagflsim5.tsc",
+        "tsagflsim6.tsc"
+    ],
+    "lrgdbconsage5": [
+        "tsagmemthres.tsc",
+        "tsagswtchdf.tsc"
+    ],
+    "lrgdbconsage6_bscn2": [
+        "tsagfplib_heartbeat.tsc",
+        "tsagstrindx1a.tsc",
+        "tsagstrindx1b.tsc",
+        "tsagstrindx1c.tsc",
+        "tsagstrindx1d.tsc",
+        "tsagstrindx1e.tsc",
+        "tsagstrindx1g.tsc",
+        "tsagstrindxchar.tsc"
+    ],
+    "lrgdbconsage6a": [
+        "tsagsievict.tsc",
+        "tsagsievict2.tsc",
+        "tsagsievict3.tsc",
+        "tsagsiobjidzero.tsc",
+        "tsagsipurge.tsc"
+    ],
+    "lrgdbconsage6o_excld": [
+        "tsagstrindx1.tsc",
+        "tsagstrindx1bf.tsc",
+        "tsagstrindx1f.tsc",
+        "tsagstrindx3.tsc"
+    ],
+    "lrgdbconsage6si1_excld": [
+        "tsagmdbsi.tsc",
+        "tsagsichk.tsc",
+        "tsagsirec.tsc",
+        "tsagsiupdate.tsc"
+    ],
+    "lrgdbconsage6si2": [
+        "tsagsiminmaxdr_sage6.tsc"
+    ],
+    "lrgdbconsage7": [
+        "tsagstclus1.tsc",
+        "tsagstclus2.tsc",
+        "tsagstclus3.tsc",
+        "tsagstclusd.tsc",
+        "tsagvdset.tsc"
+    ],
+    "lrgdbconsage8": [
+        "tsagfcre.tsc",
+        "tsagkfod.tsc",
+        "tsagmixeddg.tsc",
+        "tsagsetsize.tsc",
+        "tsagsocket.tsc",
+        "tsagupgflog.tsc"
+    ],
+    "lrgdbconsage9": [
+        "tsagpq1mbalign.tsc"
+    ],
+    "lrgdbconsahangioerror": [
+        "tsagiohangreaderr.tsc"
+    ],
+    "lrgdbconsahangman_excld": [
+        "tsaghangman2.tsc",
+        "tsagsahangman.tsc"
+    ],
+    "lrgdbconsahdcio": [
+        "tsagiocancel_ht.tsc",
+        "tsagtrcksc_intrpt.tsc"
+    ],
+    "lrgdbconsahdcio2": [
+        "tsagbug21861668.tsc"
+    ],
+    "lrgdbconsahfact": [
+        "tsaghealthfac.tsc"
+    ],
+    "lrgdbconsahrd2_excld": [
+        "tsaghsuit.tsc"
+    ],
+    "lrgdbconsahrd4": [
+        "tsaghard1.tsc"
+    ],
+    "lrgdbconsaimcfc3": [
+        "tsagcfc3.tsc"
+    ],
+    "lrgdbconsaimcfc5": [
+        "tsagcfc5.tsc"
+    ],
+    "lrgdbconsaimcfc6b_excld": [
+        "tsagcfc6.tsc",
+        "tsagcfc6complv.tsc"
+    ],
+    "lrgdbconsaimcfc8": [
+        "tsagbug35177097.tsc"
+    ],
+    "lrgdbconsaimcfcoltp1_23": [
+        "tsagcfc1_23b.tsc"
+    ],
+    "lrgdbconsainitcc2": [
+        "tsagsmartio.tsc",
+        "tsagzstdcc2.tsc"
+    ],
+    "lrgdbconsaintbug": [
+        "tsagbug30464655.tsc"
+    ],
+    "lrgdbconsaiohang": [
+        "tsagiohng.tsc",
+        "tsagiohng2.tsc"
+    ],
+    "lrgdbconsaiorm": [
+        "tsaginterdbconv.tsc",
+        "tsagiorm1.tsc",
+        "tsagiormmapping.tsc",
+        "tsagrmmode.tsc",
+        "tsagrmwl.tsc"
+    ],
+    "lrgdbconsaiorm2_bscn5": [
+        "tsagiorm2.tsc",
+        "tsagorion2.tsc",
+        "tsagrmbas.tsc",
+        "tsagrmbasini.tsc",
+        "tsagrmbaswl.tsc"
+    ],
+    "lrgdbconsaiorm3": [
+        "tsagiormfc.tsc"
+    ],
+    "lrgdbconsaiorm4": [
+        "tsagiormarbtr.tsc"
+    ],
+    "lrgdbconsaiormbug1": [
+        "tsagcfciorm.tsc",
+        "tsagcfcwb.tsc"
+    ],
+    "lrgdbconsaiormcl": [
+        "tsagiormcl1.tsc",
+        "tsagiormcl2.tsc"
+    ],
+    "lrgdbconsaiormw": [
+        "tsagiorm3.tsc"
+    ],
+    "lrgdbconsaiovsparse1": [
+        "tsagsparseiov.tsc"
+    ],
+    "lrgdbconsamdb": [
+        "tsagmdbmutex.tsc",
+        "tsagmdbrergstr.tsc",
+        "tsagtstoclcache.tsc",
+        "tsagusrgrp.tsc"
+    ],
+    "lrgdbconsamdb1": [
+        "tsagoflworkload.tsc"
+    ],
+    "lrgdbconsamdb2": [
+        "tsagmdbmm.tsc",
+        "tsagmdbrsdeallo.tsc"
+    ],
+    "lrgdbconsamdb3": [
+        "tsagmdbalert.tsc",
+        "tsagmdbsimevent.tsc",
+        "tsagmdbwkld.tsc"
+    ],
+    "lrgdbconsamdb6": [
+        "tsagmdbcap.tsc",
+        "tsagmdbsipur.tsc",
+        "tsagnvoflworkload.tsc",
+        "tsagnvsievict.tsc"
+    ],
+    "lrgdbconsamdb7": [
+        "tsagrecov.tsc"
+    ],
+    "lrgdbconsamdb8": [
+        "tsagloopcrash.tsc"
+    ],
+    "lrgdbconsamdbbug": [
+        "tsagmdbbugsuite.tsc"
+    ],
+    "lrgdbconsamemleak1_excld": [
+        "tsagmemleakloop.tsc"
+    ],
+    "lrgdbconsamsbug1": [
+        "tsagdropphy.tsc"
+    ],
+    "lrgdbconsamsbug11": [
+        "tsagdbincidentmining.tsc"
+    ],
+    "lrgdbconsamsbug12": [
+        "tsagexasparsedisk.tsc"
+    ],
+    "lrgdbconsamsbug13": [
+        "tsaginvalidip1.tsc",
+        "tsagmtrload.tsc"
+    ],
+    "lrgdbconsamsbug14": [
+        "tsagbug10386742.tsc",
+        "tsagbug16074182.tsc",
+        "tsagbug16448015.tsc"
+    ],
+    "lrgdbconsamsbug15": [
+        "tsagbug12885292.tsc",
+        "tsagbug13495012.tsc",
+        "tsagbug13578074.tsc",
+        "tsagbug14183159.tsc",
+        "tsagbug16769943.tsc",
+        "tsagbug34486756.tsc",
+        "tsagbug34645518.tsc"
+    ],
+    "lrgdbconsamsbug15_excld": [
+        "tsagbug34645518_db.tsc",
+        "tsagbug38113661.tsc"
+    ],
+    "lrgdbconsamsbug16": [
+        "tsagcellclitst1.tsc",
+        "tsagdiskconfig.tsc"
+    ],
+    "lrgdbconsamsbug17": [
+        "tsagbug13842658_1.tsc",
+        "tsagbug17222097.tsc",
+        "tsagbug25128043.tsc",
+        "tsagbug34816401.tsc"
+    ],
+    "lrgdbconsamsbug18": [
+        "tsagbug18722441.tsc",
+        "tsagbug21299486.tsc",
+        "tsagbug21503210.tsc"
+    ],
+    "lrgdbconsamsbug19": [
+        "tsagbug18553965.tsc",
+        "tsagbug20184512.tsc",
+        "tsagbug22541648.tsc",
+        "tsagbug35404861.tsc",
+        "tsagbug35770566.tsc"
+    ],
+    "lrgdbconsamsbug2": [
+        "tsagmetricinterval.tsc"
+    ],
+    "lrgdbconsamsbug20": [
+        "tsagbug18735650.tsc",
+        "tsagbug20064817.tsc",
+        "tsagbug20992894.tsc",
+        "tsagbug22643740.tsc",
+        "tsagbug23309395.tsc"
+    ],
+    "lrgdbconsamsbug21": [
+        "tsagdisk_scrub_log.tsc"
+    ],
+    "lrgdbconsamsbug22": [
+        "tsagbug17627847.tsc",
+        "tsagbug22283355.tsc",
+        "tsagbug25094647.tsc",
+        "tsagbug25214197.tsc"
+    ],
+    "lrgdbconsamsbug23": [
+        "tsagspgdtest.tsc"
+    ],
+    "lrgdbconsamsbug25": [
+        "tsagqosfailover1.tsc"
+    ],
+    "lrgdbconsamsbug26": [
+        "tsagiormspilltest.tsc"
+    ],
+    "lrgdbconsamsbug27": [
+        "tsagccpmode.tsc"
+    ],
+    "lrgdbconsamsbug28": [
+        "tsagbug38330972.tsc",
+        "tsagcellclitst.tsc",
+        "tsagdskmonhbthreadrcnct.tsc",
+        "tsagdskmonwrkload.tsc"
+    ],
+    "lrgdbconsamsbug29": [
+        "tsagbug31439012_2.tsc"
+    ],
+    "lrgdbconsamsbug3": [
+        "tsagbug17546682.tsc",
+        "tsagbug21911678.tsc",
+        "tsagbug22605762.tsc"
+    ],
+    "lrgdbconsamsbug30": [
+        "tsagbug30481821.tsc",
+        "tsagbug30543312.tsc",
+        "tsagbug31045790.tsc",
+        "tsagbug31724205.tsc",
+        "tsagbug31816888.tsc",
+        "tsagbug32436767.tsc",
+        "tsagbug32808152.tsc",
+        "tsagbug33160009.tsc",
+        "tsagbug33162798.tsc",
+        "tsagbug33295138.tsc",
+        "tsagbug33402139.tsc",
+        "tsagbug33505931.tsc",
+        "tsagbug33867643.tsc",
+        "tsagbug34250915.tsc",
+        "tsagbug34414262.tsc"
+    ],
+    "lrgdbconsamsbug31": [
+        "tsagbug32633966.tsc",
+        "tsagbug33427539.tsc"
+    ],
+    "lrgdbconsamsbug32": [
+        "tsagbug33774230.tsc",
+        "tsagbug35796999.tsc"
+    ],
+    "lrgdbconsamsbug33": [
+        "tsagx10efconfig.tsc"
+    ],
+    "lrgdbconsamsbug34": [
+        "tsagmultims.tsc"
+    ],
+    "lrgdbconsamsbug35": [
+        "tsagbug35219016.tsc",
+        "tsagbug35625481.tsc",
+        "tsagbug36006006.tsc",
+        "tsagbug36128594.tsc"
+    ],
+    "lrgdbconsamsbug36": [
+        "tsagbug37076755.tsc"
+    ],
+    "lrgdbconsamsbug37": [
+        "tsagphydskzap.tsc"
+    ],
+    "lrgdbconsamsbug38": [
+        "tsagbug36228557.tsc"
+    ],
+    "lrgdbconsamsbug4": [
+        "tsagbug13624159.tsc",
+        "tsagbug14635090.tsc",
+        "tsagbug18546882.tsc",
+        "tsagbug19695225.tsc",
+        "tsagbug37241910.tsc"
+    ],
+    "lrgdbconsamsbug40": [
+        "tsagbug36101321.tsc",
+        "tsagbug38034409.tsc"
+    ],
+    "lrgdbconsamsbug41": [
+        "tsagebug37910925.tsc"
+    ],
+    "lrgdbconsamsbug5": [
+        "tsagbug16001442.tsc",
+        "tsagbug16213900.tsc",
+        "tsagbug16288997.tsc",
+        "tsagbug16807611.tsc"
+    ],
+    "lrgdbconsamsbug6": [
+        "tsagbug14621505.tsc",
+        "tsagbug18918942.tsc",
+        "tsagbug18961018.tsc",
+        "tsagbug18978925.tsc",
+        "tsagbug35920202.tsc"
+    ],
+    "lrgdbconsamsbug7": [
+        "tsagbug16413066.tsc",
+        "tsagbug16591877.tsc",
+        "tsagbug17039439.tsc",
+        "tsagbug17673325.tsc",
+        "tsagbug25393979.tsc",
+        "tsagbug25737783.tsc",
+        "tsagbug26320141.tsc"
+    ],
+    "lrgdbconsamsbug8": [
+        "tsagbug14148652.tsc",
+        "tsagbug14484940.tsc",
+        "tsagbug30073295.tsc",
+        "tsagbug32022401.tsc",
+        "tsagbug33824499.tsc",
+        "tsagbug34614747.tsc",
+        "tsagbug35771049.tsc"
+    ],
+    "lrgdbconsamsbug9": [
+        "tsagbug16278024.tsc",
+        "tsagbug18347818.tsc",
+        "tsagbug22216153.tsc"
+    ],
+    "lrgdbconsamsqlcdisk1": [
+        "tsagqlcfailure.tsc",
+        "tsagqlcfailure2.tsc"
+    ],
+    "lrgdbconsamtc": [
+        "tsaginimtc.tsc",
+        "tsagmtcacc.tsc",
+        "tsagmtctcellcli.tsc",
+        "tsagmtctopcpu.tsc",
+        "tsagmultclu.tsc"
+    ],
+    "lrgdbconsamtcfc": [
+        "tsagmtcfc4.tsc"
+    ],
+    "lrgdbconsamtcfc1": [
+        "tsagmtcfc3.tsc",
+        "tsagmtcfc3ini.tsc"
+    ],
+    "lrgdbconsamtchtwqm": [
+        "tsagmtcrebalqm.tsc"
+    ],
+    "lrgdbconsamtchtwqm_excld": [
+        "tsagmtchtwqm.tsc"
+    ],
+    "lrgdbconsamtciorm_excld": [
+        "tsagmtciorm.tsc",
+        "tsagmtciorm3.tsc",
+        "tsagmtciormcdb.tsc"
+    ],
+    "lrgdbconsamtciormqm1": [
+        "tsaginimtciormqm.tsc",
+        "tsagrunmtciormqm.tsc"
+    ],
+    "lrgdbconsamtcomf_excld": [
+        "tsagmtcomf.tsc"
+    ],
+    "lrgdbconsamtcqm1": [
+        "tsagmtcqm.tsc"
+    ],
+    "lrgdbconsamtcvicfc": [
+        "tsagmtcvictim.tsc"
+    ],
+    "lrgdbconsanips": [
+        "tsagnips.tsc"
+    ],
+    "lrgdbconsanvcioctl": [
+        "tsagnvcdbtcioctl.tsc",
+        "tsagpmemcachesizing.tsc",
+        "tsagtouchcountioctl.tsc"
+    ],
+    "lrgdbconsaobcachb": [
+        "tsagflashrestart.tsc",
+        "tsagflashstat.tsc"
+    ],
+    "lrgdbconsaobj2db": [
+        "tsagobj2db.tsc",
+        "tsagobj2nd.tsc"
+    ],
+    "lrgdbconsaobjcach": [
+        "tsagflashdg.tsc"
+    ],
+    "lrgdbconsaobjmir": [
+        "tsagobjmir.tsc",
+        "tsagobjmira.tsc"
+    ],
+    "lrgdbconsaobjmirb": [
+        "tsagobjmirb.tsc"
+    ],
+    "lrgdbconsaobjrbrm": [
+        "tsagflashevt.tsc"
+    ],
+    "lrgdbconsaparam": [
+        "tsagsaparam.tsc"
+    ],
+    "lrgdbconsaperfdt": [
+        "tsagdsperdt.tsc",
+        "tsagdsperdt2.tsc",
+        "tsagdsperdt3.tsc",
+        "tsagdsperdt4.tsc"
+    ],
+    "lrgdbconsapmem1": [
+        "tsagpmemtest.tsc",
+        "tsagunifiedwait1.tsc"
+    ],
+    "lrgdbconsapmem3": [
+        "tsagiovdxdfk.tsc",
+        "tsagtorniodxd.tsc"
+    ],
+    "lrgdbconsaprdd": [
+        "tsagprodd4.tsc",
+        "tsagprodd5.tsc",
+        "tsagprodd6.tsc"
+    ],
+    "lrgdbconsaprdd10": [
+        "tsagprodd5f.tsc"
+    ],
+    "lrgdbconsaprdd11": [
+        "tsagdskpfail.tsc"
+    ],
+    "lrgdbconsaprdd12": [
+        "tsagprodd10.tsc",
+        "tsagprodd8.tsc",
+        "tsagprodd8a.tsc",
+        "tsagprodd9.tsc"
+    ],
+    "lrgdbconsaprdd13": [
+        "tsagbug36678104.tsc"
+    ],
+    "lrgdbconsaprdd3": [
+        "tsagprodd12.tsc"
+    ],
+    "lrgdbconsaprdd4": [
+        "tsagprodd15.tsc"
+    ],
+    "lrgdbconsaprdd5": [
+        "tsaggddeact.tsc",
+        "tsagprodd17.tsc"
+    ],
+    "lrgdbconsaprdd6": [
+        "tsagprodd.tsc",
+        "tsagprodd18.tsc",
+        "tsagprodd19.tsc",
+        "tsagprodd20.tsc"
+    ],
+    "lrgdbconsaprdd7_excld": [
+        "tsagprodd21.tsc"
+    ],
+    "lrgdbconsaprdd8": [
+        "tsagprodd22.tsc"
+    ],
+    "lrgdbconsaprdd9": [
+        "tsagprodd23.tsc",
+        "tsagprodd24.tsc"
+    ],
+    "lrgdbconsaprfe": [
+        "tsagprfen1.tsc",
+        "tsagprfen2.tsc",
+        "tsagprfen3.tsc",
+        "tsagprfensuit.tsc"
+    ],
+    "lrgdbconsaprmcp": [
+        "tsagintgrid.tsc",
+        "tsagintgrid2.tsc",
+        "tsagintgrid3.tsc",
+        "tsagintgrid4.tsc",
+        "tsagintgridh2.tsc",
+        "tsagintgridhigh.tsc",
+        "tsagprmcp.tsc"
+    ],
+    "lrgdbconsaremotepmemgd": [
+        "tsagnvdimmdbworkload.tsc",
+        "tsagnvdimmorion.tsc"
+    ],
+    "lrgdbconsareszw": [
+        "tsagresz.tsc"
+    ],
+    "lrgdbconsarmcfg": [
+        "tsagfail.tsc",
+        "tsagrmcfg.tsc"
+    ],
+    "lrgdbconsars": [
+        "tsagrs.tsc",
+        "tsagrs1.tsc",
+        "tsagrs2.tsc",
+        "tsagrs3.tsc",
+        "tsagrsflood.tsc"
+    ],
+    "lrgdbconsarslv1_nvc": [
+        "tsagflppf.tsc",
+        "tsagvsn_tst_asm_setup.tsc"
+    ],
+    "lrgdbconsarslv1_part2": [
+        "tsagbug14327362.tsc"
+    ],
+    "lrgdbconsarslv2_part2": [
+        "tsagdaxresilver.tsc"
+    ],
+    "lrgdbconsarslv3": [
+        "tsagrslv1.tsc",
+        "tsagrslv2.tsc",
+        "tsagrslv3.tsc"
+    ],
+    "lrgdbconsarslv5": [
+        "tsagflwrkld2.tsc",
+        "tsagrslv4.tsc",
+        "tsagrslv5.tsc"
+    ],
+    "lrgdbconsascbug1": [
+        "tsagrs4.tsc",
+        "tsagscbugsuit.tsc"
+    ],
+    "lrgdbconsascbug10": [
+        "tsagbug34606492.tsc"
+    ],
+    "lrgdbconsascbug10_excld": [
+        "tsagbugfplib.tsc"
+    ],
+    "lrgdbconsascbug11": [
+        "tsagbug10374290.tsc",
+        "tsagbug33135374.tsc"
+    ],
+    "lrgdbconsascbug12": [
+        "tsagbug11791413.tsc",
+        "tsagbug12731362.tsc",
+        "tsagbug12959688.tsc",
+        "tsagbug20205080.tsc"
+    ],
+    "lrgdbconsascbug13a": [
+        "tsagbug9900592.tsc"
+    ],
+    "lrgdbconsascbug13b": [
+        "tsagoflpscn.tsc",
+        "tsagtrclimit.tsc"
+    ],
+    "lrgdbconsascbug14": [
+        "tsagbug17547471.tsc",
+        "tsagbug18648820.tsc",
+        "tsagbug18648820_dumpchk.tsc",
+        "tsagbug23735292.tsc"
+    ],
+    "lrgdbconsascbug15": [
+        "tsagbug18414843.tsc",
+        "tsagbug20326593.tsc"
+    ],
+    "lrgdbconsascbug16_excld": [
+        "tsaginitcc2.tsc"
+    ],
+    "lrgdbconsascbug17_excld": [
+        "tsagcesrvstatmem.tsc"
+    ],
+    "lrgdbconsascbug18": [
+        "tsagbug19190475.tsc",
+        "tsagbug22684839.tsc",
+        "tsagbug28877886.tsc",
+        "tsagbug33802782.tsc",
+        "tsagbug36006239.tsc"
+    ],
+    "lrgdbconsascbug19": [
+        "tsagbug24899249.tsc",
+        "tsagbug24899249_12.1.tsc",
+        "tsagbug24899249_main.tsc"
+    ],
+    "lrgdbconsascbug19_excld": [
+        "tsagsafefile.tsc"
+    ],
+    "lrgdbconsascbug2": [
+        "tsagsqlmntr.tsc"
+    ],
+    "lrgdbconsascbug20": [
+        "tsagbug13018550.tsc",
+        "tsagbug26585956.tsc"
+    ],
+    "lrgdbconsascbug20_excld": [
+        "tsagexcfsaprtcn.tsc"
+    ],
+    "lrgdbconsascbug21": [
+        "tsagbug23521475.tsc",
+        "tsagbug34205694.tsc"
+    ],
+    "lrgdbconsascbug22": [
+        "tsagbldoneoff.tsc"
+    ],
+    "lrgdbconsascbug22_excld": [
+        "tsagbug7198335.tsc"
+    ],
+    "lrgdbconsascbug23": [
+        "tsagsmartrekey.tsc"
+    ],
+    "lrgdbconsascbug24": [
+        "tsagbug27438679.tsc",
+        "tsagbug32193510.tsc",
+        "tsagbug34228985.tsc",
+        "tsagbug37233657.tsc"
+    ],
+    "lrgdbconsascbug25": [
+        "tsagxrccreplace.tsc"
+    ],
+    "lrgdbconsascbug26": [
+        "tsagbug33988339.tsc",
+        "tsagbug34863472.tsc",
+        "tsagbug35449231.tsc"
+    ],
+    "lrgdbconsascbug27": [
+        "tsagbug35443703.tsc"
+    ],
+    "lrgdbconsascbug3": [
+        "tsagstrmap.tsc"
+    ],
+    "lrgdbconsascbug4": [
+        "tsagbug33860125.tsc",
+        "tsagbug36952541.tsc",
+        "tsagbug37464711.tsc"
+    ],
+    "lrgdbconsascbug4_excld": [
+        "tsagbug14154033.tsc",
+        "tsagbug14261634.tsc",
+        "tsagbug15882436.tsc"
+    ],
+    "lrgdbconsascbug5": [
+        "tsagbug16917915.tsc",
+        "tsagbug28716488.tsc",
+        "tsagbug35064358.tsc",
+        "tsagbug35524505.tsc"
+    ],
+    "lrgdbconsascbug6": [
+        "tsagbug16917915_1.tsc",
+        "tsagbug36223770.tsc",
+        "tsagbug36983217.tsc"
+    ],
+    "lrgdbconsascbug7": [
+        "tsagbug9352217.tsc",
+        "tsagdefdel.tsc"
+    ],
+    "lrgdbconsascbug8": [
+        "tsagmount.tsc"
+    ],
+    "lrgdbconsascbug8_excld": [
+        "tsagbug_sigsegv.tsc"
+    ],
+    "lrgdbconsascbug9": [
+        "tsagbug12887257.tsc",
+        "tsagbug3.tsc"
+    ],
+    "lrgdbconsascbug9_excld": [
+        "tsagbug12343467.tsc",
+        "tsagbug13114222.tsc",
+        "tsagbug14192799.tsc",
+        "tsagbug36830064.tsc"
+    ],
+    "lrgdbconsascrub1": [
+        "tsagdskscrub1.tsc",
+        "tsagdskscrub1e.tsc"
+    ],
+    "lrgdbconsascrub2": [
+        "tsagdskscrub03.tsc"
+    ],
+    "lrgdbconsascrub3": [
+        "tsagdskscrub1a.tsc",
+        "tsagdskscrub1b.tsc",
+        "tsagexcscrubdelay.tsc",
+        "tsagexcscrubtest.tsc"
+    ],
+    "lrgdbconsascrub4": [
+        "tsagdskscrub1c.tsc"
+    ],
+    "lrgdbconsasdd1": [
+        "tsagsdd1.tsc"
+    ],
+    "lrgdbconsasdd3": [
+        "tsagsddfc.tsc",
+        "tsagsddfcini.tsc"
+    ],
+    "lrgdbconsasdd4": [
+        "tsagsddiorm.tsc"
+    ],
+    "lrgdbconsasec2": [
+        "tsagsecdb2.tsc"
+    ],
+    "lrgdbconsasec3": [
+        "tsagsec3.tsc",
+        "tsagsourcekey.tsc"
+    ],
+    "lrgdbconsasec5": [
+        "tsagsec5.tsc"
+    ],
+    "lrgdbconsasidbl": [
+        "tsagcc2si.tsc",
+        "tsagdensebloom.tsc"
+    ],
+    "lrgdbconsasiminmax2_excld": [
+        "tsagsiminmaxdr2.tsc",
+        "tsagsiminmaxopt.tsc"
+    ],
+    "lrgdbconsasiminmax_excld": [
+        "tsagsiminmaxdr.tsc",
+        "tsagstrindxminmax.tsc",
+        "tsagstrindxminmax_ehcc.tsc",
+        "tsagstrindxminmax_setup.tsc"
+    ],
+    "lrgdbconsasindx": [
+        "tsaginitoflworkload.tsc",
+        "tsagstrindx2.tsc",
+        "tsagstrindx2a.tsc",
+        "tsagstrindx2b.tsc",
+        "tsagstrindx2c.tsc",
+        "tsagstrindx4.tsc",
+        "tsagstrindx_bug12618136.tsc"
+    ],
+    "lrgdbconsasindx2": [
+        "tsagstrindx5.tsc",
+        "tsagstrindx6.tsc",
+        "tsagstrindx7.tsc",
+        "tsagstrindx_bug_11657444.tsc",
+        "tsagstrindx_bug_12928840.tsc",
+        "tsagxlate.tsc"
+    ],
+    "lrgdbconsasindxo": [
+        "tsagstrindx8.tsc"
+    ],
+    "lrgdbconsasindxo_excld": [
+        "tsagdropextent.tsc"
+    ],
+    "lrgdbconsasipersist": [
+        "tsagbug33667027.tsc"
+    ],
+    "lrgdbconsasipersist1": [
+        "tsagsipersfailure.tsc",
+        "tsagsipersini.tsc"
+    ],
+    "lrgdbconsasireb": [
+        "tsagsidumpusage.tsc",
+        "tsagsireb.tsc",
+        "tsagsirebini.tsc"
+    ],
+    "lrgdbconsasirgnhdl": [
+        "tsagsirgnhdlre.tsc"
+    ],
+    "lrgdbconsastats": [
+        "tsagstat1.tsc"
+    ],
+    "lrgdbconsatpc1": [
+        "tsagssb.tsc",
+        "tsagtpcc.tsc",
+        "tsagtpcc_setup.tsc",
+        "tsagtpcds.tsc"
+    ],
+    "lrgdbconsaucached": [
+        "tsagaucached.tsc"
+    ],
+    "lrgdbconsautoc1": [
+        "tsagbug21454474.tsc"
+    ],
+    "lrgdbconsautoc3": [
+        "tsagautoni.tsc"
+    ],
+    "lrgdbconsautolw": [
+        "tsagfailini.tsc",
+        "tsagrun.tsc"
+    ],
+    "lrgdbconsautonm": [
+        "tsagautonm.tsc"
+    ],
+    "lrgdbconsautor2": [
+        "tsagauton2.tsc"
+    ],
+    "lrgdbconsauvscan": [
+        "tsaguvscan.tsc"
+    ],
+    "lrgdbconsavers": [
+        "tsagobjstat.tsc",
+        "tsagver1.tsc",
+        "tsagver2.tsc",
+        "tsagvers.tsc"
+    ],
+    "lrgdbconsavsn1": [
+        "tsagvsnasm.tsc",
+        "tsagvsnasm1.tsc",
+        "tsagvsnasm_imptc.tsc"
+    ],
+    "lrgdbconsax5db": [
+        "tsagx5config.tsc"
+    ],
+    "lrgdbconsax5debugcli": [
+        "tsagvsaf8.tsc",
+        "tsagx5afdejstat.tsc"
+    ],
+    "lrgdbconsax7db": [
+        "tsagx7config.tsc"
+    ],
+    "lrgdbconsax7debugcli": [
+        "tsagdebugclix7.tsc"
+    ],
+    "lrgdbcsa4d3": [
+        "tsagfcioruntc.tsc"
+    ],
+    "lrgdbcsaautorebal1": [
+        "tsagmsbugsuit.tsc"
+    ],
+    "lrgdbcsaautorebal2": [
+        "tsag_asm_pow_limit_adj_scripts.tsc",
+        "tsag_auto_asm_pow_lim_adj.tsc"
+    ],
+    "lrgdbcsadropadd_fail": [
+        "tsagdrop_cell.tsc"
+    ],
+    "lrgdbcsadskcntar1": [
+        "tsagdskcntr_manualreco.tsc",
+        "tsagdskcntr_replace.tsc",
+        "tsagdskcntr_scripts.tsc",
+        "tsagdskcntreco.tsc"
+    ],
+    "lrgdbcsadskcntar2": [
+        "tsagdskcntreco2.tsc"
+    ],
+    "lrgdbcsadskinj": [
+        "tsagformatsp.tsc",
+        "tsagmdsubver.tsc"
+    ],
+    "lrgdbcsaexacldcrptmir": [
+        "tsagexacldmircorpt.tsc"
+    ],
+    "lrgdbcsaexaclddb_3cells": [
+        "tsagmultispvltprovision.tsc"
+    ],
+    "lrgdbcsaexaclddropadd2_db": [
+        "tsagexc4cell_dbdown.tsc",
+        "tsagexcdropadd_db.tsc"
+    ],
+    "lrgdbcsaexaclddropadd3_db": [
+        "tsagbug35008165.tsc"
+    ],
+    "lrgdbcsaexaclddropadd4_db": [
+        "tsagexcadd_samecell.tsc",
+        "tsagexcdrop_cell.tsc",
+        "tsagexcdropcell_perm.tsc"
+    ],
+    "lrgdbcsaexaclddropadd5_db": [
+        "tsagexcdropaddcell_loop.tsc"
+    ],
+    "lrgdbcsaexaclddropadd6_db": [
+        "tsagexcdropaddcell_loop2.tsc"
+    ],
+    "lrgdbcsaexaclddropadd7": [
+        "tsagbug37695353.tsc"
+    ],
+    "lrgdbcsaexacldedsrman": [
+        "tsagedsrman.tsc"
+    ],
+    "lrgdbcsaexacldegs12": [
+        "tsagbug35315393.tsc"
+    ],
+    "lrgdbcsaexacldegs17": [
+        "tsagbug35734268.tsc"
+    ],
+    "lrgdbcsaexacldegs18": [
+        "tsagexcdbrmsp.tsc"
+    ],
+    "lrgdbcsaexacldiormpush": [
+        "tsagiormpush.tsc"
+    ],
+    "lrgdbcsaexacldmetrics": [
+        "tsagexcvaultmetrics.tsc"
+    ],
+    "lrgdbcsaexacldmetrics2": [
+        "tsagexcvaultmetrics_2.tsc"
+    ],
+    "lrgdbcsaexacldrebal2_db": [
+        "tsagexacldrebaldb1.tsc",
+        "tsagexacldrebaldb2.tsc",
+        "tsagexacldrebaldb3.tsc",
+        "tsagexacldrebaldb4.tsc"
+    ],
+    "lrgdbcsaexacldresilver_db": [
+        "tsagexcresilver_db.tsc"
+    ],
+    "lrgdbcsaexacldresync2_db": [
+        "tsagexacldresyncdb2.tsc",
+        "tsagexacldresyncdb3.tsc"
+    ],
+    "lrgdbcsaexacldresync2_db2": [
+        "tsagexacldresyncdb1.tsc",
+        "tsagexcegsfail.tsc",
+        "tsagexcegsfaildb.tsc"
+    ],
+    "lrgdbcsaexacldresync2_db3": [
+        "tsagexacldresyncdb4.tsc"
+    ],
+    "lrgdbcsaexacldrman3": [
+        "tsagexacldrman.tsc"
+    ],
+    "lrgdbcsaexacldrman4": [
+        "tsagexcpdbrsfs.tsc"
+    ],
+    "lrgdbcsaexacldrman5": [
+        "tsagexacldrmanresfservice.tsc"
+    ],
+    "lrgdbcsaexacldsearch": [
+        "tsagexacldsearch.tsc"
+    ],
+    "lrgdbcsaexacldvesscrub_db": [
+        "tsagexcscrub_db.tsc"
+    ],
+    "lrgdbcsaexadoubfail": [
+        "tsagexa_miscdoubfail.tsc"
+    ],
+    "lrgdbcsaexarestart1": [
+        "tsagexaresloop.tsc"
+    ],
+    "lrgdbcsaexcautovlt": [
+        "tsagresourceprofile.tsc"
+    ],
+    "lrgdbcsaexcdblencrypt": [
+        "tsagexcdoubleencrypt.tsc"
+    ],
+    "lrgdbcsaexcdbvolcs": [
+        "tsagexcsidbonvol.tsc"
+    ],
+    "lrgdbcsaexcdiskstate_4cell": [
+        "tsagexcdiskstate.tsc"
+    ],
+    "lrgdbcsaexcdsoffon": [
+        "tsagexcdsoff1.tsc",
+        "tsagexcdsoffon.tsc"
+    ],
+    "lrgdbcsaexcdss1": [
+        "tsagexcbug37788743.tsc"
+    ],
+    "lrgdbcsaexcdss3_gdbclone": [
+        "tsagexcbug38108274.tsc",
+        "tsagexcdss.tsc"
+    ],
+    "lrgdbcsaexcdss5_gdbclone": [
+        "tsagexcvaultattr_ef.tsc"
+    ],
+    "lrgdbcsaexcdstate": [
+        "tsagexcdstatedbandcell.tsc"
+    ],
+    "lrgdbcsaexcebsfnc_3cell": [
+        "tsagebs2procfence_3cell.tsc",
+        "tsagebsmultiprocbswfence.tsc",
+        "tsagebsprocfence_3cell.tsc",
+        "tsagebsprocfence_restart_3cell.tsc",
+        "tsagexcautoqrntvlt_3cell.tsc"
+    ],
+    "lrgdbcsaexcedscdbid": [
+        "tsagexccdbid_eds.tsc"
+    ],
+    "lrgdbcsaexcedset1": [
+        "tsagdltvltload.tsc",
+        "tsagexacldropusr.tsc",
+        "tsagexcedsdataset.tsc",
+        "tsagexcesclilsdataset.tsc"
+    ],
+    "lrgdbcsaexcedset2": [
+        "tsagexcedscrash_md.tsc",
+        "tsagexcedslegacyrcvry.tsc",
+        "tsagexcedsspaceused.tsc"
+    ],
+    "lrgdbcsaexcedskill_db": [
+        "tsagexcedskill_db.tsc"
+    ],
+    "lrgdbcsaexcedslibglobal": [
+        "tsagedslibglobalfile.tsc"
+    ],
+    "lrgdbcsaexcegsbug1": [
+        "tsagbug37393066.tsc"
+    ],
+    "lrgdbcsaexcegscancel1": [
+        "tsagexc_cancel.tsc"
+    ],
+    "lrgdbcsaexcfail1": [
+        "tsagrestartexc_bg.tsc"
+    ],
+    "lrgdbcsaexcfail2": [
+        "tsagtcpmonloop.tsc"
+    ],
+    "lrgdbcsaexcfail3": [
+        "tsagdsofflinerecovery.tsc",
+        "tsagexcchkmetadata.tsc",
+        "tsagexcrmvault2.tsc"
+    ],
+    "lrgdbcsaexcfail_db_edv": [
+        "tsagexcfail_db_bs_edv.tsc"
+    ],
+    "lrgdbcsaexcfailc1": [
+        "tsagexc_resync_rebal.tsc"
+    ],
+    "lrgdbcsaexcfailc10": [
+        "tsagexc_resync_scrub.tsc"
+    ],
+    "lrgdbcsaexcfailc11": [
+        "tsagexc_conf_rebal_egs.tsc"
+    ],
+    "lrgdbcsaexcfailc12": [
+        "tsagexc_conf_resy_egs.tsc"
+    ],
+    "lrgdbcsaexcfailc13": [
+        "tsagexc_conf_rslv_egs.tsc"
+    ],
+    "lrgdbcsaexcfailc14": [
+        "tsagexc_rebal_rslv_egs.tsc"
+    ],
+    "lrgdbcsaexcfailc15": [
+        "tsagexc_resy_rebal_egs.tsc"
+    ],
+    "lrgdbcsaexcfailc16": [
+        "tsagexc_dropadd_scrub.tsc"
+    ],
+    "lrgdbcsaexcfailc17": [
+        "tsagexc_dropadd_rslv.tsc"
+    ],
+    "lrgdbcsaexcfailc18": [
+        "tsagexc_dropadd_resync.tsc"
+    ],
+    "lrgdbcsaexcfailc19": [
+        "tsagexc_dropadd_rebal.tsc"
+    ],
+    "lrgdbcsaexcfailc2": [
+        "tsagexc_rebal_rslv.tsc"
+    ],
+    "lrgdbcsaexcfailc20": [
+        "tsagexc_dropadd_conf.tsc"
+    ],
+    "lrgdbcsaexcfailc21": [
+        "tsagexcrebal_ves_err.tsc"
+    ],
+    "lrgdbcsaexcfailc22": [
+        "tsagexcrebal_iowrite_err.tsc"
+    ],
+    "lrgdbcsaexcfailc23": [
+        "tsagexcresync_ioall_err.tsc"
+    ],
+    "lrgdbcsaexcfailc24": [
+        "tsagexcresync_slowdisk.tsc"
+    ],
+    "lrgdbcsaexcfailc25": [
+        "tsagexcresilver_ves_err.tsc"
+    ],
+    "lrgdbcsaexcfailc26": [
+        "tsagexcresilver_iohang.tsc"
+    ],
+    "lrgdbcsaexcfailc27": [
+        "tsagexcrebal_iowrite_ves_err.tsc"
+    ],
+    "lrgdbcsaexcfailc28": [
+        "tsagexcresync_ioall_iohang.tsc"
+    ],
+    "lrgdbcsaexcfailc29": [
+        "tsagexcresilver_slowdisk_ioall.tsc"
+    ],
+    "lrgdbcsaexcfailc3": [
+        "tsagexc_conf_resync.tsc"
+    ],
+    "lrgdbcsaexcfailc31": [
+        "tsagexcdrop_restart.tsc"
+    ],
+    "lrgdbcsaexcfailc32": [
+        "tsagexcfail_restart.tsc"
+    ],
+    "lrgdbcsaexcfailc33": [
+        "tsagexcfail_flash.tsc",
+        "tsagexcrestart_fail.tsc"
+    ],
+    "lrgdbcsaexcfailc34": [
+        "tsagexcdoublefail_4cell.tsc"
+    ],
+    "lrgdbcsaexcfailc35": [
+        "tsagexcdrop_add_disk.tsc"
+    ],
+    "lrgdbcsaexcfailc36": [
+        "tsagexc_reconfig_scrub.tsc"
+    ],
+    "lrgdbcsaexcfailc37": [
+        "tsagexc_reconfig_rslv.tsc"
+    ],
+    "lrgdbcsaexcfailc38": [
+        "tsagexc_reconfig_resync.tsc"
+    ],
+    "lrgdbcsaexcfailc39": [
+        "tsagexc_reconfig_rebal.tsc"
+    ],
+    "lrgdbcsaexcfailc4": [
+        "tsagexc_conf_rslv.tsc"
+    ],
+    "lrgdbcsaexcfailc40": [
+        "tsagexc_reconfig_conf.tsc"
+    ],
+    "lrgdbcsaexcfailc41": [
+        "tsagexc_rebal_rslv_2.tsc"
+    ],
+    "lrgdbcsaexcfailc42": [
+        "tsagdropfirst_rebal2nd.tsc"
+    ],
+    "lrgdbcsaexcfailc43": [
+        "tsagdropfirst_scrub2nd.tsc"
+    ],
+    "lrgdbcsaexcfailc44": [
+        "tsagexcdiskresync_drop.tsc"
+    ],
+    "lrgdbcsaexcfailc45": [
+        "tsagexcdiskresync_unreachable.tsc"
+    ],
+    "lrgdbcsaexcfailc5": [
+        "tsagexc_conf_rebal.tsc"
+    ],
+    "lrgdbcsaexcfailc6": [
+        "tsagexc_rebal_rebal.tsc"
+    ],
+    "lrgdbcsaexcfailc7": [
+        "tsagexc_rebal_scrub.tsc"
+    ],
+    "lrgdbcsaexcfailc8": [
+        "tsagexc_resync_resync.tsc"
+    ],
+    "lrgdbcsaexcfailc9": [
+        "tsagexc_resync_rslv.tsc"
+    ],
+    "lrgdbcsaexcfcbrown": [
+        "tsagexcbug36023199.tsc"
+    ],
+    "lrgdbcsaexcfence1": [
+        "tsagfencauth.tsc",
+        "tsaginstfence.tsc"
+    ],
+    "lrgdbcsaexcfence1m": [
+        "tsagmultinodefencing.tsc"
+    ],
+    "lrgdbcsaexcfence3": [
+        "tsagexc_restart_service_simultaneous.tsc"
+    ],
+    "lrgdbcsaexcfence4": [
+        "tsagbug37474733.tsc"
+    ],
+    "lrgdbcsaexcfile1": [
+        "tsaguncommittedfile1.tsc",
+        "tsaguncommittedfile2.tsc",
+        "tsaguncommittedfile3.tsc"
+    ],
+    "lrgdbcsaexcgdbclone1": [
+        "tsagexc_lscell_xtmedia.tsc"
+    ],
+    "lrgdbcsaexchybrid3": [
+        "tsaghybridspreconfig.tsc"
+    ],
+    "lrgdbcsaexchybrid3edv": [
+        "tsagexc_dbonattsnapvol.tsc"
+    ],
+    "lrgdbcsaexchybrid4": [
+        "tsaghybridrebal_egsrestart.tsc"
+    ],
+    "lrgdbcsaexchybrid5": [
+        "tsaghybridcellsrvrestart.tsc",
+        "tsaghybriddbcellrestart.tsc"
+    ],
+    "lrgdbcsaexchybrid6": [
+        "tsaghybridworkload_util.tsc"
+    ],
+    "lrgdbcsaexchybrid7": [
+        "tsaghybrid_addcell.tsc",
+        "tsagrepparam.tsc"
+    ],
+    "lrgdbcsaexchybridiorm": [
+        "tsagexchybridiorm.tsc"
+    ],
+    "lrgdbcsaexcmdb1_hybrid": [
+        "tsagmdbhybridccpersist.tsc",
+        "tsagmdbhybridworkload.tsc",
+        "tsagspresourcechk.tsc"
+    ],
+    "lrgdbcsaexcmdbresync1_hybrid": [
+        "tsagmdbhybridresync.tsc"
+    ],
+    "lrgdbcsaexcmiscfail2_3cell": [
+        "tsagdbcsaexcmiscfail2_3cell.tsc"
+    ],
+    "lrgdbcsaexcmtcadg": [
+        "tsagmtcadgtest.tsc"
+    ],
+    "lrgdbcsaexcmultisp1": [
+        "tsagexcaddcell_cf.tsc"
+    ],
+    "lrgdbcsaexcorphanfile": [
+        "tsagorphanfilecleanup.tsc"
+    ],
+    "lrgdbcsaexcpdbcarousel": [
+        "tsagexcpdbcarousel.tsc"
+    ],
+    "lrgdbcsaexcpdbcarousel2": [
+        "tsagexcpdbcarouselworkload.tsc"
+    ],
+    "lrgdbcsaexcpdbcarousel3": [
+        "tsagexcpdbcc2thinclone.tsc"
+    ],
+    "lrgdbcsaexcpdbcarousel4": [
+        "tsaggdbclone_test.tsc"
+    ],
+    "lrgdbcsaexcpdbsnap_si": [
+        "tsagexcpdbsi_snap.tsc"
+    ],
+    "lrgdbcsaexcqlc": [
+        "tsagexcqlc_cf.tsc"
+    ],
+    "lrgdbcsaexcracdbcedv": [
+        "tsagexcdbonvol.tsc",
+        "tsagexcdgonvol.tsc",
+        "tsagexcracasm_onedv.tsc",
+        "tsagexcracdb_clean.tsc"
+    ],
+    "lrgdbcsaexcracdbvol1": [
+        "tsagexcasmhome_onvol.tsc"
+    ],
+    "lrgdbcsaexcracdbvol2": [
+        "tsagexcracasm_onvol.tsc"
+    ],
+    "lrgdbcsaexcrdma": [
+        "tsagbug36919029.tsc"
+    ],
+    "lrgdbcsaexcrebal2_db_snap": [
+        "tsagexcrebal_db_snap.tsc"
+    ],
+    "lrgdbcsaexcresilver2_db_snap": [
+        "tsagexcresilver_db_snap.tsc"
+    ],
+    "lrgdbcsaexcresilver_dou": [
+        "tsagexcdoubleresl_db.tsc"
+    ],
+    "lrgdbcsaexcresilverdb_qlc": [
+        "tsagexcresilverdb_qlc.tsc"
+    ],
+    "lrgdbcsaexcrestart1": [
+        "tsagexcresloop.tsc"
+    ],
+    "lrgdbcsaexcresync2_dball_snap": [
+        "tsagexcresyncall_db_snap.tsc"
+    ],
+    "lrgdbcsaexcresyncdb_qlc": [
+        "tsagexacldresyncdb1_qlc.tsc",
+        "tsagexcegsfaildb_qlc.tsc"
+    ],
+    "lrgdbcsaexcrprtimer": [
+        "tsagrprtimertest.tsc"
+    ],
+    "lrgdbcsaexcrslvfail_db": [
+        "tsagexcrslv_doufail.tsc"
+    ],
+    "lrgdbcsaexcsire1": [
+        "tsagexcsic2crelocation.tsc"
+    ],
+    "lrgdbcsaexcsnap2": [
+        "tsagvtableprivilege.tsc"
+    ],
+    "lrgdbcsaexcsnap3": [
+        "tsagrmansnap_file.tsc",
+        "tsagrmansnap_table.tsc",
+        "tsagsnap_ehcc.tsc",
+        "tsagsnap_si.tsc",
+        "tsagsnapchainedrow.tsc",
+        "tsagsnapdroptest.tsc",
+        "tsagsnapfeaturetest.tsc",
+        "tsagsnapfeaturetest_2.tsc",
+        "tsagsnapfeaturetest_3.tsc",
+        "tsagsnapfeaturetest_functions.tsc",
+        "tsagsnapoltp.tsc",
+        "tsagsnaprange_scan.tsc",
+        "tsagsnaprman.tsc",
+        "tsagsnapscan.tsc"
+    ],
+    "lrgdbcsaexcsrfailover": [
+        "tsagexcsrfailover.tsc"
+    ],
+    "lrgdbcsaexcsrvredund1": [
+        "tsagexccellsrvredund.tsc"
+    ],
+    "lrgdbcsaexcsrvredund2": [
+        "tsagexcsrvredund.tsc"
+    ],
+    "lrgdbcsaexcstdby": [
+        "tsagexcstandby.tsc"
+    ],
+    "lrgdbcsaexcstdby2": [
+        "tsagexcstandby2.tsc"
+    ],
+    "lrgdbcsaexcvesgdresize_db": [
+        "tsagvesgdresize_db.tsc"
+    ],
+    "lrgdbcsaexcxlcellrebal1": [
+        "tsagcellscaleupfail1.tsc"
+    ],
+    "lrgdbcsaexcxlcellrebal2": [
+        "tsagcellscaleupfail2.tsc"
+    ],
+    "lrgdbcsaexcxlcellresync1": [
+        "tsagxlcellresync1.tsc"
+    ],
+    "lrgdbcsaexcxlcellresync2": [
+        "tsagxlcellresync2.tsc",
+        "tsagxlcellsuite.tsc"
+    ],
+    "lrgdbcsafccachedby": [
+        "tsagbug30512925.tsc"
+    ],
+    "lrgdbcsafcgroups": [
+        "tsagcdbfcgroupstests.tsc"
+    ],
+    "lrgdbcsafclogger_fc": [
+        "tsagfclogdbini.tsc"
+    ],
+    "lrgdbcsafcstat1": [
+        "tsagfcstatioreasons.tsc"
+    ],
+    "lrgdbcsahfact2": [
+        "tsagsahfact.tsc"
+    ],
+    "lrgdbcsahfact3_sgd": [
+        "tsaghlthfact_attr.tsc"
+    ],
+    "lrgdbcsaiorm1": [
+        "tsagbug36869563.tsc"
+    ],
+    "lrgdbcsaiorm_asmsc": [
+        "tsagiormini.tsc",
+        "tsagiormpdblimit.tsc"
+    ],
+    "lrgdbcsaiormpmem2_xrmem": [
+        "tsaginiiormpmem.tsc",
+        "tsagruniormpmem.tsc"
+    ],
+    "lrgdbcsamdbpdb": [
+        "tsagmdbpdbcc2.tsc"
+    ],
+    "lrgdbcsamsbug39": [
+        "tsagbug37150551.tsc"
+    ],
+    "lrgdbcsamtciormcluster": [
+        "tsagclusterplansecurity.tsc"
+    ],
+    "lrgdbcsamtciormpmem": [
+        "tsagclniormpmem.tsc"
+    ],
+    "lrgdbcsapdb": [
+        "tsagpdbcc2.tsc"
+    ],
+    "lrgdbcsapdb1": [
+        "tsagpdbclniorm.tsc",
+        "tsagpdbini.tsc",
+        "tsagpdbsetiorm.tsc",
+        "tsagpdbsmart.tsc"
+    ],
+    "lrgdbcsapdbmaxsize": [
+        "tsagpdb_fcsize.tsc"
+    ],
+    "lrgdbcsapdbxcli": [
+        "tsagpdbxcellsetup.tsc",
+        "tsagpdbxdb.tsc"
+    ],
+    "lrgdbcsapmemlog1": [
+        "tsagfakeiberrsim_destroy_qp.tsc",
+        "tsagpmemlog01.tsc"
+    ],
+    "lrgdbcsapmemlog2_cmainr19000": [
+        "tsagpmemlog02.tsc"
+    ],
+    "lrgdbcsapmemlog3": [
+        "tsagpmemlog03.tsc"
+    ],
+    "lrgdbcsapmemlog4": [
+        "tsagpmemlog04.tsc"
+    ],
+    "lrgdbcsapmemlog5": [
+        "tsagpmemlog05.tsc"
+    ],
+    "lrgdbcsapmemlog6": [
+        "tsagbug33756086.tsc"
+    ],
+    "lrgdbcsapmemlog7": [
+        "tsagfakeiberrsim.tsc"
+    ],
+    "lrgdbcsapmemlog8": [
+        "tsagbug37136289.tsc"
+    ],
+    "lrgdbcsapmemlogoff": [
+        "tsagpmemlogoff.tsc"
+    ],
+    "lrgdbcsapmemspace_cc": [
+        "tsagcdbccfcpmem.tsc"
+    ],
+    "lrgdbcsapmemspace_excld": [
+        "tsagpmemspacemgmt.tsc"
+    ],
+    "lrgdbcsapmemspace_wt": [
+        "tsagpmemcdbini.tsc",
+        "tsagpmemfailure.tsc"
+    ],
+    "lrgdbcsaproxyread2_asmsc_cmainrmain": [
+        "tsagproxyread.tsc",
+        "tsagproxyread_diskrep.tsc"
+    ],
+    "lrgdbcsaproxyread3_cmainrmain": [
+        "tsagpredpxyrd_awrstats.tsc",
+        "tsagpredpxyrd_bug38087492.tsc",
+        "tsagpredpxyrd_bug38128750.tsc",
+        "tsagpredpxyrd_bug38178155.tsc",
+        "tsagpredpxyrd_bug38183370.tsc",
+        "tsagsmartscanpartnerread.tsc"
+    ],
+    "lrgdbcsascbug28": [
+        "tsagpushback_offloadqueries.tsc"
+    ],
+    "lrgdbcsascbug29": [
+        "tsagaddquorum_flex.tsc",
+        "tsagbug36108866.tsc",
+        "tsagbug36855672.tsc",
+        "tsagbug36855672_1.tsc"
+    ],
+    "lrgdbcsascbug30": [
+        "tsagbug37740554.tsc"
+    ],
+    "lrgdbcsasec4x": [
+        "tsagsec4.tsc"
+    ],
+    "lrgdbcsasparse1": [
+        "tsagsparse1.tsc",
+        "tsagsparse_ehcc_chain.tsc"
+    ],
+    "lrgdbcsasparse17": [
+        "tsaghighsparsedg.tsc"
+    ],
+    "lrgdbcsasparse19": [
+        "tsagsetupspdb.tsc",
+        "tsagspcorrupt_getvars1.tsc",
+        "tsagspcorrupt_getvars2.tsc",
+        "tsagspcorruptsql.tsc"
+    ],
+    "lrgdbcsasparse1n": [
+        "tsagformatsp_n.tsc",
+        "tsagsparse_sp.tsc",
+        "tsagsparsedb.tsc"
+    ],
+    "lrgdbcsasparse25": [
+        "tsagsparse_mediarec.tsc"
+    ],
+    "lrgdbcsasparse26": [
+        "tsagsparserman.tsc"
+    ],
+    "lrgdbcsasparse27": [
+        "tsagsparseparent.tsc"
+    ],
+    "lrgdbcsasparse29": [
+        "tsagsparsemedia.tsc"
+    ],
+    "lrgdbcsasparse30": [
+        "tsagsparseasmcmdcp.tsc",
+        "tsagsparseasmcmdinout.tsc"
+    ],
+    "lrgdbcsaspsi": [
+        "tsagsparse_si_cross_cdb.tsc"
+    ],
+    "lrgexadoop2": [
+        "tsagcellexadoop.tsc"
+    ],
+    "lrgrh11sasrvmondb": [
+        "tsagrh_restore_dbmmgmt_rpm.tsc",
+        "tsagservmonitor_db.tsc",
+        "tsagx7dbcorecap.tsc",
+        "tsagrh_restore_dbmmgmt_rpm.sh"
+    ],
+    "lrgrh7sadbmasr": [
+        "tsagscrubtst_db.tsc",
+        "tsagswupdate_db.tsc"
+    ],
+    "lrgrh7sadbmcli1": [
+        "tsagsundiagcases.tsc",
+        "tsagtstchk_db.tsc"
+    ],
+    "lrgrh7saioreplay": [
+        "tsagdbnodereimgfailseq.tsc"
+    ],
+    "lrgrh9sadbms": [
+        "tsagdbmstempalert.tsc"
+    ],
+    "lrgrh9saswupd_db": [
+        "tsagmetricstream_db.tsc"
+    ],
+    "lrgrhexaprovcluster": [
+        "tsagimpasswdilom.tsc",
+        "tsagimsclcypasswd.tsc",
+        "tsagmigrateids.tsc",
+        "tsagrh_bug_37219761.tsc",
+        "tsagrh_dimm_ue_egssrv.tsc",
+        "tsagrh_dstate_faultinj_cell.tsc",
+        "tsagrh_ifd_checks.tsc",
+        "tsagrh_oeda_dropcells.tsc",
+        "tsagrh_vm_maker_add_disk.tsc",
+        "tsagrh_aep.sh",
+        "tsagrh_bug34557348.sh",
+        "tsagrh_bug36263733.sh",
+        "tsagrh_bug38224682.sh",
+        "tsagrh_bug_37219761.sh",
+        "tsagrh_bug_37251550.sh",
+        "tsagrh_bug_38139496.sh",
+        "tsagrh_celld_dbserverd.sh",
+        "tsagrh_celld_helper.sh",
+        "tsagrh_change_flashcachemode.sh",
+        "tsagrh_check_ers_attrs.sh",
+        "tsagrh_check_ghost_egs.sh",
+        "tsagrh_dbserverd_helper.sh",
+        "tsagrh_dimm_ue_egssrv.sh",
+        "tsagrh_excsfixpython.sh",
+        "tsagrh_fetch_debug_level_messages.sh",
+        "tsagrh_genoedacliinput.sh",
+        "tsagrh_list_ers_ip.sh",
+        "tsagrh_migrateids.sh",
+        "tsagrh_online_u01disk_expansion.sh",
+        "tsagrh_reboot_fndd_check.sh",
+        "tsagrh_verify_esnode_attr.sh",
+        "tsagrh_xsh_functionality_tests.sh"
+    ],
+    "lrgrhexaprovcluster_livemig": [
+        "tsagrh_livemig_run_unit_tests.tsc",
+        "tsagrhinit.tsc",
+        "tsagrhrunscript.tsc",
+        "tsagservmonitor_livemig.tsc",
+        "tsagrh_bug_37203698.sh",
+        "tsagrh_get_vmmaker_final_statistics.sh",
+        "tsagrh_live_migration.sh",
+        "tsagrh_livemig_gen_unit_tests.sh",
+        "tsagrh_livemig_interrupt_test.sh",
+        "tsagrh_migmon_test.sh",
+        "tsagrh_rdma_keep_alive.sh",
+        "tsagrh_socket_console_restoration_test.sh",
+        "tsagrh_special_tc_rule_configuration.sh",
+        "tsagrh_vmmaker_livemig_scenarios.sh"
+    ],
+    "lrgrhexaprovcluster_onprem_multi_vm": [
+        "tsagrh_add_edv_volume.tsc",
+        "tsagrh_guest_migration.tsc",
+        "tsagrh_kvm_guest_irq_check.tsc",
+        "tsagrh_vm_edv_tests.tsc",
+        "tsagrhgdbclone_test.tsc",
+        "tsagrh_edv_fault_injection.sh",
+        "tsagrh_edv_resize_test.sh",
+        "tsagrh_iorm_multivm_test.sh",
+        "tsagrh_oedacli_guest_edv_ops.sh",
+        "tsagrh_power_outage.sh",
+        "tsagrh_remove_cluster.sh",
+        "tsagrh_vm_edv_guest_operations.sh"
+    ],
+    "lrgrhexcupgrade": [
+        "tsagmserssync.tsc",
+        "tsagrh_cellrpm_upgrade.tsc",
+        "tsagrh_exascale_unit_tests.tsc",
+        "tsagrh_single_inst_db_rhexcupgrade.tsc",
+        "tsagrh_bug_37680823.sh",
+        "tsagrh_bug_38338865.sh",
+        "tsagrh_functional_test_37873474.sh",
+        "tsagrh_rds_ping_test.sh",
+        "tsagrh_rpm_unins_conf.sh",
+        "tsagrh_setup_ssh.sh",
+        "tsagrh_validate_restsubscriber_files.sh"
+    ],
+    "lrgrhexcupgrade_online": [
+        "tsagrh_blockstore_workload.tsc",
+        "tsagrh_iov_workload.tsc",
+        "tsagrh_acfs_post_volume_test.sh",
+        "tsagrh_acfs_pre_volume_test.sh",
+        "tsagrh_blockstore_functions.sh",
+        "tsagrh_bug_37894213.sh",
+        "tsagrh_call_blockstore.sh",
+        "tsagrh_check_iops.sh",
+        "tsagrh_get_escli_locally.sh",
+        "tsagrh_iov_workload.sh",
+        "tsagrh_post_volume_test.sh",
+        "tsagrh_pre_volume_test.sh",
+        "tsagrh_run_cellrpm_upgrade.sh"
+    ],
+    "lrgrhx10imoeda_50vm_exascale": [
+        "tsagrh_check_services.tsc"
+    ],
+    "lrgrhx10sacrypto": [
+        "tsagtestbug37159551.tsc"
+    ],
+    "lrgrhx10saexaportmon_sf": [
+        "tsagexaportmon_secure_fabric_cell.tsc",
+        "tsagrh_exaportmon_switch.sh"
+    ],
+    "lrgrhx10samiscbugs": [
+        "tsagbug37890287.tsc"
+    ],
+    "lrgrhx11sacel": [
+        "tsagfdflush.tsc"
+    ],
+    "lrgrhx11sadaxorion": [
+        "tsagfc_xrmc_resiliency.tsc",
+        "tsagrecreatexrmem_x11.tsc",
+        "tsagrhipcdat_dxd.tsc",
+        "tsagrscellsrvalrt.tsc",
+        "tsagtargetwatts_cell.tsc",
+        "tsagrh_bug_38081703.sh"
+    ],
+    "lrgrhx11sadiag": [
+        "tsagrh_enable_smart_storage.tsc",
+        "tsagx7rofs.tsc"
+    ],
+    "lrgrhx11safnddfailure": [
+        "tsagrhdisablessh.tsc",
+        "tsagrhfndd.tsc",
+        "tsagrhdisablessh.sh"
+    ],
+    "lrgrhx11saipcdat": [
+        "tsagflashwearorion.tsc",
+        "tsagrhnewipcdatiopath.tsc"
+    ],
+    "lrgrhx11saipcdatqos": [
+        "tsagservmonitor.tsc",
+        "tsagtelemetrylog.tsc"
+    ],
+    "lrgrhx11sapwrsave": [
+        "tsaglowpowermode.tsc",
+        "tsaglowpowerwrkld.tsc",
+        "tsagtargetwatts.tsc"
+    ],
+    "lrgrhx7imonec": [
+        "tsagrh_diagpack.tsc",
+        "tsagrh_fcstat.tsc",
+        "tsagrh_hac_testsuite.tsc",
+        "tsagrh_workload.tsc",
+        "tsagrh_x7generateoedaxml.tsc",
+        "tsagrh_bug35338688.sh",
+        "tsagrh_diagpackc.sh",
+        "tsagrh_diagpackp.sh",
+        "tsagrh_diagpackv.sh",
+        "tsagrh_fcstat.sh",
+        "tsagrh_hac_testsuite.sh",
+        "tsagrh_swtchfail1_maa.sh",
+        "tsagrh_x7_genoedauixml.sh"
+    ],
+    "lrgrhx7sacrypto2": [
+        "tsagnetdiag.tsc"
+    ],
+    "lrgrhx7sadiag1": [
+        "tsagrhsnmpv3test.tsc",
+        "tsagrhsnmpv3test_functions.sh"
+    ],
+    "lrgrhx7safclarge1": [
+        "tsagfclarge1_hwd.tsc"
+    ],
+    "lrgrhx7safndd": [
+        "tsagnodehealthfailseq.tsc",
+        "tsagreimage_db_cell.tsc",
+        "tsagreimgfailseq_db_cell.tsc",
+        "tsagtstchk_db_cell.tsc"
+    ],
+    "lrgrhx7saiovsparse": [
+        "tsagsparse_realhwd.tsc"
+    ],
+    "lrgrhx7sams": [
+        "tsagilom_fail_simln.tsc"
+    ],
+    "lrgrhx9amdimonec": [
+        "tsagrh_amd_post_oeda_validations.tsc",
+        "tsagrh_bug37582178.tsc",
+        "tsagrh_bug37829269.tsc",
+        "tsagrh_bug_37256860.tsc",
+        "tsagrh_dbworkload.tsc",
+        "tsagrh_dimm_poison_test.tsc",
+        "tsagrh_dstate_faultinj.tsc",
+        "tsagrh_rdmastats.tsc",
+        "tsagrh_ue_dimm_poison_test.tsc",
+        "tsagrh_bug37582178.sh",
+        "tsagrh_bug38495244.sh",
+        "tsagrh_bug_37256860.sh",
+        "tsagrh_dimm_poison.sh",
+        "tsagrh_dimm_poison_diagpack.sh",
+        "tsagrh_disable_secureboot.sh",
+        "tsagrh_dstate_freezer.sh",
+        "tsagrh_enable_secureboot.sh",
+        "tsagrh_fndd_diskmon.sh",
+        "tsagrh_notifyplcy.sh",
+        "tsagrh_oedadeplday.sh",
+        "tsagrh_simulate_ce_fault.sh",
+        "tsagrh_ue_dimm_poison.sh",
+        "tsagrh_validate_libndctl_test.sh"
+    ],
+    "lrgrhx9amdrocechk": [
+        "tsagbug33992818.tsc",
+        "tsagbug33992818_com.tsc"
+    ],
+    "lrgrhx9amdsadbmcli": [
+        "tsagbug34852723.tsc",
+        "tsagbug35145671.tsc"
+    ],
+    "lrgrhx9amdsadbmcli1": [
+        "tsaginitchk_db.tsc",
+        "tsagnet_prtcl_attr_db.tsc",
+        "tsagx9dbmssuit.tsc",
+        "tsagx9dskrplchk_singledisk.tsc"
+    ],
+    "lrgrhx9sa8rack2": [
+        "tsagsymlinkdcli.tsc"
+    ],
+    "lrgrhx9sacel": [
+        "tsagsdsh3.tsc"
+    ],
+    "lrgrhx9sacrypto": [
+        "tsagcryptoscript.tsc",
+        "tsagcserase_x5.tsc"
+    ],
+    "lrgrhx9sadbexacli": [
+        "tsagdbmspd.tsc"
+    ],
+    "lrgrhx9sadbmcli": [
+        "tsagtargetwattneg.tsc"
+    ],
+    "lrgrhx9sadbmcli1": [
+        "tsagilommultifault.tsc"
+    ],
+    "lrgrhx9saexaportmon_nsf": [
+        "tsagexaportmon_non_secure.tsc"
+    ],
+    "lrgrhx9saexc1cell": [
+        "tsagrh_rollback_test.tsc",
+        "tsagrh_single_cell_test.tsc"
+    ],
+    "lrgrhx9sailom": [
+        "tsagilomfaultsnolan.tsc"
+    ],
+    "lrgrhx9sams1": [
+        "tsagrecreatexrmem_x9.tsc",
+        "tsagscrubtst_ef.tsc",
+        "tsagsocketmap.tsc",
+        "tsagsysloginput.tsc"
+    ],
+    "lrgrhx9sams2": [
+        "tsagcncrrntssn.tsc"
+    ],
+    "lrgrhx9sams3": [
+        "tsagfchugepage.tsc",
+        "tsagrh_port_enable_disable.sh"
+    ],
+    "lrgrhx9sams4": [
+        "tsagdelcdmdata.tsc",
+        "tsagemailattachment.tsc"
+    ],
+    "lrgrhx9sapmem": [
+        "tsagrhnewipcdatiopath1.tsc",
+        "tsagrhtornioprevention.tsc",
+        "tsagrsqpcleanup.tsc"
+    ],
+    "lrgrhx9sapmem1": [
+        "tsagdiagpack_pmem.tsc"
+    ],
+    "lrgrhx9sapmem2": [
+        "tsagbug30271145.tsc"
+    ],
+    "lrgrhx9saswupd": [
+        "tsagmetricstream.tsc",
+        "tsagswupdate.tsc"
+    ],
+    "lrgrhx9saxwatcher": [
+        "tsaginitchk.tsc",
+        "tsaginitchk_db_cell.tsc",
+        "tsagnet_prtcl_attr.tsc",
+        "tsagnodehealthchk.tsc",
+        "tsagnodehealthchk_tst.tsc",
+        "tsagnodereimage.tsc",
+        "tsagnodereturn.tsc",
+        "tsagreimgfailseq.tsc",
+        "tsagrescueplan.tsc",
+        "tsagrh_env_setup.tsc",
+        "tsagrh_hw_allocation.tsc",
+        "tsagrh_hw_deallocation.tsc",
+        "tsagrh_lrgsuit.tsc",
+        "tsagrh_reimage.tsc",
+        "tsagrh_rpm_install.tsc",
+        "tsagrh_save_traces.tsc",
+        "tsagrhcellinit.tsc",
+        "tsagrhcellrpminstall.tsc",
+        "tsagrhcellsuit.tsc",
+        "tsagrhcov.tsc",
+        "tsagrhwalrt.tsc",
+        "tsagtstchk.tsc",
+        "tsagxwatchercdmdcheck.tsc",
+        "tsagrh_alerthistory_allnodes.sh"
+    ],
+    "lrgrhx9upgrade": [
+        "tsagrh_disk_confinement.tsc",
+        "tsagrh_getdb_files.tsc",
+        "tsagrh_initialize.tsc",
+        "tsagrh_reboot_roce_switch.tsc",
+        "tsagrh_savetrace.tsc",
+        "tsagrh_teardown.tsc",
+        "tsagrhx9_ndctl.tsc",
+        "tsagrh_bug35824385.sh",
+        "tsagrh_bug_37494873.sh",
+        "tsagrh_cellfail_maa.sh",
+        "tsagrh_cellrebot_maa.sh",
+        "tsagrh_check_services.sh",
+        "tsagrh_check_sudo.sh",
+        "tsagrh_chk_guest_gid.sh",
+        "tsagrh_clean_pmem.sh",
+        "tsagrh_disk_confinement.sh",
+        "tsagrh_egs_ddscvr.sh",
+        "tsagrh_extract_cluster_info.sh",
+        "tsagrh_failfd_maa.sh",
+        "tsagrh_fegsleader.sh",
+        "tsagrh_gdinactive_maa.sh",
+        "tsagrh_iohang_flash_maa.sh",
+        "tsagrh_iohang_maa.sh",
+        "tsagrh_iohang_physical_maa.sh",
+        "tsagrh_label_status.sh",
+        "tsagrh_oeda_label_pick.sh",
+        "tsagrh_poison_x9.sh",
+        "tsagrh_reboot_roce_switch.sh",
+        "tsagrh_remove_default_sudo.sh",
+        "tsagrh_rocesw_patch.sh",
+        "tsagrh_send_mail.sh",
+        "tsagrh_set_deployment_hw.sh",
+        "tsagrh_upload_rh_results.sh",
+        "tsagrh_workload.sh"
+    ],
+    "lrgrmaindbcsaexacldrman2_excld": [
+        "tsagcleancommon.tsc",
+        "tsagedsrmanincr.tsc"
+    ],
+    "lrgsa8rack": [
+        "tsag8rack_tst_1.tsc",
+        "tsag8rack_tst_2_5.tsc",
+        "tsag8rack_tst_6.tsc",
+        "tsag8rack_tst_7.tsc",
+        "tsag8rack_tst_8.tsc",
+        "tsag8rack_tst_setup.tsc"
+    ],
+    "lrgsa9auton_cmainrmain": [
+        "tsagbug21543039.tsc"
+    ],
+    "lrgsaaepunittest": [
+        "tsagaepunittest.tsc"
+    ],
+    "lrgsabdsql": [
+        "tsagdbrs.tsc"
+    ],
+    "lrgsacachplcupgrd": [
+        "tsagabortwhenhitkeeplimit.tsc",
+        "tsagbug33514905new.tsc"
+    ],
+    "lrgsacc2oltpmdb": [
+        "tsagcc2.tsc"
+    ],
+    "lrgsacellsigmask": [
+        "tsagsacellsigmask.tsc"
+    ],
+    "lrgsacli": [
+        "tsaggriddsk.tsc",
+        "tsagmsunittests.tsc",
+        "tsagmtrc.tsc",
+        "tsagphydisk.tsc",
+        "tsagselinux.tsc",
+        "tsagthrsh.tsc",
+        "tsagtopcpu.tsc"
+    ],
+    "lrgsacli3": [
+        "tsagmetriccurrent.tsc",
+        "tsagmetrichistory1.tsc"
+    ],
+    "lrgsacli_part2": [
+        "tsagintdb.tsc",
+        "tsagmtrc1.tsc",
+        "tsagmtrichst.tsc",
+        "tsagsdsh.tsc",
+        "tsagspocli.tsc"
+    ],
+    "lrgsacloudcli": [
+        "tsagdesc.tsc"
+    ],
+    "lrgsacloudcli2": [
+        "tsagmulticcli.tsc",
+        "tsagsecuritykey.tsc"
+    ],
+    "lrgsacloudcli_ipv6": [
+        "tsagexacli_ipv6.tsc"
+    ],
+    "lrgsacloudcli_part2": [
+        "tsagmtrichst_cl.tsc"
+    ],
+    "lrgsadbexacli": [
+        "tsagpasswdexpry.tsc"
+    ],
+    "lrgsadbmcli1": [
+        "tsagexcmailvld_db.tsc",
+        "tsagexcmetricstream_db.tsc"
+    ],
+    "lrgsadbmdebugcli": [
+        "tsagdbmsallpdfail.tsc",
+        "tsagdbmsmegacli.tsc"
+    ],
+    "lrgsadbms": [
+        "tsagdbms_space_test.tsc"
+    ],
+    "lrgsadebugcli17": [
+        "tsagpdebugclipmem.tsc"
+    ],
+    "lrgsadebugcli2": [
+        "tsagfirmupdate.tsc"
+    ],
+    "lrgsadnsled_cmainrmain": [
+        "tsagledinit.tsc"
+    ],
+    "lrgsadskfnc_cmainrmain": [
+        "tsagdiskfencing1.tsc"
+    ],
+    "lrgsadskpxy": [
+        "tsagcellproxy.tsc"
+    ],
+    "lrgsaexacldactdsk1": [
+        "tsagiovactvdskfail.tsc"
+    ],
+    "lrgsaexacldactdsk2": [
+        "tsagiovactvdskfail2.tsc"
+    ],
+    "lrgsaexacldbsfail1": [
+        "tsagforcevoldetach.tsc",
+        "tsaglogoutndetach.tsc",
+        "tsagmultibsmbsw.tsc"
+    ],
+    "lrgsaexacldbsfail10": [
+        "tsagexcclonerollback.tsc"
+    ],
+    "lrgsaexacldbsfail11": [
+        "tsagbsstability2.tsc"
+    ],
+    "lrgsaexacldbsfail14": [
+        "tsagexctwoownersvolume.tsc"
+    ],
+    "lrgsaexacldbsfail15": [
+        "tsagexcdatacopybkp.tsc"
+    ],
+    "lrgsaexacldbsfail16": [
+        "tsagbug37116767.tsc"
+    ],
+    "lrgsaexacldbsfail17": [
+        "tsagbug37120487.tsc"
+    ],
+    "lrgsaexacldbsfail18": [
+        "tsagbug37140353.tsc",
+        "tsagbug37190926.tsc"
+    ],
+    "lrgsaexacldbsfail21": [
+        "tsagexcdatacopybkpfailrecovery.tsc"
+    ],
+    "lrgsaexacldbsfail23": [
+        "tsagbug38097600.tsc",
+        "tsagbug38119371.tsc",
+        "tsagbug38221553.tsc"
+    ],
+    "lrgsaexacldbsfail2n": [
+        "tsagbsmcrash.tsc",
+        "tsagbswcrash.tsc",
+        "tsagbug33878584.tsc"
+    ],
+    "lrgsaexacldbsfail3": [
+        "tsagmultibsmcrash.tsc"
+    ],
+    "lrgsaexacldbsfail4": [
+        "tsagbsstability1.tsc"
+    ],
+    "lrgsaexacldbsfail5edv": [
+        "tsagbsmbswcrash.tsc"
+    ],
+    "lrgsaexacldbsfail5n": [
+        "tsagexcbufferfail.tsc"
+    ],
+    "lrgsaexacldbsfail6": [
+        "tsagbscellfail.tsc",
+        "tsagbscellfail2.tsc",
+        "tsagbscellfail3.tsc",
+        "tsagbscellfail4.tsc"
+    ],
+    "lrgsaexacldbsfail7": [
+        "tsagnonexcvolume.tsc"
+    ],
+    "lrgsaexacldbsfail8": [
+        "tsagbug34672136.tsc"
+    ],
+    "lrgsaexacldbsw": [
+        "tsagvolumemetrics.tsc"
+    ],
+    "lrgsaexacldbsw10": [
+        "tsagbug31470720.tsc",
+        "tsagbug35597062.tsc"
+    ],
+    "lrgsaexacldbsw11": [
+        "tsagexcvolresizeloop.tsc"
+    ],
+    "lrgsaexacldbsw12": [
+        "tsagioacrossbswf.tsc"
+    ],
+    "lrgsaexacldbsw14": [
+        "tsagexcforcedelvault.tsc",
+        "tsagexcpreventparallelops.tsc",
+        "tsagexcvaultspaceexhaust.tsc"
+    ],
+    "lrgsaexacldbsw15": [
+        "tsagbug38395293.tsc",
+        "tsagexcaddincredata1.tsc",
+        "tsagexcedscntopt.tsc"
+    ],
+    "lrgsaexacldbsw16": [
+        "tsagexcaddincredata2.tsc",
+        "tsagexcnumspanbkp.tsc"
+    ],
+    "lrgsaexacldbsw17": [
+        "tsagexcaddincredata3.tsc"
+    ],
+    "lrgsaexacldbsw18": [
+        "tsagexcvipmigclearconf.tsc"
+    ],
+    "lrgsaexacldbsw19": [
+        "tsagexclink_parent_child_bkps.tsc"
+    ],
+    "lrgsaexacldbsw2": [
+        "tsaglarge_reconf_buffer.tsc"
+    ],
+    "lrgsaexacldbsw20": [
+        "tsagbswnetworkmon.tsc",
+        "tsagbug37145430.tsc",
+        "tsagbug37389711.tsc",
+        "tsagbug37531809.tsc",
+        "tsagbug37587385.tsc",
+        "tsagbug37614733.tsc"
+    ],
+    "lrgsaexacldbsw21": [
+        "tsaginrepofilter1.tsc",
+        "tsagvolsnappagination.tsc"
+    ],
+    "lrgsaexacldbsw23": [
+        "tsaglsvoltest.tsc"
+    ],
+    "lrgsaexacldbsw4": [
+        "tsagcurlconcurrency.tsc"
+    ],
+    "lrgsaexacldbsw6": [
+        "tsagiormplan_vol.tsc"
+    ],
+    "lrgsaexacldbsw7": [
+        "tsagbsmediatype.tsc"
+    ],
+    "lrgsaexacldbsw8": [
+        "tsagcurlconcurrency2.tsc"
+    ],
+    "lrgsaexacldbsw9": [
+        "tsagvolbackup.tsc"
+    ],
+    "lrgsaexacldbswincar": [
+        "tsagexc_bswreg_incar.tsc"
+    ],
+    "lrgsaexacldbswmix1": [
+        "tsagexcchmodetoiscsi.tsc"
+    ],
+    "lrgsaexacldbswmix2": [
+        "tsagexcchmodetononiscsi.tsc"
+    ],
+    "lrgsaexacldcellupgrade": [
+        "tsagbug29713930.tsc",
+        "tsagbug33571271.tsc"
+    ],
+    "lrgsaexacldcellupgrade2": [
+        "tsagcellofflineforce.tsc"
+    ],
+    "lrgsaexacldcellupgrade3": [
+        "tsagbug31560651.tsc"
+    ],
+    "lrgsaexacldcellupgrade4": [
+        "tsagbug29713930_2.tsc"
+    ],
+    "lrgsaexacldcellupgrade5": [
+        "tsagexc35019894.tsc",
+        "tsagexcbug37004624.tsc",
+        "tsagexcpartdisk.tsc"
+    ],
+    "lrgsaexacldcellupgrade6": [
+        "tsagbug37043549.tsc"
+    ],
+    "lrgsaexacldcellupgrade7": [
+        "tsagbug37522105.tsc"
+    ],
+    "lrgsaexaclddskstate1": [
+        "tsagdiskstatetest.tsc"
+    ],
+    "lrgsaexacldebsfnc": [
+        "tsagebsprocfence.tsc",
+        "tsagersreconfnc.tsc",
+        "tsagexcconnstrs2l.tsc"
+    ],
+    "lrgsaexacldeds": [
+        "tsagderegister.tsc",
+        "tsagedsimmutablesnap.tsc",
+        "tsagexacldcert.tsc",
+        "tsagexacldesh.tsc",
+        "tsagexadropcont.tsc",
+        "tsagexahardcheck.tsc",
+        "tsagexastack_event.tsc",
+        "tsagexcatomicrename.tsc",
+        "tsagexcbug36877926.tsc",
+        "tsagexcedsmdcorrupt.tsc",
+        "tsagexcedssnap.tsc",
+        "tsagexcedstool.tsc",
+        "tsagexcegscrash.tsc",
+        "tsagexcfauxjob.tsc",
+        "tsagexcldescli.tsc",
+        "tsagexcsimevent_edserror.tsc"
+    ],
+    "lrgsaexacldeds2": [
+        "tsagdsshard.tsc",
+        "tsageds_ves4k_mdread.tsc",
+        "tsageds_ves_extent_leak.tsc",
+        "tsagexc_cert_update.tsc",
+        "tsagexcautoqrntvlt.tsc",
+        "tsagexcbug36837336.tsc",
+        "tsagexcedsfail_dropvlt.tsc",
+        "tsagexcedsfstool.tsc",
+        "tsagexcedsmdata.tsc",
+        "tsagexcesnprestart.tsc",
+        "tsagexcidemptncy.tsc",
+        "tsagexcqrntvlt.tsc",
+        "tsagexcrestartrs.tsc",
+        "tsagexcsnshtmrrsync.tsc"
+    ],
+    "lrgsaexacldedvacfs": [
+        "tsagexcedvacfs.tsc",
+        "tsagexcedvacfsclean.tsc",
+        "tsagexcedvsetup.tsc",
+        "tsagexchybrid_edvclean.tsc"
+    ],
+    "lrgsaexacldedvdrl": [
+        "tsagexcedvdrl.tsc"
+    ],
+    "lrgsaexacldedvsecfcpop1": [
+        "tsagexcsecondaryfcpop1.tsc"
+    ],
+    "lrgsaexacldedvsecfcpop2": [
+        "tsagexcsecondaryfcpop2.tsc"
+    ],
+    "lrgsaexacldedvvolgrp": [
+        "tsagvolgrptests.tsc"
+    ],
+    "lrgsaexacldedvvolgrp2": [
+        "tsagexcvolgrptypes.tsc"
+    ],
+    "lrgsaexacldegs": [
+        "tsagexcleader.tsc",
+        "tsagexcmountopf.tsc",
+        "tsagexcnewraft.tsc",
+        "tsagexcrndmrd.tsc"
+    ],
+    "lrgsaexacldegs10": [
+        "tsagexcmulti_failure.tsc"
+    ],
+    "lrgsaexacldegs11": [
+        "tsagstoragepooloperr.tsc"
+    ],
+    "lrgsaexacldegs12": [
+        "tsagexcparallelreconfig.tsc",
+        "tsagexcrebal_dsp.tsc"
+    ],
+    "lrgsaexacldegs13": [
+        "tsagexcegslistleaderurl.tsc",
+        "tsagexcslowst8dump.tsc"
+    ],
+    "lrgsaexacldegs14": [
+        "tsagexcdcnsp.tsc"
+    ],
+    "lrgsaexacldegs15": [
+        "tsagexcspresurrect.tsc"
+    ],
+    "lrgsaexacldegs16": [
+        "tsagexcdiskofflinetimeout.tsc"
+    ],
+    "lrgsaexacldegs19": [
+        "tsagexcmiscbugs_3cell.tsc"
+    ],
+    "lrgsaexacldegs2": [
+        "tsagexcegsfail1.tsc"
+    ],
+    "lrgsaexacldegs20": [
+        "tsagexcmiscbugs2_3cell.tsc"
+    ],
+    "lrgsaexacldegs21": [
+        "tsagfgini.tsc"
+    ],
+    "lrgsaexacldegs22": [
+        "tsagexcoptimalbsmleader.tsc"
+    ],
+    "lrgsaexacldegs23": [
+        "tsagmonitor_error.tsc",
+        "tsagsetmediatype.tsc",
+        "tsagskip_dropsp.tsc",
+        "tsagsrcgen.tsc",
+        "tsagswitchinst.tsc",
+        "tsagswitchinst_esnp.tsc",
+        "tsagvltprovision.tsc"
+    ],
+    "lrgsaexacldegs24": [
+        "tsagexaclddbworkload.tsc",
+        "tsagexc_addpdb.tsc",
+        "tsagexc_wrkldpdb.tsc",
+        "tsagexcdbuser.tsc",
+        "tsagexcvaultoperation.tsc"
+    ],
+    "lrgsaexacldegs25": [
+        "tsagbug37285557.tsc"
+    ],
+    "lrgsaexacldegs26": [
+        "tsagexcegs_coldstart1.tsc"
+    ],
+    "lrgsaexacldegs27": [
+        "tsagbug37340909.tsc"
+    ],
+    "lrgsaexacldegs28": [
+        "tsagbug37927239.tsc"
+    ],
+    "lrgsaexacldegs29": [
+        "tsagbug38101321.tsc"
+    ],
+    "lrgsaexacldegs3": [
+        "tsagesnpnodefence.tsc",
+        "tsagexcdiskdiscovery.tsc",
+        "tsagexcdropdeadesnp.tsc",
+        "tsagexcraftlog1.tsc",
+        "tsagexcrle.tsc"
+    ],
+    "lrgsaexacldegs4": [
+        "tsagexcesnp_gc_fix.tsc",
+        "tsagexcnspc.tsc",
+        "tsagexcrmsp.tsc",
+        "tsagexcrpm_mvmt_tool.tsc"
+    ],
+    "lrgsaexacldegs5": [
+        "tsagexcdisableserv.tsc",
+        "tsagexcegsfail2.tsc"
+    ],
+    "lrgsaexacldegs5a": [
+        "tsagexcegs_coldstart.tsc",
+        "tsagexcegs_diskdscv.tsc",
+        "tsagexcegsrecover.tsc"
+    ],
+    "lrgsaexacldegs6": [
+        "tsagexcservclsalrt.tsc"
+    ],
+    "lrgsaexacldegs7": [
+        "tsagexcmulti_rmsp.tsc"
+    ],
+    "lrgsaexacldegs8": [
+        "tsagexc4cellcreatesp.tsc"
+    ],
+    "lrgsaexacldegs9": [
+        "tsagexcdsp_rebal.tsc"
+    ],
+    "lrgsaexacldegsloop": [
+        "tsagexaegs_loop.tsc"
+    ],
+    "lrgsaexacldegsloop2": [
+        "tsagexc5egsloop0.tsc"
+    ],
+    "lrgsaexacldegsloop5": [
+        "tsagexcpriorityelect1.tsc"
+    ],
+    "lrgsaexacldegsloop6": [
+        "tsagexcpriorityelect2.tsc"
+    ],
+    "lrgsaexacldegstrust": [
+        "tsagaddrepegs_kill.tsc"
+    ],
+    "lrgsaexacldegstrust2": [
+        "tsagaddrepegs.tsc"
+    ],
+    "lrgsaexacldegstruststore": [
+        "tsagbug37560525.tsc"
+    ],
+    "lrgsaexacldersdoc": [
+        "tsagexaclders.tsc",
+        "tsagexcedvsetupiscsi.tsc",
+        "tsagexcersdoc.tsc"
+    ],
+    "lrgsaexacldersfail1": [
+        "tsagexacldersfail.tsc",
+        "tsagexccurlstress.tsc"
+    ],
+    "lrgsaexacldersfail2": [
+        "tsagexcersconcurrency.tsc",
+        "tsagexcrsmon_ershang.tsc",
+        "tsagexcusersetupstress.tsc"
+    ],
+    "lrgsaexacldescli1": [
+        "tsagstoragepoolattributeupdate.tsc"
+    ],
+    "lrgsaexacldescli10": [
+        "tsagautofileencrypt.tsc"
+    ],
+    "lrgsaexacldescli11": [
+        "tsagxtefiormplan.tsc"
+    ],
+    "lrgsaexacldescli2": [
+        "tsagcleanupuser.tsc",
+        "tsagexcaclcmd.tsc",
+        "tsagexcaclfilecmd.tsc",
+        "tsagexcaclvaultcmd.tsc",
+        "tsagexcesclidescribe.tsc",
+        "tsagexcesclihelp.tsc",
+        "tsagexcfilemgmt.tsc",
+        "tsagexcfilter_lssnapshots.tsc",
+        "tsagexcfilter_lstemplate.tsc",
+        "tsagexcsetupuser.tsc",
+        "tsagexcsstreedel.tsc"
+    ],
+    "lrgsaexacldescli3": [
+        "tsagrenamedusrattribs.tsc"
+    ],
+    "lrgsaexacldescli4": [
+        "tsagexcdeplmode.tsc",
+        "tsagexclscluster.tsc",
+        "tsagexcrestacl.tsc"
+    ],
+    "lrgsaexacldescli5": [
+        "tsagexccellsrvstaters.tsc",
+        "tsagexcchpooldisk.tsc",
+        "tsagexclssnapshots.tsc",
+        "tsagexcservicemgmtcmd.tsc"
+    ],
+    "lrgsaexacldescli6": [
+        "tsagexalscluster.tsc",
+        "tsagexcenrollfail.tsc",
+        "tsagexcenrollfail1.tsc",
+        "tsagexclsvltwterr.tsc",
+        "tsagexcusrpriv.tsc",
+        "tsagexcvaultescli.tsc",
+        "tsagexcxattrescli.tsc"
+    ],
+    "lrgsaexacldescli7": [
+        "tsagebug36416262.tsc",
+        "tsagebug36416262_2.tsc",
+        "tsagexcnewvolattr.tsc",
+        "tsagexcsusersecuritytest.tsc"
+    ],
+    "lrgsaexacldescli8": [
+        "tsagvollatencytest.tsc"
+    ],
+    "lrgsaexacldescli9": [
+        "tsagbug38014051.tsc"
+    ],
+    "lrgsaexacldesnpalert": [
+        "tsagbug37768255.tsc"
+    ],
+    "lrgsaexacldfail2": [
+        "tsagexciov_cellrestart.tsc"
+    ],
+    "lrgsaexacldiov": [
+        "tsagexcignmir.tsc"
+    ],
+    "lrgsaexacldiscsiedv": [
+        "tsagfullvolbkptest.tsc"
+    ],
+    "lrgsaexacldledv": [
+        "tsagexc_io_write_xsh.tsc"
+    ],
+    "lrgsaexacldledvniscsi2": [
+        "tsagsnapdelparal.tsc"
+    ],
+    "lrgsaexacldloopstress": [
+        "tsagexcsloop.tsc"
+    ],
+    "lrgsaexacldmirvalidation": [
+        "tsagexcmirvalid.tsc"
+    ],
+    "lrgsaexacldondskmd": [
+        "tsagexcondiskmd.tsc"
+    ],
+    "lrgsaexacldords": [
+        "tsagordsinstall.tsc",
+        "tsagordsuninstall.tsc"
+    ],
+    "lrgsaexacldperf1": [
+        "tsagexaperformance.tsc"
+    ],
+    "lrgsaexacldreschk": [
+        "tsagexacldheap.tsc",
+        "tsagexaraftiov.tsc",
+        "tsagexcbug35437158.tsc",
+        "tsagexcgraceshut.tsc"
+    ],
+    "lrgsaexacldresize": [
+        "tsagexcpooldsk.tsc",
+        "tsagexcpooldsk2.tsc"
+    ],
+    "lrgsaexacldrespfl1": [
+        "tsagexcunlimvault.tsc",
+        "tsagexcunlimvoliops.tsc"
+    ],
+    "lrgsaexacldrsvractclient_drl": [
+        "tsagexacldrsvractvclnt.tsc"
+    ],
+    "lrgsaexacldsecfcpop3": [
+        "tsagexcsecondaryfcpop3.tsc"
+    ],
+    "lrgsaexacldsingleegs": [
+        "tsagexcsingle_egs.tsc"
+    ],
+    "lrgsaexacldspconfigerr": [
+        "tsagexaconfig.tsc"
+    ],
+    "lrgsaexacldsprautomnt1": [
+        "tsagexacldsprmnt1.tsc",
+        "tsagexacldsprmnt2.tsc"
+    ],
+    "lrgsaexacldsprautomnt2": [
+        "tsagexacldsprmnt3a.tsc",
+        "tsagexacldsprmnt3b.tsc"
+    ],
+    "lrgsaexacldsprautomnt3": [
+        "tsagexacldsprmnt4.tsc"
+    ],
+    "lrgsaexacldsprautomnt5": [
+        "tsagexacldsprautomnt5.tsc"
+    ],
+    "lrgsaexacldspreconfigerr": [
+        "tsagexareconfig.tsc"
+    ],
+    "lrgsaexacldstress1": [
+        "tsagexcstress.tsc"
+    ],
+    "lrgsaexacldtcpmon": [
+        "tsagexccelloffline.tsc",
+        "tsagexcmonifdbasic.tsc",
+        "tsagexcmonshutdown.tsc",
+        "tsagexctcpmon.tsc"
+    ],
+    "lrgsaexacldtelproxy": [
+        "tsagexatelemetry.tsc"
+    ],
+    "lrgsaexacldupdn1": [
+        "tsagfolwregsclsrv.tsc"
+    ],
+    "lrgsaexacldupdn2": [
+        "tsagexaclflcrtclsrv.tsc",
+        "tsagexacliovclsrv.tsc"
+    ],
+    "lrgsaexacldvaultspace": [
+        "tsagexacldvaultspace.tsc",
+        "tsagexcesclivaultspace.tsc",
+        "tsagexcmaterializedspaceusage.tsc",
+        "tsagexcvaultspaceusage.tsc"
+    ],
+    "lrgsaexacldves3": [
+        "tsagvesdisk3.tsc"
+    ],
+    "lrgsaexacldves4": [
+        "tsagvesdisk4.tsc"
+    ],
+    "lrgsaexacldves5": [
+        "tsagvesdisk5.tsc"
+    ],
+    "lrgsaexacldvesdrl": [
+        "tsagsaexaclddrl.tsc"
+    ],
+    "lrgsaexacldvesdrl2": [
+        "tsagsaexaclddrl2.tsc"
+    ],
+    "lrgsaexacldvesdropadd1": [
+        "tsagadddropcell.tsc"
+    ],
+    "lrgsaexacldvesdropadd2": [
+        "tsagexccommoniov.tsc"
+    ],
+    "lrgsaexacldvesgdresize_drl": [
+        "tsagvesgdresize.tsc"
+    ],
+    "lrgsaexacldveshotsnap": [
+        "tsagvescollapsedel.tsc",
+        "tsagveshotsnap.tsc"
+    ],
+    "lrgsaexacldveshotsnap2_drl": [
+        "tsagveshotsnap2.tsc"
+    ],
+    "lrgsaexacldvespredfail1": [
+        "tsagexcvesnonactvpredfail.tsc"
+    ],
+    "lrgsaexacldvespredfail2": [
+        "tsagexcvesactvpredfail.tsc"
+    ],
+    "lrgsaexacldvespredfail3": [
+        "tsagexcvesrpmrebal1.tsc"
+    ],
+    "lrgsaexacldvespredfail4": [
+        "tsagexcvesdeltarebal.tsc"
+    ],
+    "lrgsaexacldvesrebal1_drl": [
+        "tsagexcnonactvdskhlth.tsc",
+        "tsagexcnonactvrebal.tsc"
+    ],
+    "lrgsaexacldvesrebal2_1_drl": [
+        "tsagexcactvrebal2.tsc"
+    ],
+    "lrgsaexacldvesrebal2_drl": [
+        "tsagexcactvdskhlth.tsc",
+        "tsagexcactvrebal.tsc"
+    ],
+    "lrgsaexacldvesrebal_4cell": [
+        "tsagexcrebal_4cell.tsc"
+    ],
+    "lrgsaexacldvesreballoop": [
+        "tsagexcactvreballoop.tsc"
+    ],
+    "lrgsaexacldvesreballoop1": [
+        "tsagexcactvreballoop1.tsc"
+    ],
+    "lrgsaexacldvesreballoop2": [
+        "tsagexcactvreballoop2.tsc"
+    ],
+    "lrgsaexacldvesresilver": [
+        "tsagexacldresilver.tsc"
+    ],
+    "lrgsaexacldvesresilver_snap": [
+        "tsagexacldresilver_snap.tsc"
+    ],
+    "lrgsaexacldvesresync1": [
+        "tsagexaclnonactvrsync.tsc"
+    ],
+    "lrgsaexacldvesresync1_d": [
+        "tsagexcnonactvrsyncdelta.tsc"
+    ],
+    "lrgsaexacldvesresync2": [
+        "tsagexaclactvrsync.tsc"
+    ],
+    "lrgsaexacldvesresync2_2_drl": [
+        "tsagexaclactvrsync2.tsc"
+    ],
+    "lrgsaexacldvesresync2_all": [
+        "tsagexaclactvrsync_all.tsc"
+    ],
+    "lrgsaexacldvesresync2_d": [
+        "tsagexcactvrsyncdelta.tsc"
+    ],
+    "lrgsaexacldvesresync2_d2_drl": [
+        "tsagexcactvrsyncdelta2.tsc"
+    ],
+    "lrgsaexacldvesresync3": [
+        "tsagexc_srcfail.tsc",
+        "tsagexcresync_dou.tsc"
+    ],
+    "lrgsaexacldvesresync3_d": [
+        "tsagbug32912597.tsc",
+        "tsagbug32912597_1.tsc",
+        "tsagbug32912597_2.tsc"
+    ],
+    "lrgsaexacldvesrsvract_snap_drl": [
+        "tsagexacldrsvractvclnt_snap.tsc"
+    ],
+    "lrgsaexacldvesscrub": [
+        "tsagexcscrub.tsc"
+    ],
+    "lrgsaexacldvolbkp": [
+        "tsaggenvolbkpscripts.tsc",
+        "tsagvolumebackup.tsc"
+    ],
+    "lrgsaexacldvolbkpbug": [
+        "tsaggenscripts.tsc",
+        "tsagvolumebackupbug.tsc"
+    ],
+    "lrgsaexacldvolbkpbug2": [
+        "tsagsnapdelparaltest.tsc",
+        "tsagvolumebackupbug2.tsc"
+    ],
+    "lrgsaexacldvolbkpbug3": [
+        "tsagvolumebackupbug3.tsc"
+    ],
+    "lrgsaexacldvolbkpfail1": [
+        "tsagvipdelete.tsc"
+    ],
+    "lrgsaexacldvolbkpfail2": [
+        "tsagcrashbkp2.tsc",
+        "tsagcrashbkpscripts.tsc"
+    ],
+    "lrgsaexacldvolbkpfail3": [
+        "tsagbkpopabort1.tsc"
+    ],
+    "lrgsaexacldvolbkpfail4": [
+        "tsagbkpopabort2.tsc"
+    ],
+    "lrgsaexacldvolbkpfail5": [
+        "tsagbkpopabort3.tsc"
+    ],
+    "lrgsaexacldvolbkpfail6": [
+        "tsagbkpopsuspend1.tsc"
+    ],
+    "lrgsaexacldvolbkpfail7": [
+        "tsagbkpopsuspend2.tsc"
+    ],
+    "lrgsaexacldvolbkpfail8": [
+        "tsagbkpopsuspend3.tsc"
+    ],
+    "lrgsaexacldvolclone1": [
+        "tsagvolclonecurl1.tsc"
+    ],
+    "lrgsaexacldvolclone2": [
+        "tsagvolclone1.tsc",
+        "tsagvolclone2.tsc",
+        "tsagvolclonedirect.tsc",
+        "tsagvolcloneiorm.tsc"
+    ],
+    "lrgsaexacldvolclone3": [
+        "tsagvolclonerestore.tsc",
+        "tsagvolclonestability1.tsc"
+    ],
+    "lrgsaexacldvolclone4": [
+        "tsagexccloneofaclone.tsc",
+        "tsagexccloneofaedsvolclone.tsc",
+        "tsagexccloneofavolbkpclone.tsc"
+    ],
+    "lrgsaexacldvolclone5": [
+        "tsagexc_readonlymode_parentiops.tsc",
+        "tsagexcmkvolclonechiops.tsc"
+    ],
+    "lrgsaexacldvolclone6": [
+        "tsagexccellsrvstat.tsc"
+    ],
+    "lrgsaexacldvolclone7": [
+        "tsagvolclonestress.tsc"
+    ],
+    "lrgsaexacldvolgrp2": [
+        "tsagvolgrplooptest.tsc",
+        "tsagvolumebackup5.tsc"
+    ],
+    "lrgsaexacldvolgrp3": [
+        "tsagvolgrpstresstest.tsc"
+    ],
+    "lrgsaexacldvolgrp4": [
+        "tsagvolgrpstresstest2.tsc"
+    ],
+    "lrgsaexacldvolthinclone": [
+        "tsagvolclonedirect2.tsc"
+    ],
+    "lrgsaexacldvolthinclone2": [
+        "tsagexcthincloneofaclone.tsc",
+        "tsagexcthincloneofavolbkpclone.tsc"
+    ],
+    "lrgsaexacldxsh": [
+        "tsagexcxshlsdataset.tsc",
+        "tsagexcxshman.tsc",
+        "tsagexcxshmkvault.tsc",
+        "tsagexcxshmv.tsc",
+        "tsagexcxshod.tsc",
+        "tsagexcxshresourceprofile.tsc",
+        "tsagexcxshrm.tsc",
+        "tsagexcxshrmvault.tsc",
+        "tsagexcxshstrings.tsc",
+        "tsagexcxshtemplate.tsc",
+        "tsagexcxshtrace.tsc",
+        "tsagexcxshxattr.tsc",
+        "tsagxshjson.tsc",
+        "tsagxshtest.tsc"
+    ],
+    "lrgsaexadcli": [
+        "tsagexadcli.tsc"
+    ],
+    "lrgsaexaworkloadcapture": [
+        "tsagworkloadcapture.tsc"
+    ],
+    "lrgsaexcaep10": [
+        "tsagexc_aep.tsc",
+        "tsagexc_aep_bug38178358.tsc"
+    ],
+    "lrgsaexcaep11": [
+        "tsagexc_reset_aep_replica_count.tsc"
+    ],
+    "lrgsaexcaep2": [
+        "tsagbug36632571.tsc"
+    ],
+    "lrgsaexcaep3": [
+        "tsagbug37302378.tsc"
+    ],
+    "lrgsaexcaep5": [
+        "tsagexc_aep_db_wkload.tsc"
+    ],
+    "lrgsaexcbsrestapi": [
+        "tsagbsapisecurity.tsc",
+        "tsagbstestframework.tsc",
+        "tsagbug37725949.tsc"
+    ],
+    "lrgsaexccelltest": [
+        "tsagmemdumpcelltest.tsc"
+    ],
+    "lrgsaexccloudcli2": [
+        "tsagexcsecuritykey.tsc"
+    ],
+    "lrgsaexcdefrag": [
+        "tsagexcbug33191184.tsc",
+        "tsagexcbug37284751.tsc",
+        "tsagexcbug37593422.tsc",
+        "tsagexcdefrag1.tsc",
+        "tsagexciovworkload.tsc",
+        "tsagexcvesgddefrag.tsc"
+    ],
+    "lrgsaexcdiskdiscovery": [
+        "tsagexcegsdiskdiscovery.tsc",
+        "tsagexcegsdiskdiscovery2.tsc",
+        "tsagexcegsdiskdiscovery3.tsc"
+    ],
+    "lrgsaexcdiskdiscovery2": [
+        "tsagexcegsdiskdiscovery4.tsc"
+    ],
+    "lrgsaexcdskhlth_resync": [
+        "tsagexcactvdskhlth_rsync.tsc"
+    ],
+    "lrgsaexcedssnaptree": [
+        "tsagedsfiledltasync.tsc",
+        "tsagexcsnaptree.tsc"
+    ],
+    "lrgsaexcegsdown": [
+        "tsagbug36627308.tsc"
+    ],
+    "lrgsaexcexaloadgen": [
+        "tsagexaloadgen_workload.tsc",
+        "tsagexcexaloadgen.tsc"
+    ],
+    "lrgsaexcfail_4cell": [
+        "tsagexcfail_4cell.tsc"
+    ],
+    "lrgsaexcfailca_drl": [
+        "tsagexc_failca_drl.tsc"
+    ],
+    "lrgsaexcfailcb_drl": [
+        "tsagexc_failcb_drl.tsc"
+    ],
+    "lrgsaexcfcgroups": [
+        "tsagbug36237852.tsc",
+        "tsagbug38020691.tsc"
+    ],
+    "lrgsaexcfclarge_nondb": [
+        "tsagexclargewrite.tsc"
+    ],
+    "lrgsaexcfcoppo": [
+        "tsagexcfcoppo.tsc"
+    ],
+    "lrgsaexcgdsmartall1": [
+        "tsagexcgdsmartall.tsc",
+        "tsagexcpooldcmd.tsc"
+    ],
+    "lrgsaexchandoff2_drl": [
+        "tsagexchandoff_resync_sr.tsc"
+    ],
+    "lrgsaexchandoff_drl": [
+        "tsagexchandoff.tsc"
+    ],
+    "lrgsaexcmemfence1": [
+        "tsagegsioctltmout.tsc"
+    ],
+    "lrgsaexcmeta1": [
+        "tsagexcmetacorruption.tsc",
+        "tsagexcmetaenhance.tsc",
+        "tsagexcmetatool.tsc"
+    ],
+    "lrgsaexcmiscbugsnondb": [
+        "tsagexcbug37362959.tsc"
+    ],
+    "lrgsaexcmiscbugsnondb2": [
+        "tsagexcves_lastmirrordebugcli.tsc"
+    ],
+    "lrgsaexcmiscbugsnondb3": [
+        "tsagexcves_lastmirrordebugclinormaldisabled.tsc"
+    ],
+    "lrgsaexcmiscbugsnondb_3cell": [
+        "tsagexcbug37984707.tsc"
+    ],
+    "lrgsaexcmsbug1": [
+        "tsagexcedsmdrepair.tsc"
+    ],
+    "lrgsaexcnoniscsibsw3": [
+        "tsagexcvolloop_curl.tsc"
+    ],
+    "lrgsaexcpmemsnap_drl": [
+        "tsagexcpmemsnap.tsc"
+    ],
+    "lrgsaexcreb_4cellpdfail": [
+        "tsagexcrebal_4cell_pd_failure.tsc"
+    ],
+    "lrgsaexcrestfuzz_users": [
+        "tsag_ers_restfuzz.tsc"
+    ],
+    "lrgsaexcsandbox1": [
+        "tsagexcegssandbox1.tsc",
+        "tsagexcegssandbox2.tsc"
+    ],
+    "lrgsaexcsandbox10": [
+        "tsagexcsandbox_cgsizingmode.tsc",
+        "tsagexcsandbox_cgsizingmode_3.tsc"
+    ],
+    "lrgsaexcsandbox11": [
+        "tsagexcsandbox_cgsizingmode_1.tsc"
+    ],
+    "lrgsaexcsandbox12": [
+        "tsagexcsandbox_cgsizingmode_2.tsc"
+    ],
+    "lrgsaexcsandbox13": [
+        "tsagexcegsdynamicevtprocess.tsc"
+    ],
+    "lrgsaexcsandbox14": [
+        "tsagexcegssandbox16.tsc"
+    ],
+    "lrgsaexcsandbox15": [
+        "tsagexcefmediaspcr.tsc"
+    ],
+    "lrgsaexcsandbox2": [
+        "tsagexcegssandbox3.tsc"
+    ],
+    "lrgsaexcsandbox3": [
+        "tsagexcegssandbox5.tsc"
+    ],
+    "lrgsaexcsandbox4": [
+        "tsagexcegssandbox10.tsc",
+        "tsagexcegssandbox4.tsc",
+        "tsagexcegssandbox6.tsc",
+        "tsagexcegssandbox7.tsc"
+    ],
+    "lrgsaexcsandbox5": [
+        "tsagexcegssandbox11.tsc"
+    ],
+    "lrgsaexcsandbox6": [
+        "tsagexcegssandbox9.tsc"
+    ],
+    "lrgsaexcsandbox7": [
+        "tsagexcegssandbox13.tsc",
+        "tsagexcegssandbox8.tsc"
+    ],
+    "lrgsaexcsandbox8": [
+        "tsagexcegssandbox14.tsc"
+    ],
+    "lrgsaexcsandbox9": [
+        "tsagexcegssandbox15.tsc",
+        "tsagexcsandbox100disk.tsc"
+    ],
+    "lrgsaexcsandboxaltersp1": [
+        "tsagsandboxaltersp1.tsc"
+    ],
+    "lrgsaexcsandboxaltersp10": [
+        "tsagsandboxaltersp10.tsc"
+    ],
+    "lrgsaexcsandboxaltersp11": [
+        "tsagsandboxaltersp11.tsc"
+    ],
+    "lrgsaexcsandboxaltersp12": [
+        "tsagsandboxaltersp12.tsc",
+        "tsagsandboxaltersp_add.tsc"
+    ],
+    "lrgsaexcsandboxaltersp2": [
+        "tsagsandboxaltersp2.tsc",
+        "tsagsandboxaltersp_ad.tsc"
+    ],
+    "lrgsaexcsandboxaltersp3": [
+        "tsagsandboxaltersp3.tsc",
+        "tsagsandboxaltersp6.tsc"
+    ],
+    "lrgsaexcsandboxaltersp4": [
+        "tsagsandboxaltersp5.tsc",
+        "tsagsandboxaltersp_drop.tsc"
+    ],
+    "lrgsaexcsandboxaltersp5": [
+        "tsagexcegssandbox_ef1.tsc"
+    ],
+    "lrgsaexcsandboxaltersp6": [
+        "tsagsandboxaltersp8.tsc"
+    ],
+    "lrgsaexcsandboxaltersp7": [
+        "tsagbug34563445.tsc"
+    ],
+    "lrgsaexcsandboxaltersp8": [
+        "tsagbug34668759.tsc"
+    ],
+    "lrgsaexcsandboxaltersp9": [
+        "tsagsandboxaltersp9.tsc",
+        "tsagsandboxaltersp_da.tsc"
+    ],
+    "lrgsaexcsandboxcancel1": [
+        "tsagegscancelsync1.tsc"
+    ],
+    "lrgsaexcsandboxcancel2": [
+        "tsagegscancelsync2.tsc"
+    ],
+    "lrgsaexcsandboxcancel3": [
+        "tsagegscancelcopy1.tsc"
+    ],
+    "lrgsaexcsandboxcancel4": [
+        "tsagegscancelcopy2.tsc"
+    ],
+    "lrgsaexcsandboxcellring": [
+        "tsagsandboxreconfigadd.tsc",
+        "tsagsandboxreconfigcells.tsc"
+    ],
+    "lrgsaexcsandboxdskst1_celloffl1": [
+        "tsagexcsandbox_diskstate1.tsc"
+    ],
+    "lrgsaexcsandboxdskst2_celloffl3": [
+        "tsagexcsandbox_diskstate2.tsc"
+    ],
+    "lrgsaexcsandboxdskst2d_a": [
+        "tsagexcsandbox_diskstate2b.tsc"
+    ],
+    "lrgsaexcsandboxdskst3a": [
+        "tsagexcsandbox_diskstate3.tsc"
+    ],
+    "lrgsaexcsandboxdskst4b": [
+        "tsagexcsandbox_diskstate4.tsc"
+    ],
+    "lrgsaexcscldcpers": [
+        "tsagsendmail.tsc"
+    ],
+    "lrgsaexcscldcploopers": [
+        "tsagexcserscurl.tsc"
+    ],
+    "lrgsaexcscldts4curlloop": [
+        "tsagexcsts4curl.tsc"
+    ],
+    "lrgsaexcscrub1": [
+        "tsagexclogicscrub.tsc"
+    ],
+    "lrgsaexcsecurity": [
+        "tsagexcdoscell.tsc"
+    ],
+    "lrgsaexcsmrebal2": [
+        "tsagexcsmartrebalance.tsc"
+    ],
+    "lrgsaexcspcre12d_hc_part3": [
+        "tsagsandboxcreatesp12d_hc.tsc"
+    ],
+    "lrgsaexcspcre4d_ef_part15": [
+        "tsagsandboxcreatesp4d_ef.tsc"
+    ],
+    "lrgsaexcspcre6d_hc_part13": [
+        "tsagsandboxcreatesp6d_hc.tsc"
+    ],
+    "lrgsaexcspcre8d_ef_part3": [
+        "tsagsandboxcreatesp8d_ef.tsc"
+    ],
+    "lrgsaexcssst": [
+        "tsagexcssst.tsc"
+    ],
+    "lrgsaexcswversion": [
+        "tsagfeatureupgrade.tsc"
+    ],
+    "lrgsaexcswversion1": [
+        "tsagfeatureupgrade_part_restart_trim.tsc"
+    ],
+    "lrgsaexcswversion2": [
+        "tsagexc_lsfeature_cluster_ops.tsc",
+        "tsagexcswinstfeaturever.tsc"
+    ],
+    "lrgsaexcswversion3": [
+        "tsagfeaturedowngrade.tsc"
+    ],
+    "lrgsaexcvesdelete": [
+        "tsagexcresizeedsfile.tsc"
+    ],
+    "lrgsaexcvesdeletemd": [
+        "tsagexcdiskoutspace.tsc",
+        "tsagexcmemoryoutspace.tsc",
+        "tsagexcvesdelmd.tsc"
+    ],
+    "lrgsaexcvesmd": [
+        "tsagbug37896528.tsc"
+    ],
+    "lrgsaexcvespmemrdma": [
+        "tsagexcpmemcache.tsc"
+    ],
+    "lrgsaexcvesrebal4cell_qlc": [
+        "tsagexcrebal4cell_qlc.tsc"
+    ],
+    "lrgsaexcvesresync_qlc": [
+        "tsagexaclnonactvrsync_qlc.tsc"
+    ],
+    "lrgsaexcxshperf": [
+        "tsagexcxshlsclusterguid.tsc",
+        "tsagexcxshlsfeature.tsc",
+        "tsagexcxshperformance.tsc"
+    ],
+    "lrgsafcbrown_cmainrmain": [
+        "tsagrcflflash.tsc",
+        "tsagsdwarmio.tsc"
+    ],
+    "lrgsafciov1mw_2tierfc": [
+        "tsagclearhang.tsc"
+    ],
+    "lrgsafciov_rdma": [
+        "tsagipcdatcancel.tsc",
+        "tsagipcdatstre.tsc",
+        "tsagmtciovorion.tsc",
+        "tsagrdmasimu.tsc"
+    ],
+    "lrgsafciovgroup3": [
+        "tsagfcgroupmon.tsc",
+        "tsagfcgroupmon2.tsc",
+        "tsagfciovhardminmax.tsc",
+        "tsagfcstair.tsc"
+    ],
+    "lrgsafciovgroup4": [
+        "tsagfcgroupmove.tsc",
+        "tsagfcmdsync.tsc",
+        "tsaglw_importance_caching.tsc",
+        "tsagpmemoff.tsc",
+        "tsaguwcache1.tsc",
+        "tsaguwcache2.tsc",
+        "tsaguwcache3.tsc",
+        "tsaguwcache4.tsc"
+    ],
+    "lrgsafciovm2_2tierfc": [
+        "tsagfciovini.tsc"
+    ],
+    "lrgsafciovm_2tierfc": [
+        "tsagfciovl.tsc",
+        "tsagfclogini.tsc"
+    ],
+    "lrgsafciovr": [
+        "tsagfciov.tsc",
+        "tsagfciov1.tsc"
+    ],
+    "lrgsafclarge2": [
+        "tsagfcdiskstat.tsc",
+        "tsagfcdiskstat_x10ef.tsc",
+        "tsagfclarge3.tsc",
+        "tsagfclarge4.tsc",
+        "tsagthrashfclarge.tsc",
+        "tsagthrashfclarge2.tsc"
+    ],
+    "lrgsafcoppo": [
+        "tsagfcoppo.tsc"
+    ],
+    "lrgsafcpartition1": [
+        "tsagbug35770440.tsc",
+        "tsagbug36447092.tsc",
+        "tsagbug37940818.tsc",
+        "tsagbug37955718.tsc"
+    ],
+    "lrgsafcpopiov_2tierfc": [
+        "tsagfcsecondarypop.tsc"
+    ],
+    "lrgsafcpopiov_excld": [
+        "tsagflcachepopiov.tsc"
+    ],
+    "lrgsafcuw": [
+        "tsagnon4kaligncachechk_16mls.tsc",
+        "tsagnon4kaligncachechk_32mls.tsc",
+        "tsagnon4kaligncachechk_siz.tsc"
+    ],
+    "lrgsafcuwaf": [
+        "tsagnon4kaligncachechk_af.tsc"
+    ],
+    "lrgsafcuwupg": [
+        "tsagnon4kaligncachechk_ugdg.tsc"
+    ],
+    "lrgsafndd1": [
+        "tsagfnddtraces.tsc"
+    ],
+    "lrgsaiov": [
+        "tsagfliov1.tsc",
+        "tsagfliov2.tsc",
+        "tsagiov.tsc"
+    ],
+    "lrgsaiovsparse2": [
+        "tsagsparsesgds_failure.tsc"
+    ],
+    "lrgsaiovsparse3": [
+        "tsagsparsesgds.tsc"
+    ],
+    "lrgsaiovsparse4": [
+        "tsagsparse_ioerrors.tsc"
+    ],
+    "lrgsaipcdatlibcov1": [
+        "tsagipcdatlib.tsc"
+    ],
+    "lrgsamsbug10": [
+        "tsagcheckfc.tsc"
+    ],
+    "lrgsamsdb": [
+        "tsag4pd1lun_setup.tsc",
+        "tsagadd_pd_to_lun.tsc"
+    ],
+    "lrgsanvcache1": [
+        "tsaglatsimu.tsc",
+        "tsaglatsimuunit.tsc",
+        "tsagnvcacheiov.tsc",
+        "tsagprefetch_outofmem.tsc"
+    ],
+    "lrgsaoeda": [
+        "tsagoedaexascaleselenium.tsc",
+        "tsagoedaselenium.tsc",
+        "tsagoedaseleniumimport.tsc"
+    ],
+    "lrgsaoedacli": [
+        "tsagoedacli01.tsc"
+    ],
+    "lrgsaoedaunit": [
+        "tsagoedacellcli.tsc",
+        "tsagoedaclicloneadminilomnet.tsc",
+        "tsagoedaclijson.tsc",
+        "tsagoedaclimain.tsc",
+        "tsagoedaclinetwork.tsc",
+        "tsagoedaclonecompute.tsc",
+        "tsagoedaclusterservice.tsc",
+        "tsagoedaconfigfile.tsc",
+        "tsagoedadatabasediscovery.tsc",
+        "tsagoedadatabasehome.tsc",
+        "tsagoedadiscovery.tsc",
+        "tsagoedadiskgroup.tsc",
+        "tsagoedadiskgroups.tsc",
+        "tsagoedadiskgroups2.tsc",
+        "tsagoedadomaingroup.tsc",
+        "tsagoedaedvlibvolumeunits.tsc",
+        "tsagoedaexascale.tsc",
+        "tsagoedaexascalediscovery.tsc",
+        "tsagoedaflashdg.tsc",
+        "tsagoedageneralunits.tsc",
+        "tsagoedaguestcpumem.tsc",
+        "tsagoedaguestnat.tsc",
+        "tsagoedainstalltype.tsc",
+        "tsagoedajavadiskgroup.tsc",
+        "tsagoedalistcommandstests.tsc",
+        "tsagoedamake.tsc",
+        "tsagoedamasklogpassword.tsc",
+        "tsagoedamisctests.tsc",
+        "tsagoedamoveguest.tsc",
+        "tsagoedamtu.tsc",
+        "tsagoedanetworkservice.tsc",
+        "tsagoedanoexascale.tsc",
+        "tsagoedaocmdexceptiontest.tsc",
+        "tsagoedapasswdunit.tsc",
+        "tsagoedarackaltermachines.tsc",
+        "tsagoedasavefiles.tsc",
+        "tsagoedasqlutilsoratest.tsc",
+        "tsagoedasshkeyaccess.tsc",
+        "tsagoedatestgridsetupcmd.tsc",
+        "tsagoedauloc.tsc",
+        "tsagoedaulocvalidation.tsc",
+        "tsagoedavirtualmachine.tsc",
+        "tsagoedavmunittests.tsc"
+    ],
+    "lrgsapf": [
+        "tsagorion.tsc"
+    ],
+    "lrgsaprlgrddskdrp": [
+        "tsagbug27465984.tsc"
+    ],
+    "lrgsaproxyread": [
+        "tsagproxyreadiov.tsc",
+        "tsagproxyreadorion.tsc",
+        "tsagproxyreadorionmulti.tsc"
+    ],
+    "lrgsarestfuzz2_compute": [
+        "tsagsarestfuzz.tsc"
+    ],
+    "lrgsasdd5": [
+        "tsagsddsimu.tsc"
+    ],
+    "lrgsasmrebal2_cmainrmain": [
+        "tsagsmrebal2.tsc"
+    ],
+    "lrgsasmrebal3_cmainrmain": [
+        "tsagsmrebal3.tsc"
+    ],
+    "lrgsasmrebal_cmainrmain": [
+        "tsagsmrebal1.tsc"
+    ],
+    "lrgsassst": [
+        "tsagssst.tsc"
+    ],
+    "lrgsastaticscan": [
+        "tsagoscsscan.tsc",
+        "tsagparfait.tsc"
+    ],
+    "lrgsax7dsk": [
+        "tsagx7dskrep.tsc"
+    ],
+    "lrgveshardcheck_sr": [
+        "tsagexchardcheck_sr.tsc"
+    ],
+    "lrgrhexainstall": [
+        "tsagrh_assign_rdbms_label.sh",
+        "tsagrh_rdbms_label_pick.sh"
+    ],
+    "lrgrhexascale_dbnodeupdate": [
+        "tsagrh_elu_executor.sh"
+    ],
+    "lrgrhx10customssh": [
+        "tsagrhcustomssh.sh"
+    ],
+    "lrgrhx10imoeda_50vm": [
+        "tsagrh_dcli_test.sh"
+    ],
+    "lrgrhx11saexc1cell": [
+        "tsagrh_escs_profile.sh"
+    ]
+}
